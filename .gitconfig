@@ -1,0 +1,7 @@
+[alias]
+	st = status
+	lg = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+	cm = commit
+[user]
+	email = skidrow.jc@gmail.com
+	name = João Cunha
