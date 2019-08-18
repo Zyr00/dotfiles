@@ -153,6 +153,7 @@ Plugin 'gmarik/Vundle.vim'
 
 " Plugins defenition
 Plugin 'scrooloose/nerdtree'
+Plugin 'Xuyuanp/nerdtree-git-plugin'
 Plugin 'Lokaltog/vim-easymotion'   
 Plugin 'itchyny/lightline.vim' 
 Plugin 'vim-scripts/L9'
@@ -167,6 +168,16 @@ Plugin 'sheerun/vim-polyglot'
 Plugin 'prettier/vim-prettier'
 
 call vundle#end()            " required for vundle
+
+" Nerdtree
+autocmd StdinReadPre * let s:std_in=1
+autocmd VimEnter * if argc() == 0 && !exists(“s:std_in”) | NERDTree | endif
+nnoremap <Leader>f :NERDTreeToggle<CR>
+let NERDTreeQuitOnOpen = 1
+autocmd bufenter * if (winnr(“$”) == 1 && exists(“b:NERDTreeType”) && b:NERDTreeType == “primary”) | q | endif
+let NERDTreeAutoDeleteBuffer = 1
+let NERDTreeMinimalUI = 1
+let NERDTreeDirArrows = 1
 
 " map FuzzyFinder
 noremap <leader>b :FufBuffer<cr>
@@ -199,8 +210,8 @@ autocmd BufWritePre *.js,*.jsx,*.mjs,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.gra
 
 " set the color theme to solarized
 "  wombat256
+" set termguicolors
 set background=dark
 colorscheme solarized8_high
-" set termguicolors
 " set colorcolumn=100
 " highlight ColorColumn ctermbg=lightgray guibg=lightgray
