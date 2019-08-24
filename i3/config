@@ -131,6 +131,9 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
+# bind firefox
+bindsym $mod+Shift+f exec firefox
+
 # Borders
 default_border none
 default_floating_border none
@@ -174,4 +177,7 @@ bindsym XF86AudioMute exec amixer -q sset Master toggle; exec pkill  -RTMIN+10 i
 # Auto execs
 exec_always compton 
 exec_always --no-startup-id feh --bg-scale -z ~/.wallpapers/*
-exec_always --no-startup-id nm-applet
+
+# autostart redshift
+# exec_always --no-startup-id /usr/lib/geoclue-2.0/demos/agent
+exec_always --no-startup-id redshift-gtk

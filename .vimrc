@@ -170,11 +170,8 @@ Plugin 'prettier/vim-prettier'
 call vundle#end()            " required for vundle
 
 " Nerdtree
-autocmd StdinReadPre * let s:std_in=1
-autocmd VimEnter * if argc() == 0 && !exists(“s:std_in”) | NERDTree | endif
-nnoremap <Leader>f :NERDTreeToggle<CR>
+nnoremap <leader>t :NERDTreeToggle<CR>
 let NERDTreeQuitOnOpen = 1
-autocmd bufenter * if (winnr(“$”) == 1 && exists(“b:NERDTreeType”) && b:NERDTreeType == “primary”) | q | endif
 let NERDTreeAutoDeleteBuffer = 1
 let NERDTreeMinimalUI = 1
 let NERDTreeDirArrows = 1
