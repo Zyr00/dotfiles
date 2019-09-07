@@ -168,6 +168,8 @@ bar {
 
 # Key Binds
 bindsym $mod+Shift+f exec firefox
+bindsym $mod+Shift+s exec spotify
+bindsym $mod+Shift+d exec discord
 bindsym XF86AudioRaiseVolume exec amixer -q sset Master 5%+ unmute; exec pkill  -RTMIN+10 i3blocks
 bindsym XF86AudioLowerVolume  exec amixer -q sset Master 5%- unmute; exec pkill  -RTMIN+10 i3blocks
 bindsym XF86AudioMute exec amixer -q sset Master toggle; exec pkill  -RTMIN+10 i3blocks
