@@ -1,7 +1,9 @@
 [alias]
 	st = status
-	lg = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+	lg = log --pretty=format:'%C(auto)%h%Creset | %C(auto)%s%d %Cgreen[%an] %Cblue(%ad)%Creset' --graph --date=relative
 	cm = commit
 [user]
 	email = skidrow.jc@gmail.com
 	name = João Cunha
+[color]
+	ui = auto
