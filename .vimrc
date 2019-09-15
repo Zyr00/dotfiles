@@ -167,6 +167,15 @@ Plugin 'suan/vim-instant-markdown', {'rtp': 'after'}
 Plugin 'sheerun/vim-polyglot'
 Plugin 'prettier/vim-prettier'
 
+" Autocomplete
+Plugin 'Valloric/YouCompleteMe'
+Plugin 'Raimondi/delimitMate'
+Plugin 'mattn/emmet-vim'
+
+" Theme
+" Plugin 'dracula/vim'
+Plugin 'kristijanhusak/vim-hybrid-material'
+
 call vundle#end()            " required for vundle
 
 " Nerdtree
@@ -205,10 +214,11 @@ let g:prettier#config#tab_width = 2
 let g:prettier#autoformat = 0
 autocmd BufWritePre *.js,*.jsx,*.mjs,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.graphql,*.md,*.vue,*.yaml,*.html PrettierAsync
 
-" set the color theme to solarized
-"  wombat256
-" set termguicolors
+" vim emmet
+let g:user_emmet_leader_key=','
+
 set background=dark
-colorscheme solarized8_high
-" set colorcolumn=100
-" highlight ColorColumn ctermbg=lightgray guibg=lightgray
+let g:hybrid_transparent_background = 1
+let g:enable_italic_font = 1
+let g:enable_bold_font = 1
+colorscheme hybrid_material
