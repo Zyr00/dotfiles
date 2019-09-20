@@ -1,8 +1,8 @@
 # i3 config file (v4)
-#
+
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
-set $mod Mod1
+set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
@@ -12,7 +12,7 @@ font pango:DejaVu Sans Mono 7
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec urxvt
+bindsym $mod+Return exec st
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -175,6 +175,9 @@ bindsym XF86AudioLowerVolume  exec amixer -q sset Master 5%- unmute; exec pkill 
 bindsym XF86AudioMute exec amixer -q sset Master toggle; exec pkill  -RTMIN+10 i3blocks
 
 # Windows default 
+for_window [window_role="pop-up"] floating enable
+for_window [window_role="task_dialog"] floating enable
+for_window [title="Android Emulator"] floating enable
 
 # Assign
 assign [class="discord"] $ws10

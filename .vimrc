@@ -2,7 +2,7 @@
 "  Basic and pretty much needed settings to provide a solid base for
 "  source code editting
 
-" don't make vim compatible with vi 
+" don't make vim compatible with vi
 set nocompatible
 
 " turn on syntax highlighting
@@ -16,7 +16,7 @@ filetype plugin on
 filetype indent on
 
 " reload files changed outside vim
-set autoread         
+set autoread
 
 " encoding is utf 8
 set encoding=utf-8
@@ -25,7 +25,7 @@ set fileencoding=utf-8
 " enable matchit plugin which ships with vim and greatly enhances '%'
 runtime macros/matchit.vim
 
-" by default, in insert mode backspace won't delete over line breaks, or 
+" by default, in insert mode backspace won't delete over line breaks, or
 " automatically-inserted indentation, let's change that
 set backspace=indent,eol,start
 
@@ -59,7 +59,7 @@ noremap <leader>w :bn<CR>
 
 " yank to and paste from the clipboard without prepending "* to commands
 vmap <c-c> :!xclip -f -sel clip
-map <c-v> :r!xclip -o -sel clip 
+map <c-v> :r!xclip -o -sel clip
 vmap "+y :!xclip -f -sel clip
 map "+p :r!xclip -o -sel clip
 
@@ -69,25 +69,10 @@ vm <c-c> "+y
 cno <c-v> <c-r>+
 exe 'ino <script> <C-V>' paste#paste_cmd['i']
 
-" save with ctrl+s
-nmap <c-s> :w<CR>
-imap <c-s> <Esc>:w<CR>a
-
-" hide unnecessary gui in gVim
-if has("gui_running")
-    set guioptions-=m  " remove menu bar
-    set guioptions-=T  " remove toolbar
-    set guioptions-=r  " remove right-hand scroll bar
-    set guioptions-=L  " remove left-hand scroll bar
-end
-
-" set Adobe's Source Code Pro font as default
-set guifont=Fira\ Code
-
 " allow Tab and Shift+Tab to
 " tab  selection in visual mode
 vmap <Tab> >gv
-vmap <S-Tab> <gv 
+vmap <S-Tab> <gv
 
 " remove the .ext~ files, but not the swapfiles
 set nobackup
@@ -101,13 +86,8 @@ set hlsearch         " hilight searches by default
 " use ESC ESC to remove search higlight
 nnoremap <esc><esc> :noh<return><esc>
 
-" most of the time I should use ` instead of ' but typing it with my keyabord
-" is a pain, so just toggle them
-nnoremap ' `
-nnoremap ` '
-
-" suggestion for normal mode commands
-set wildmode=list:longest
+" Auto completion
+set wildmode=longest,list,full
 
 " keep the cursor visible within 3 lines when scrolling
 set scrolloff=3
@@ -123,25 +103,73 @@ set softtabstop=2   " in insert mode, tabs are 2 spaces
 set textwidth=100
 
 " use <C-Space> for Vim's keyword autocomplete
-"  ...in the terminal
 inoremap <Nul> <C-n>
-"  ...and in gui mode
-inoremap <C-Space> <C-n>
 
-" On file types...
-"   .md files are markdown files
+" Disables automatic commenting on newline:
+autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
+" Automatically deletes all trailing whitespace on save.
+autocmd BufWritePre * %s/\s\+$//e
+" Run xrdb whenever Xdefaults or Xresources are updated.
+autocmd BufWritePost *Xresources,*Xdefaults !xrdb %
+
+" .md files are markdown files
 autocmd BufNewFile,BufRead *.md setlocal ft=markdown
-"   .twig files use html syntax
+" .twig files use html syntax
 autocmd BufNewFile,BufRead *.twig setlocal ft=html
-"   .less files use less syntax
+" .less files use less syntax
 autocmd BufNewFile,BufRead *.less setlocal ft=less
+" .tex files are set as latex files
+autocmd BufNewFile,BufRead *.tex setlocal ft=tex
 
-" when pasting over SSH it's a pain to type :set paste and :set nopaste
-" just map it to <f9>
-set pastetoggle=<f9>
+" Compile document, be it groff/LaTeX/markdown/etc.
+map <leader>c :w! \| !compiler <c-r>%<CR>
+" Open corresponding .pdf/.html or preview
+map <leader>p :!opout <c-r>%<CR><CR>
 
-" select all mapping
-noremap <leader>a ggVG
+" Navigating with guides
+inoremap <leader><leader> <Esc>/<++><Enter>"_c4l
+vnoremap <leader><leader> <Esc>/<++><Enter>"_c4l
+map <leader><leader> <Esc>/<++><Enter>"_c4l"
+
+" --------------------- LaTeX CONFIGURATION ----------------------
+" Word count:
+autocmd FileType tex map <leader>w :w !detex \| wc -w<CR>
+
+" Code snippets
+autocmd FileType tex inoremap ,fr \begin{frame}<Enter>\frametitle{}<Enter><Enter><++><Enter><Enter>\end{frame}<Enter><Enter><++><Esc>6kf}i
+autocmd FileType tex inoremap ,fi \begin{fitch}<Enter><Enter>\end{fitch}<Enter><Enter><++><Esc>3kA
+autocmd FileType tex inoremap ,exe \begin{exe}<Enter>\ex<Space><Enter>\end{exe}<Enter><Enter><++><Esc>3kA
+autocmd FileType tex inoremap ,em \emph{}<++><Esc>T{i
+autocmd FileType tex inoremap ,bf \textbf{}<++><Esc>T{i
+autocmd FileType tex inoremap ,it \textit{}<++><Esc>T{i
+autocmd FileType tex inoremap ,ct \textcite{}<++><Esc>T{i
+autocmd FileType tex inoremap ,cp \parencite{}<++><Esc>T{i}}} }`}`}
+autocmd FileType tex inoremap ,glos {\gll<Space><++><Space>\\<Enter><++><Space>\\<Enter>\trans{``<++>''}}<Esc>2k2bcw
+autocmd FileType tex inoremap ,x \begin{xlist}<Enter>\ex<Space><Enter>\end{xlist}<Esc>kA<Space>
+autocmd FileType tex inoremap ,ol \begin{enumerate}<Enter><Enter>\end{enumerate}<Enter><Enter><++><Esc>3kA\item<Space>
+autocmd FileType tex inoremap ,ul \begin{itemize}<Enter><Enter>\end{itemize}<Enter><Enter><++><Esc>3kA\item<Space>
+autocmd FileType tex inoremap ,li <Enter>\item<Space>
+autocmd FileType tex inoremap ,ref \ref{}<Space><++><Esc>T{i
+autocmd FileType tex inoremap ,tab \begin{tabular}<Enter><++><Enter>\end{tabular}<Enter><Enter><++><Esc>4kA{}<Esc>i
+autocmd FileType tex inoremap ,ot \begin{tableau}<Enter>\inp{<++>}<Tab>\const{<++>}<Tab><++><Enter><++><Enter>\end{tableau}<Enter><Enter><++><Esc>5kA{}<Esc>i
+autocmd FileType tex inoremap ,can \cand{}<Tab><++><Esc>T{i
+autocmd FileType tex inoremap ,con \const{}<Tab><++><Esc>T{i
+autocmd FileType tex inoremap ,v \vio{}<Tab><++><Esc>T{i
+autocmd FileType tex inoremap ,a \href{}{<++>}<Space><++><Esc>2T{i
+autocmd FileType tex inoremap ,sc \textsc{}<Space><++><Esc>T{i
+autocmd FileType tex inoremap ,chap \chapter{}<Enter><Enter><++><Esc>2kf}i
+autocmd FileType tex inoremap ,sec \section{}<Enter><Enter><++><Esc>2kf}i
+autocmd FileType tex inoremap ,ssec \subsection{}<Enter><Enter><++><Esc>2kf}i
+autocmd FileType tex inoremap ,sssec \subsubsection{}<Enter><Enter><++><Esc>2kf}i
+autocmd FileType tex inoremap ,st <Esc>F{i*<Esc>f}i
+autocmd FileType tex inoremap ,beg \begin{DELRN}<Enter><++><Enter>\end{DELRN}<Enter><Enter><++><Esc>4k0fR:MultipleCursorsFind<Space>DELRN<Enter>c
+autocmd FileType tex inoremap ,up <Esc>/usepackage<Enter>o\usepackage{}<Esc>i
+autocmd FileType tex inoremap ,tt \texttt{}<Space><++><Esc>T{i
+autocmd FileType tex inoremap ,bt {\blindtext}
+autocmd FileType tex inoremap ,nu $\varnothing$
+autocmd FileType tex inoremap ,col \begin{columns}[T]<Enter>\begin{column}{.5\textwidth}<Enter><Enter>\end{column}<Enter>\begin{column}{.5\textwidth}<Enter><++><Enter>\end{column}<Enter>\end{columns}<Esc>5kA
+autocmd FileType tex inoremap ,rn (\ref{})<++><Esc>F}i
+
 
 " ---------------------- PLUGIN CONFIGURATION ----------------------
 " initiate Vundle
@@ -154,14 +182,17 @@ Plugin 'gmarik/Vundle.vim'
 " Plugins defenition
 Plugin 'scrooloose/nerdtree'
 Plugin 'Xuyuanp/nerdtree-git-plugin'
-Plugin 'Lokaltog/vim-easymotion'   
-Plugin 'itchyny/lightline.vim' 
+Plugin 'Lokaltog/vim-easymotion'
+Plugin 'itchyny/lightline.vim'
 Plugin 'vim-scripts/L9'
 Plugin 'vim-scripts/FuzzyFinder'
 
 " Plugins for Markdown
 Plugin 'vimwiki/vimwiki'
 Plugin 'suan/vim-instant-markdown', {'rtp': 'after'}
+
+" Plugins for LaTeX
+Plugin 'xuhdev/vim-latex-live-preview'
 
 " Plugins for dev
 Plugin 'sheerun/vim-polyglot'
@@ -185,6 +216,11 @@ let NERDTreeAutoDeleteBuffer = 1
 let NERDTreeMinimalUI = 1
 let NERDTreeDirArrows = 1
 
+" lightline setup
+let g:lightline = {
+      \ 'colorscheme': 'one',
+      \ }
+
 " map FuzzyFinder
 noremap <leader>b :FufBuffer<cr>
 noremap <leader>f :FufFile<cr>
@@ -196,6 +232,10 @@ let g:vimwiki_ext2syntax = {'.md': 'markdown', '.markdown': 'markdown', '.mdown'
 let g:instant_markdown_autostart = 0
 map <leader>md :InstantMarkdownPreview<CR>
 map <leader>mds :InstantMarkdownStop<CR>
+
+" LaTeX
+let g:livepreview_previewer = 'zathura'
+let g:livepreview_cursorhold_recompile = 0
 
 " lightline
 set laststatus=2
@@ -217,6 +257,7 @@ autocmd BufWritePre *.js,*.jsx,*.mjs,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.gra
 " vim emmet
 let g:user_emmet_leader_key=','
 
+" Theme
 set background=dark
 let g:hybrid_transparent_background = 1
 let g:enable_italic_font = 1
