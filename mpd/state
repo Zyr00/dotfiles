@@ -1,0 +1,1337 @@
+sw_volume: 100
+audio_device_state:1:ALSA sound card
+audio_device_state:1:toggle_visualizer
+state: play
+current: 709
+time: 4.223000
+random: 1
+repeat: 0
+single: 0
+consume: 0
+crossfade: 0
+mixrampdb: 0.000000
+mixrampdelay: -1.000000
+playlist_begin
+0:Amon Amarth/Asator.mp3
+1:Amon Amarth/As Loke Falls.mp3
+2:Amon Amarth/As Long As The Raven Flies.mp3
+3:Amon Amarth/Atrocious Humanity.mp3
+4:Amon Amarth/At Dawn's First Light.mp3
+5:Amon Amarth/A Beast Am I.mp3
+6:Amon Amarth/A Dream That Cannot Be.mp3
+7:Amon Amarth/A Fury Divine.mp3
+8:Amon Amarth/Back on Northern Shores.mp3
+9:Amon Amarth/Bastards Of A Lying Breed.mp3
+10:Amon Amarth/Bloodshed.mp3
+11:Amon Amarth/Blood Eagle.mp3
+12:Amon Amarth/Burning Creation.mp3
+13:Amon Amarth/Burning Creation (Demo Version) - demo.mp3
+14:Amon Amarth/Coming of the Tide.mp3
+15:Amon Amarth/Crack the Sky.mp3
+16:Amon Amarth/Cry Of The Black Birds.mp3
+17:Amon Amarth/Death In Fire.mp3
+18:Amon Amarth/Deceiver of the Gods.mp3
+19:Amon Amarth/Destroyer of the Universe.mp3
+20:Amon Amarth/Doom Over Dead Man.mp3
+21:Amon Amarth/Down The Slopes Of Death.mp3
+22:Amon Amarth/Embrace Of The Endless Ocean.mp3
+23:Amon Amarth/Eyes Of Horror.mp3
+24:Amon Amarth/Fafner's Gold.mp3
+25:Amon Amarth/Fall Through Ginnungagap.mp3
+26:Amon Amarth/Fate Of Norns.mp3
+27:Amon Amarth/Father of the Wolf.mp3
+28:Amon Amarth/First Kill.mp3
+29:Amon Amarth/For The Stabwounds In Our Back.mp3
+30:Amon Amarth/For Victory or Death.mp3
+31:Amon Amarth/Free Will Sacrifice.mp3
+32:Amon Amarth/Gods Of War Arise.mp3
+33:Amon Amarth/Guardians Of Asgaard.mp3
+34:Amon Amarth/Hel.mp3
+35:Amon Amarth/Hermod's Ride To Hel - Lokes Treachery Part 1.mp3
+36:Amon Amarth/Into the Dark.mp3
+37:Amon Amarth/Ironside.mp3
+38:Amon Amarth/Live For The Kill.mp3
+39:Amon Amarth/Live Without Regrets.mp3
+40:Amon Amarth/Mjolner, Hammer of Thor.mp3
+41:Amon Amarth/No Fear For The Setting Sun.mp3
+42:Amon Amarth/Once Sealed In Blood.mp3
+43:Amon Amarth/One Against All.mp3
+44:Amon Amarth/One Thousand Burning Arrows.mp3
+45:Amon Amarth/On a Sea of Blood.mp3
+46:Amon Amarth/Prediction Of Warfare.mp3
+47:Amon Amarth/Raise Your Horns.mp3
+48:Amon Amarth/Raven's Flight.mp3
+49:Amon Amarth/Releasing Surtur's Fire.mp3
+50:Amon Amarth/Risen From The Sea.mp3
+51:Amon Amarth/Risen From The Sea (2000).mp3
+52:Amon Amarth/Runes To My Memory.mp3
+53:Amon Amarth/Sabbath Bloody Sabbath.mp3
+54:Amon Amarth/Shape Shifter.mp3
+55:Amon Amarth/Shield Wall.mp3
+56:Amon Amarth/Siegreicher Marsch (Victorious March).mp3
+57:Amon Amarth/Skoll and Hati.mp3
+58:Amon Amarth/Slaves of Fear.mp3
+59:Amon Amarth/Sorrow Throughout The Nine Worlds.mp3
+60:Amon Amarth/Tattered Banners And Bloody Flags.mp3
+61:Amon Amarth/The Arrival Of The Fimble Winter.mp3
+62:Amon Amarth/The Beheading Of A King.mp3
+63:Amon Amarth/The Berserker at Stamford Bridge.mp3
+64:Amon Amarth/The Hero.mp3
+65:Amon Amarth/The Last Stand of Frej.mp3
+66:Amon Amarth/The Mighty Doors Of The Speargod's Hall.mp3
+67:Amon Amarth/The Pursuit Of Vikings.mp3
+68:Amon Amarth/The Sound Of Eight Hooves.mp3
+69:Amon Amarth/The Way of Vikings.mp3
+70:Amon Amarth/Thor Arise.mp3
+71:Amon Amarth/Thousand Years Of Oppression.mp3
+72:Amon Amarth/Twilight Of The Thunder God.mp3
+73:Amon Amarth/Töck's Taunt - Loke's Treachery Part II.mp3
+74:Amon Amarth/Under Siege.mp3
+75:Amon Amarth/Under The Grey Clouded Winter Sky.mp3
+76:Amon Amarth/Under The Northern Star.mp3
+77:Amon Amarth/Valhall Awaits Me.mp3
+78:Amon Amarth/Valkyria.mp3
+79:Amon Amarth/Valkyries Ride.mp3
+80:Amon Amarth/Varyags Of Miklagaard.mp3
+81:Amon Amarth/Vengeance Is My Name.mp3
+82:Amon Amarth/Vs. The World.mp3
+83:Amon Amarth/Wanderer.mp3
+84:Amon Amarth/Warriors of the North.mp3
+85:Amon Amarth/War of the Gods.mp3
+86:Amon Amarth/We Shall Destroy.mp3
+87:Amon Amarth/When Once Again We Can Set Our Sails.mp3
+88:Amon Amarth/Where Death Seems To Dwell.mp3
+89:Amon Amarth/Where Is Your God.mp3
+90:Amon Amarth/Where Silent Gods Stand Guard.mp3
+91:Amon Amarth/Wings of Eagles.mp3
+92:Amon Amarth/Without Fear.mp3
+93:Amon Amarth/With Oden On Our Side.mp3
+94:Amon Amarth/Wrath of the Norsemen.mp3
+95:Amon Amarth/…And The World Will Cease To Be.mp3
+96:Chelsea Grin/Eternal Nightmare/07 Chelsea Grin - Scent of Evil.mp3
+97:Chelsea Grin/Eternal Nightmare/02 Chelsea Grin - The Wolf.mp3
+98:Chelsea Grin/Eternal Nightmare/10 Chelsea Grin - Outliers.mp3
+99:Chelsea Grin/Eternal Nightmare/03 Chelsea Grin - Across the Earth.mp3
+100:Chelsea Grin/Eternal Nightmare/01 Chelsea Grin - Dead Rose.mp3
+101:Chelsea Grin/Eternal Nightmare/06 Chelsea Grin - Limbs.mp3
+102:Chelsea Grin/Eternal Nightmare/05 Chelsea Grin - 930am.mp3
+103:Chelsea Grin/Eternal Nightmare/11 Chelsea Grin - Eternal Nightmare.mp3
+104:Chelsea Grin/Eternal Nightmare/08 Chelsea Grin - Hostage.mp3
+105:Chelsea Grin/Eternal Nightmare/09 Chelsea Grin - Nobody Listened.mp3
+106:Chelsea Grin/Eternal Nightmare/04 Chelsea Grin - See You Soon.mp3
+107:Aversions Crown/Tyrant/07 Aversions Crown - Xenoforms.mp3
+108:Aversions Crown/Tyrant/04 Aversions Crown - Vectors.mp3
+109:Aversions Crown/Tyrant/03 Aversions Crown - Conqueror.mp3
+110:Aversions Crown/Tyrant/10 Aversions Crown - Faith Collapsing.mp3
+111:Aversions Crown/Tyrant/09 Aversions Crown - Controller.mp3
+112:Aversions Crown/Tyrant/02 Aversions Crown - The Glass Sentient.mp3
+113:Aversions Crown/Tyrant/05 Aversions Crown - Earth Steriliser.mp3
+114:Aversions Crown/Tyrant/06 Aversions Crown - Avalanche.mp3
+115:Aversions Crown/Tyrant/08 Aversions Crown - Overseer.mp3
+116:Aversions Crown/Tyrant/01 Aversions Crown - Hollow Planet.mp3
+117:Aversions Crown/Xenocide/11 Aversions Crown - Misery.mp3
+118:Aversions Crown/Xenocide/07 Aversions Crown - The Oracles of Existence.mp3
+119:Aversions Crown/Xenocide/03 Aversions Crown - The Soulless Acolyte.mp3
+120:Aversions Crown/Xenocide/09 Aversions Crown - Stillborn Existence.mp3
+121:Aversions Crown/Xenocide/04 Aversions Crown - Hybridization.mp3
+122:Aversions Crown/Xenocide/02 Aversions Crown - Prismatic Abyss.mp3
+123:Aversions Crown/Xenocide/10 Aversions Crown - Cycles of Haruspex.mp3
+124:Aversions Crown/Xenocide/06 Aversions Crown - Ophiophagy.mp3
+125:Aversions Crown/Xenocide/05 Aversions Crown - Erebus.mp3
+126:Aversions Crown/Xenocide/12 Aversions Crown - Odium.mp3
+127:Aversions Crown/Xenocide/01 Aversions Crown - Void.mp3
+128:Aversions Crown/Xenocide/08 Aversions Crown - Cynical Entity.mp3
+129:Aversions Crown/The Breeding Process/01 Aversions Crown - The Breeding Process.mp3
+130:Aversions Crown/Parasites/01 Aversions Crown - Parasites.mp3
+131:Spite/Spite (Deluxe Edition)/11 Spite - Free for All.mp3
+132:Spite/Spite (Deluxe Edition)/06 Spite - Intruder.mp3
+133:Spite/Spite (Deluxe Edition)/07 Spite - Night Terrors.mp3
+134:Spite/Spite (Deluxe Edition)/04 Spite - Death Sentence.mp3
+135:Spite/Spite (Deluxe Edition)/15 Spite - Misery.mp3
+136:Spite/Spite (Deluxe Edition)/02 Spite - Morning Sting.mp3
+137:Spite/Spite (Deluxe Edition)/13 Spite - Burn.mp3
+138:Spite/Spite (Deluxe Edition)/12 Spite - Suffer.mp3
+139:Spite/Spite (Deluxe Edition)/09 Spite - Digging Pt. 2.mp3
+140:Spite/Spite (Deluxe Edition)/14 Spite - Devil.mp3
+141:Spite/Spite (Deluxe Edition)/08 Spite - Digging Pt. 1.mp3
+142:Spite/Spite (Deluxe Edition)/16 Spite - Red.mp3
+143:Spite/Spite (Deluxe Edition)/17 Spite - Psychopath.mp3
+144:Spite/Spite (Deluxe Edition)/10 Spite - Outsiders.mp3
+145:Spite/Spite (Deluxe Edition)/01 Spite - The Black.mp3
+146:Spite/Spite (Deluxe Edition)/05 Spite - Snap.mp3
+147:Spite/Spite (Deluxe Edition)/03 Spite - Leeches.mp3
+148:Spite/Nothing Is Beautiful/05. AWOL.mp3
+149:Spite/Nothing Is Beautiful/10. Self-Destruct.mp3
+150:Spite/Nothing Is Beautiful/03. Nothing Is Beautiful.mp3
+151:Spite/Nothing Is Beautiful/07. Thy Bidding.mp3
+152:Spite/Nothing Is Beautiful/08. Kingdom of Guts.mp3
+153:Spite/Nothing Is Beautiful/01. IED.mp3
+154:Spite/Nothing Is Beautiful/02. Drown Me.mp3
+155:Spite/Nothing Is Beautiful/09. Despise.mp3
+156:Spite/Nothing Is Beautiful/04. Kill or Be Killed.mp3
+157:Spite/Nothing Is Beautiful/06. The Corner of the Room.mp3
+158:Trever Strnad/Revenant/09 Trever Strnad - Behold the Bearer of Light.mp3
+159:Twelve Foot Ninja/Silent Machine/02 Twelve Foot Ninja - Kingdom.mp3
+160:Twelve Foot Ninja/Silent Machine/09 Twelve Foot Ninja - Rogue.mp3
+161:Twelve Foot Ninja/Silent Machine/08 Twelve Foot Ninja - Silent Machine.mp3
+162:Twelve Foot Ninja/Silent Machine/03 Twelve Foot Ninja - Mother Sky.mp3
+163:Twelve Foot Ninja/Silent Machine/01 Twelve Foot Ninja - Coming For You.mp3
+164:Twelve Foot Ninja/Silent Machine/05 Twelve Foot Ninja - Vanguard.mp3
+165:Twelve Foot Ninja/Silent Machine/07 Twelve Foot Ninja - Liberation.mp3
+166:Twelve Foot Ninja/Silent Machine/04 Twelve Foot Ninja - Shuriken.mp3
+167:Twelve Foot Ninja/Silent Machine/10 Twelve Foot Ninja - Myth Of Progress.mp3
+168:Twelve Foot Ninja/Silent Machine/12 Twelve Foot Ninja - Luna.mp3
+169:Twelve Foot Ninja/Silent Machine/11 Twelve Foot Ninja - Ain't That A Bitch.mp3
+170:Twelve Foot Ninja/Silent Machine/06 Twelve Foot Ninja - Deluge.mp3
+171:Stoort Neer/En Glad Titel På En Sorglig Skiva/07. råttbröderna 1.mp3
+172:Stoort Neer/En Glad Titel På En Sorglig Skiva/03. connys pain.mp3
+173:Stoort Neer/En Glad Titel På En Sorglig Skiva/04. SÖNDER.mp3
+174:Stoort Neer/En Glad Titel På En Sorglig Skiva/05. allt för spriten.mp3
+175:Stoort Neer/En Glad Titel På En Sorglig Skiva/08. råttbröderna 2.mp3
+176:Stoort Neer/En Glad Titel På En Sorglig Skiva/12. ÖRNKÄNSLAN (outro).mp3
+177:Stoort Neer/En Glad Titel På En Sorglig Skiva/11. en plåga med stil.mp3
+178:Stoort Neer/En Glad Titel På En Sorglig Skiva/10. ett enastående urval av pokaler med graveringen -livets sistaplats-.mp3
+179:Stoort Neer/En Glad Titel På En Sorglig Skiva/06. askkoppsfrukost.mp3
+180:Stoort Neer/En Glad Titel På En Sorglig Skiva/09. skönheten & drogerna.mp3
+181:Stoort Neer/En Glad Titel På En Sorglig Skiva/02. gräv ner livet, salta jorden, förtryck längd & breddgrad.mp3
+182:Stoort Neer/En Glad Titel På En Sorglig Skiva/01. skit (intro).mp3
+183:Arch Enemy/Will To Power/01. SET FLAME TO THE NIGHT.mp3
+184:Arch Enemy/Will To Power/05. THE EAGLE FLIES ALON.mp3
+185:Arch Enemy/Will To Power/10. DREAM OF RETRIBUTION.mp3
+186:Arch Enemy/Will To Power/06. REASON TO BELIEVE.mp3
+187:Arch Enemy/Will To Power/07. MURDER SCENE.mp3
+188:Arch Enemy/Will To Power/08. FIRST DAY IN HELL.mp3
+189:Arch Enemy/Will To Power/09. SATURNINE.mp3
+190:Arch Enemy/Will To Power/03. BLOOD IN THE WATER.mp3
+191:Arch Enemy/Will To Power/11. MY SHADOW AND I.mp3
+192:Arch Enemy/Will To Power/02. THE RACE.mp3
+193:Arch Enemy/Will To Power/12. A FIGHT I MUST WIN.mp3
+194:Arch Enemy/Will To Power/04. THE WORLD IS YOURS.mp3
+195:Týr/Valkyrja/12 Týr - Where Eagles Dare IRON MAIDEN cover.mp3
+196:Týr/Valkyrja/09 Týr - Fánar Burtur Brandaljóð.mp3
+197:Týr/Valkyrja/13 Týr - Cemetery Gates PANTERA cover.mp3
+198:Týr/Valkyrja/05 Týr - Nation.mp3
+199:Týr/Valkyrja/07 Týr - Grindavísan.mp3
+200:Týr/Valkyrja/06 Týr - Another Fallen Brother.mp3
+201:Týr/Valkyrja/08 Týr - Into the Sky.mp3
+202:Týr/Valkyrja/02 Týr - Mare of My Night.mp3
+203:Týr/Valkyrja/01 Týr - Blood of Heroes.mp3
+204:Týr/Valkyrja/11 Týr - Valkyrja.mp3
+205:Týr/Valkyrja/04 Týr - The Lay of Our Love.mp3
+206:Týr/Valkyrja/10 Týr - Lady of the Slain.mp3
+207:Týr/Valkyrja/03 Týr - Hel Hath No Fury.mp3
+208:Týr/Ragnarok/09 Týr - Wings of Time.mp3
+209:Týr/Ragnarok/05 Týr - The Burning.mp3
+210:Týr/Ragnarok/08 Týr - Grímur Á Miðalnesi.mp3
+211:Týr/Ragnarok/06 Týr - The Ride To Hel.mp3
+212:Týr/Ragnarok/07 Týr - Torsteins Kvæði.mp3
+213:Týr/Ragnarok/14 Týr - Gjallarhornið.mp3
+214:Týr/Ragnarok/04 Týr - Brothers Bane.mp3
+215:Týr/Ragnarok/11 Týr - The Hunt.mp3
+216:Týr/Ragnarok/02 Týr - The Hammer Of Thor.mp3
+217:Týr/Ragnarok/12 Týr - Victory.mp3
+218:Týr/Ragnarok/01 Týr - The Beginning.mp3
+219:Týr/Ragnarok/16 Týr - The End.mp3
+220:Týr/Ragnarok/03 Týr - Envy.mp3
+221:Týr/Ragnarok/15 Týr - Ragnarok.mp3
+222:Týr/Ragnarok/10 Týr - The Rage Of The Skullgaffer.mp3
+223:Týr/Ragnarok/13 Týr - Lord of Lies.mp3
+224:Fit For An Autopsy/The Depression Sessions/03 Fit For An Autopsy - Flatlining.mp3
+225:Fit For An Autopsy/The Depression Sessions/06 Fit For An Autopsy - The Perfect Drug.mp3
+226:Fit For An Autopsy/The Process of Human Extermination/03 Fit for an Autopsy - The Desecrator.mp3
+227:Fit For An Autopsy/The Process of Human Extermination/07 Fit for an Autopsy - The Locust.mp3
+228:Fit For An Autopsy/The Process of Human Extermination/06 Fit for an Autopsy - The Consumer.mp3
+229:Fit For An Autopsy/The Process of Human Extermination/02 Fit for an Autopsy - The Colonist.mp3
+230:Fit For An Autopsy/The Process of Human Extermination/10 Fit for an Autopsy - The Executioner.mp3
+231:Fit For An Autopsy/The Process of Human Extermination/09 Fit for an Autopsy - The Jackal.mp3
+232:Fit For An Autopsy/The Process of Human Extermination/08 Fit for an Autopsy - The False Prophet.mp3
+233:Fit For An Autopsy/The Process of Human Extermination/04 Fit for an Autopsy - The Juggernaut.mp3
+234:Fit For An Autopsy/The Process of Human Extermination/05 Fit for an Autopsy - The Wolf.mp3
+235:Fit For An Autopsy/The Process of Human Extermination/01 Fit for an Autopsy - The Conquerer.mp3
+236:Fit For An Autopsy/Hellbound/06 Fit for an Autopsy - Dead In The Dirt.mp3
+237:Fit For An Autopsy/Hellbound/05 Fit for an Autopsy - Tremors.mp3
+238:Fit For An Autopsy/Hellbound/02 Fit for an Autopsy - Still We Destroy.mp3
+239:Fit For An Autopsy/Hellbound/04 Fit for an Autopsy - Do You See Him.mp3
+240:Fit For An Autopsy/Hellbound/07 Fit for an Autopsy - There Is Nothing Here Worth Keeping.mp3
+241:Fit For An Autopsy/Hellbound/09 Fit for an Autopsy - Children Of The Corn Syrup.mp3
+242:Fit For An Autopsy/Hellbound/03 Fit for an Autopsy - Thank You Budd Dwyer.mp3
+243:Fit For An Autopsy/Hellbound/10 Fit for an Autopsy - The Travelers.mp3
+244:Fit For An Autopsy/Hellbound/01 Fit for an Autopsy - The Great Gift Of The World.mp3
+245:Fit For An Autopsy/Hellbound/08 Fit for an Autopsy - Mother Of The Year.mp3
+246:Fit For An Autopsy/The Great Collapse/Fit For An Autopsy - The Great Collapse (2017)/07. Too Late.mp3
+247:Fit For An Autopsy/The Great Collapse/Fit For An Autopsy - The Great Collapse (2017)/05. Iron Moon.mp3
+248:Fit For An Autopsy/The Great Collapse/Fit For An Autopsy - The Great Collapse (2017)/03. Black Mammoth.mp3
+249:Fit For An Autopsy/The Great Collapse/Fit For An Autopsy - The Great Collapse (2017)/09. Spiral.mp3
+250:Fit For An Autopsy/The Great Collapse/Fit For An Autopsy - The Great Collapse (2017)/06. When the Bulbs Burn Out.mp3
+251:Fit For An Autopsy/The Great Collapse/Fit For An Autopsy - The Great Collapse (2017)/04. Terraform.mp3
+252:Fit For An Autopsy/The Great Collapse/Fit For An Autopsy - The Great Collapse (2017)/02. Heads Will Hang.mp3
+253:Fit For An Autopsy/The Great Collapse/Fit For An Autopsy - The Great Collapse (2017)/08. Empty Still.mp3
+254:Fit For An Autopsy/The Great Collapse/Fit For An Autopsy - The Great Collapse (2017)/01. Hydra.mp3
+255:The Acacia Strain/The Depression Sessions/05 The Acacia Strain - Black Hole Sun.mp3
+256:The Acacia Strain/The Depression Sessions/02 The Acacia Strain - Sensory Deprivation.mp3
+257:The Acacia Strain/Coma Witch/09 The Acacia Strain - Whale Shark.mp3
+258:The Acacia Strain/Coma Witch/03 The Acacia Strain - Send Help.mp3
+259:The Acacia Strain/Coma Witch/04 The Acacia Strain - Holy Walls of the Vatican.mp3
+260:The Acacia Strain/Coma Witch/10 The Acacia Strain - Delusionalisphere.mp3
+261:The Acacia Strain/Coma Witch/11 The Acacia Strain - Observer.mp3
+262:The Acacia Strain/Coma Witch/02 The Acacia Strain - Cauterizer.mp3
+263:The Acacia Strain/Coma Witch/07 The Acacia Strain - Graveyard Shift.mp3
+264:The Acacia Strain/Coma Witch/05 The Acacia Strain - VVorld Demise.mp3
+265:The Acacia Strain/Coma Witch/08 The Acacia Strain - Bridgepainter.mp3
+266:The Acacia Strain/Coma Witch/01 The Acacia Strain - Human Disaster.mp3
+267:The Acacia Strain/Coma Witch/06 The Acacia Strain - Nailgun.mp3
+268:The Acacia Strain/Death Is The Only Mortal/09 The Acacia Strain - The Chambered Nautilus.mp3
+269:The Acacia Strain/Death Is The Only Mortal/03 The Acacia Strain - Go To Sleep.mp3
+270:The Acacia Strain/Death Is The Only Mortal/10 The Acacia Strain - House of Abandon.mp3
+271:The Acacia Strain/Death Is The Only Mortal/07 The Acacia Strain - Victims of the Cave.mp3
+272:The Acacia Strain/Death Is The Only Mortal/02 The Acacia Strain - Our Lady of Perpetual Sorrow.mp3
+273:The Acacia Strain/Death Is The Only Mortal/05 The Acacia Strain - The Mouth of the River.mp3
+274:The Acacia Strain/Death Is The Only Mortal/04 The Acacia Strain - Brain Death.mp3
+275:The Acacia Strain/Death Is The Only Mortal/06 The Acacia Strain - Dust and the Helix.mp3
+276:The Acacia Strain/Death Is The Only Mortal/01 The Acacia Strain - Doomblade.mp3
+277:The Acacia Strain/Death Is The Only Mortal/08 The Acacia Strain - Time and Death and God.mp3
+278:The Acacia Strain/AboveBelow/02 The Acacia Strain - Below.mp3
+279:The Acacia Strain/AboveBelow/01 The Acacia Strain - Above.mp3
+280:Deicide/Overtures Of Blasphemy/06 Deicide - Excommunicated.mp3
+281:Deicide/Overtures Of Blasphemy/10 Deicide - Consumed By Hatred.mp3
+282:Deicide/Overtures Of Blasphemy/02 Deicide - Crawled From The Shadows.mp3
+283:Deicide/Overtures Of Blasphemy/09 Deicide - Defying The Sacred.mp3
+284:Deicide/Overtures Of Blasphemy/12 Deicide - Destined To Blasphemy.mp3
+285:Deicide/Overtures Of Blasphemy/03 Deicide - Seal The Tomb Below.mp3
+286:Deicide/Overtures Of Blasphemy/01 Deicide - One With Satan.mp3
+287:Deicide/Overtures Of Blasphemy/11 Deicide - Flesh, Power, Dominion.mp3
+288:Deicide/Overtures Of Blasphemy/05 Deicide - All That Is Evil.mp3
+289:Deicide/Overtures Of Blasphemy/04 Deicide - Compliments Of Christ.mp3
+290:Deicide/Overtures Of Blasphemy/08 Deicide - Crucified Soul Of Salvation.mp3
+291:Deicide/Overtures Of Blasphemy/07 Deicide - Anointed In Blood.mp3
+292:Deicide/In the Minds of Evil/01 Deicide - In the Minds of Evil.mp3
+293:Deicide/In the Minds of Evil/08 Deicide - Trample the Cross.mp3
+294:Deicide/In the Minds of Evil/04 Deicide - Beyond Salvation.mp3
+295:Deicide/In the Minds of Evil/02 Deicide - Thou Begone.mp3
+296:Deicide/In the Minds of Evil/05 Deicide - Misery of One.mp3
+297:Deicide/In the Minds of Evil/09 Deicide - Banished by Evil.mp3
+298:Deicide/In the Minds of Evil/07 Deicide - Even the Gods Can Bleed.mp3
+299:Deicide/In the Minds of Evil/03 Deicide - Godkill.mp3
+300:Deicide/In the Minds of Evil/10 Deicide - Kill the Light of Christ.mp3
+301:Deicide/In the Minds of Evil/06 Deicide - Between the Flesh and the Void.mp3
+302:Deicide/Scars Of The Crucifix/05 Deicide - When Heaven Burns.mp3
+303:Deicide/Scars Of The Crucifix/03 Deicide - Conquered By Sodom.mp3
+304:Deicide/Scars Of The Crucifix/02 Deicide - Mad At God.mp3
+305:Deicide/Scars Of The Crucifix/09 Deicide - The Pentecostal.mp3
+306:Deicide/Scars Of The Crucifix/07 Deicide - From Darkness Come.mp3
+307:Deicide/Scars Of The Crucifix/06 Deicide - Enchanted Nightmare.mp3
+308:Deicide/Scars Of The Crucifix/04 Deicide -  Your God.mp3
+309:Deicide/Scars Of The Crucifix/08 Deicide - Go Now Your Lord Is Dead.mp3
+310:Amon Amarth/Where Silent Gods Stand Guard.mp3
+311:Amon Amarth/Shape Shifter.mp3
+312:Amon Amarth/Coming of the Tide.mp3
+313:Amon Amarth/The Pursuit Of Vikings.mp3
+314:Amon Amarth/Arrival Of The Fimble Winter.mp3
+315:Amon Amarth/Risen From The Sea.mp3
+316:Amon Amarth/A Beast Am I.mp3
+317:Amon Amarth/Embrace Of The Endless Ocean.mp3
+318:Amon Amarth/For Victory or Death.mp3
+319:Amon Amarth/Risen From The Sea (2000).mp3
+320:Amon Amarth/The Sound Of Eight Hooves.mp3
+321:Amon Amarth/Releasing Surtur's Fire.mp3
+322:Amon Amarth/An Ancient Sign Of Coming Storm.mp3
+323:Amon Amarth/A Dream That Cannot Be.mp3
+324:Amon Amarth/Shield Wall.mp3
+325:Amon Amarth/Fate Of Norns.mp3
+326:Amon Amarth/Valkyria.mp3
+327:Amon Amarth/One Thousand Burning Arrows.mp3
+328:Amon Amarth/As Long As The Raven Flies.mp3
+329:Amon Amarth/Blood Eagle.mp3
+330:Amon Amarth/Into the Dark.mp3
+331:Amon Amarth/Burning Creation.mp3
+332:Amon Amarth/Aerials (Bonus Track).mp3
+333:Amon Amarth/Slaves of Fear.mp3
+334:Amon Amarth/Vs. The World.mp3
+335:Amon Amarth/No Fear For The Setting Sun.mp3
+336:Amon Amarth/Annihilation Of Hammerfest.mp3
+337:Amon Amarth/A Fury Divine.mp3
+338:Amon Amarth/Father of the Wolf.mp3
+339:Amon Amarth/Varyags Of Miklagaard.mp3
+340:Amon Amarth/Atrocious Humanity.mp3
+341:Amon Amarth/Free Will Sacrifice.mp3
+342:Amon Amarth/Prediction Of Warfare.mp3
+343:Amon Amarth/Under The Northern Star.mp3
+344:Amon Amarth/The Last Stand of Frej.mp3
+345:Amon Amarth/For The Stabwounds In Our Back.mp3
+346:Amon Amarth/The Hero.mp3
+347:Amon Amarth/Wrath of the Norsemen.mp3
+348:Amon Amarth/Live For The Kill.mp3
+349:Amon Amarth/Under Siege.mp3
+350:Amon Amarth/War of the Gods.mp3
+351:Amon Amarth/…And The World Will Cease To Be.mp3
+352:Amon Amarth/Gods Of War Arise.mp3
+353:Amon Amarth/Fafner's Gold.mp3
+354:Amon Amarth/Hermod's Ride To Hel - Lokes Treachery Part 1.mp3
+355:Amon Amarth/Siegreicher Marsch (Victorious March).mp3
+356:Amon Amarth/Raven's Flight.mp3
+357:Amon Amarth/The Way of Vikings.mp3
+358:Amon Amarth/Fall Through Ginnungagap.mp3
+359:Amon Amarth/Army Of Darkness.mp3
+360:Amon Amarth/Where Death Seems To Dwell.mp3
+361:Amon Amarth/Hel.mp3
+362:Amon Amarth/Vengeance Is My Name.mp3
+363:Amon Amarth/Bloodshed.mp3
+364:Amon Amarth/First Kill.mp3
+365:Amon Amarth/Doom Over Dead Man.mp3
+366:Amon Amarth/Ironside.mp3
+367:Amon Amarth/Under The Grey Clouded Winter Sky.mp3
+368:Amon Amarth/The Beheading Of A King.mp3
+369:Amon Amarth/One Against All.mp3
+370:Amon Amarth/Wings of Eagles.mp3
+371:Amon Amarth/Tattered Banners And Bloody Flags.mp3
+372:Amon Amarth/Valhall Awaits Me.mp3
+373:Amon Amarth/Sabbath Bloody Sabbath.mp3
+374:Amon Amarth/At Dawn's First Light.mp3
+375:Amon Amarth/Runes To My Memory.mp3
+376:Amon Amarth/Crack the Sky.mp3
+377:Amon Amarth/Across The Rainbow Bridge.mp3
+378:Amon Amarth/The Arrival Of The Fimble Winter.mp3
+379:Amon Amarth/Valkyries Ride.mp3
+380:Amon Amarth/Warriors of the North.mp3
+381:Amon Amarth/Töck's Taunt - Loke's Treachery Part II.mp3
+382:Amon Amarth/Twilight Of The Thunder God.mp3
+383:Amon Amarth/Sorrow Throughout The Nine Worlds.mp3
+384:Amon Amarth/With Oden On Our Side.mp3
+385:Amon Amarth/Skoll and Hati.mp3
+386:Amon Amarth/Mjolner, Hammer of Thor.mp3
+387:Amon Amarth/We Shall Destroy.mp3
+388:Amon Amarth/Deceiver of the Gods.mp3
+389:Amon Amarth/Death In Fire.mp3
+390:Amon Amarth/Cry Of The Black Birds.mp3
+391:Amon Amarth/Once Sealed In Blood.mp3
+392:Amon Amarth/Destroyer of the Universe.mp3
+393:Amon Amarth/Where Is Your God.mp3
+394:Amon Amarth/Live Without Regrets.mp3
+395:Amon Amarth/Thousand Years Of Oppression.mp3
+396:Amon Amarth/Thor Arise.mp3
+397:Amon Amarth/Down The Slopes Of Death.mp3
+398:Amon Amarth/Burning Creation (Demo Version) - demo.mp3
+399:Amon Amarth/Guardians Of Asgaard.mp3
+400:Amon Amarth/The Berserker at Stamford Bridge.mp3
+401:Amon Amarth/As Loke Falls.mp3
+402:Amon Amarth/Wanderer.mp3
+403:Amon Amarth/Raise Your Horns.mp3
+404:Amon Amarth/The Mighty Doors Of The Speargod's Hall.mp3
+405:Amon Amarth/When Once Again We Can Set Our Sails.mp3
+406:Amon Amarth/Without Fear.mp3
+407:Amon Amarth/Eyes Of Horror.mp3
+408:Amon Amarth/Arson.mp3
+409:Amon Amarth/On a Sea of Blood.mp3
+410:Amon Amarth/Asator.mp3
+411:Amon Amarth/Back on Northern Shores.mp3
+412:Amon Amarth/Bastards Of A Lying Breed.mp3
+413:Sabaton/The Last Stand/Last Dying Breath.mp3
+414:Sabaton/The Last Stand/Diary of an Unknown Soldier.mp3
+415:Sabaton/The Last Stand/The Last Stand.mp3
+416:Sabaton/The Last Stand/Hill 3234.mp3
+417:Sabaton/The Last Stand/Winged Hussars.mp3
+418:Sabaton/The Last Stand/Sparta.mp3
+419:Sabaton/The Last Stand/Shiroyama.mp3
+420:Sabaton/The Last Stand/Blood of Bannockburn.mp3
+421:Sabaton/The Last Stand/Rorke's Drift.mp3
+422:Sabaton/The Last Stand/All Guns Blazing (Bonus).mp3
+423:Sabaton/The Last Stand/Camouflage (Bonus).mp3
+424:Sabaton/The Last Stand/The Last Battle.mp3
+425:Sabaton/The Last Stand/The Lost Battalion.mp3
+426:Sabaton/Heroes/To Hell And Back.mp3
+427:Sabaton/Heroes/Inmate 4859.mp3
+428:Sabaton/Heroes/The Ballad Of Bull.mp3
+429:Sabaton/Heroes/No Bullets Fly.mp3
+430:Sabaton/Heroes/Soldier Of 3 Armies.mp3
+431:Sabaton/Heroes/Smoking Snakes.mp3
+432:Sabaton/Heroes/Night Witches.mp3
+433:Sabaton/Heroes/Hearts Of Iron.mp3
+434:Sabaton/Heroes/Far From The Fame.mp3
+435:Sabaton/Heroes/Resist And Bite.mp3
+436:Sabaton/The Great War History Version/02 Sabaton - Seven Pillars of Wisdom History Version.mp3
+437:Sabaton/The Great War History Version/11 Sabaton - In Flanders Fields History Version.mp3
+438:Sabaton/The Great War History Version/09 Sabaton - Fields of Verdun History Version.mp3
+439:Sabaton/The Great War History Version/05 Sabaton - Devil Dogs History Version.mp3
+440:Sabaton/The Great War History Version/07 Sabaton - Great War History Version.mp3
+441:Sabaton/The Great War History Version/03 Sabaton - 82nd All the Way History Version.mp3
+442:Sabaton/The Great War History Version/01 Sabaton - The Future of Warfare History Version.mp3
+443:Sabaton/The Great War History Version/06 Sabaton - The Red Baron History Version.mp3
+444:Sabaton/The Great War History Version/04 Sabaton - The Attack of the Dead Men History Version.mp3
+445:Sabaton/The Great War History Version/10 Sabaton - The End of the War to End All Wars History Version.mp3
+446:Sabaton/The Great War History Version/08 Sabaton - A Ghost in the Trenches History Version.mp3
+447:Kreator/Gods of Violence/03 Kreator - Satan Is Real.mp3
+448:Kreator/Gods of Violence/01 Kreator - Apocalypticon.mp3
+449:Kreator/Gods of Violence/07 Kreator - Hail to the Hordes.mp3
+450:Kreator/Gods of Violence/09 Kreator - Fallen Brother.mp3
+451:Kreator/Gods of Violence/04 Kreator - Totalitarian Terror.mp3
+452:Kreator/Gods of Violence/02 Kreator - World War Now.mp3
+453:Kreator/Gods of Violence/06 Kreator - Army Of Storms.mp3
+454:Kreator/Gods of Violence/10 Kreator - Side By Side.mp3
+455:Kreator/Gods of Violence/05 Kreator - Gods Of Violence.mp3
+456:Kreator/Gods of Violence/11 Kreator - Death Becomes My Light.mp3
+457:Kreator/Gods of Violence/08 Kreator - Lion With Eagle Wings.mp3
+458:Dragonforce/Killer Elite/21 Dragonforce - Starfire - Live.mp3
+459:Dragonforce/Killer Elite/05 Dragonforce - Black Fire - Remastered 2009.mp3
+460:Dragonforce/Killer Elite/07 Dragonforce - Fields Of Despair - Live.mp3
+461:Dragonforce/Killer Elite/12 Dragonforce - Soldiers Of The Wastelands.mp3
+462:Dragonforce/Killer Elite/18 Dragonforce - Three Hammers - Live.mp3
+463:Dragonforce/Killer Elite/13 Dragonforce - Valley Of The Damned - Remastered 2009.mp3
+464:Dragonforce/Killer Elite/22 Dragonforce - Heart Of A Dragon - Remastered 2009.mp3
+465:Tech N9ne/N9NA/03 Tech N9ne - N9NA.mp3
+466:Tech N9ne/N9NA/16 Tech N9ne - H.O.B..mp3
+467:Tech N9ne/N9NA/06 Tech N9ne - Green Lit.mp3
+468:Tech N9ne/N9NA/01 Tech N9ne - Le Horde Intro.mp3
+469:Tech N9ne/N9NA/14 Tech N9ne - She Fell.mp3
+470:Tech N9ne/N9NA/02 Tech N9ne - Lord of Weird.mp3
+471:Tech N9ne/N9NA/07 Tech N9ne - Chuki Fever.mp3
+472:Tech N9ne/N9NA/12 Tech N9ne - Rata.mp3
+473:Tech N9ne/N9NA/10 Tech N9ne - You Line!.mp3
+474:Tech N9ne/N9NA/18 Tech N9ne - Active.mp3
+475:Tech N9ne/N9NA/09 Tech N9ne - Don't Let Me Fall.mp3
+476:Tech N9ne/N9NA/11 Tech N9ne - EDI's.mp3
+477:Tech N9ne/N9NA/08 Tech N9ne - F'n Do It.mp3
+478:Tech N9ne/N9NA/17 Tech N9ne - Ion Memba.mp3
+479:Tech N9ne/N9NA/05 Tech N9ne - Like I Ain't.mp3
+480:Tech N9ne/N9NA/04 Tech N9ne - Hit the Ground Running.mp3
+481:Tech N9ne/N9NA/13 Tech N9ne - F.T.I. 2.0.mp3
+482:Tech N9ne/N9NA/15 Tech N9ne - Sink.mp3
+483:Rivers Of Nihil/Where Owls Know My Name/06 Rivers Of Nihil - Terrestria III Wither.mp3
+484:Rivers Of Nihil/Where Owls Know My Name/04 Rivers Of Nihil - Old Nothing.mp3
+485:Rivers Of Nihil/Where Owls Know My Name/02 Rivers Of Nihil - The Silent Life.mp3
+486:Rivers Of Nihil/Where Owls Know My Name/09 Rivers Of Nihil - Where Owls Know My Name.mp3
+487:Rivers Of Nihil/Where Owls Know My Name/05 Rivers Of Nihil - Subtle Change Including the Forest of Transition and Dissatisfaction Dance.mp3
+488:Rivers Of Nihil/Where Owls Know My Name/03 Rivers Of Nihil - A Home.mp3
+489:Rivers Of Nihil/Where Owls Know My Name/08 Rivers Of Nihil - Death is Real.mp3
+490:Rivers Of Nihil/Where Owls Know My Name/10 Rivers Of Nihil - Capricorn   Agoratopia.mp3
+491:Rivers Of Nihil/Where Owls Know My Name/01 Rivers Of Nihil - Cancer   Moonspeak.mp3
+492:Rivers Of Nihil/Where Owls Know My Name/07 Rivers Of Nihil - Hollow.mp3
+493:Lost Forever    Lost Together/11 Architects - The Distant Blue.mp3
+494:Lost Forever    Lost Together/06 Architects - Red Hypergiant.mp3
+495:Lost Forever    Lost Together/07 Architects - C.A.N.C.E.R.mp3
+496:Lost Forever    Lost Together/04 Architects - The Devil Is Near.mp3
+497:Lost Forever    Lost Together/03 Architects - Broken Cross.mp3
+498:Lost Forever    Lost Together/01 Architects - Gravedigger.mp3
+499:Lost Forever    Lost Together/09 Architects - Castles In The Air.mp3
+500:Lost Forever    Lost Together/05 Architects - Dead Man Talking.mp3
+501:Lost Forever    Lost Together/02 Architects - Naysayer.mp3
+502:Lost Forever    Lost Together/10 Architects - Youth Is Wasted On The Young.mp3
+503:Lost Forever    Lost Together/08 Architects - Colony Collapse.mp3
+504:Parkway Drive/Atlas/Dark Days.mp3
+505:Parkway Drive/Atlas/Blue and the Grey.mp3
+506:Parkway Drive/Atlas/Old Ghost   New Regrets.mp3
+507:Parkway Drive/Atlas/Atlas.mp3
+508:Parkway Drive/Atlas/Sparks.mp3
+509:Parkway Drive/Atlas/Snake Oil and Holy Water.mp3
+510:Parkway Drive/Atlas/The River.mp3
+511:Parkway Drive/Atlas/Sleight of Hand.mp3
+512:Parkway Drive/Atlas/Dream Run.mp3
+513:Parkway Drive/Atlas/The Slow Surrender.mp3
+514:Parkway Drive/Atlas/Wild Eyes.mp3
+515:Parkway Drive/Atlas/Swing.mp3
+516:Parkway Drive/Ire/Destroyer.mp3
+517:Parkway Drive/Ire/Writings on the Wall.mp3
+518:Parkway Drive/Ire/Into the Dark.mp3
+519:Parkway Drive/Ire/Vicious.mp3
+520:Parkway Drive/Ire/Dedicated.mp3
+521:Parkway Drive/Ire/Devil's Calling.mp3
+522:Parkway Drive/Ire/Vice Grip.mp3
+523:Parkway Drive/Ire/Crushed.mp3
+524:Parkway Drive/Ire/Bottom Feeder.mp3
+525:Parkway Drive/Ire/The Sound of Violence.mp3
+526:Parkway Drive/Ire/Fractures.mp3
+527:Parkway Drive/Ire/Dying To Believe.mp3
+528:Parkway Drive/Ire/A Deathless Song.mp3
+529:Parkway Drive/Ire/A Deathless Song (2).mp3
+530:Rings Of Saturn/Lugal Ki En/Eviscerate.mp3
+531:Rings Of Saturn/Lugal Ki En/Senseless Massacre.mp3
+532:Rings Of Saturn/Lugal Ki En/The Heavens Have Fallen.mp3
+533:Rings Of Saturn/Lugal Ki En/Unsympathetic Intellect.mp3
+534:Rings Of Saturn/Lugal Ki En/No Pity For A Coward.mp3
+535:Rings Of Saturn/Lugal Ki En/Godless Times.mp3
+536:Rings Of Saturn/Lugal Ki En/Infused.mp3
+537:Rings Of Saturn/Lugal Ki En/Beckon.mp3
+538:Rings Of Saturn/Lugal Ki En/Natural Selection.mp3
+539:Rings Of Saturn/Lugal Ki En/Desolate Paradise.mp3
+540:Rings Of Saturn/Lugal Ki En/Fractal Intake.mp3
+541:Rings Of Saturn/Lugal Ki En/Lalassu Xul.mp3
+542:Rings Of Saturn/Ultu Ulla/Unhallowed.mp3
+543:Rings Of Saturn/Ultu Ulla/Parallel Shift.mp3
+544:Rings Of Saturn/Ultu Ulla/The Macrocosm.mp3
+545:Rings Of Saturn/Ultu Ulla/The Relic.mp3
+546:Rings Of Saturn/Ultu Ulla/Margidda.mp3
+547:Rings Of Saturn/Ultu Ulla/Prognosis Confirmed.mp3
+548:Rings Of Saturn/Ultu Ulla/Servant of This Sentience.mp3
+549:Rings Of Saturn/Ultu Ulla/Harvest.mp3
+550:Rings Of Saturn/Ultu Ulla/Immemorial Essence.mp3
+551:Rings Of Saturn/Ultu Ulla/Inadequate.mp3
+552:Holy Hell/01 Architects - Hereafter.mp3
+553:Holy Hell/10 Architects - The Seventh Circle.mp3
+554:Holy Hell/05 Architects - Mortal After All.mp3
+555:Holy Hell/07 Architects - Damnation.mp3
+556:Holy Hell/12 Architects - A Wasted Hymn.mp3
+557:Holy Hell/09 Architects - Dying To Heal.mp3
+558:Holy Hell/04 Architects - Death Is Not Defeat.mp3
+559:Holy Hell/08 Architects - Modern Misery.mp3
+560:Holy Hell/03 Architects - Modern Misery.mp3
+561:Holy Hell/11 Architects - Doomsday.mp3
+562:Holy Hell/02 Architects - Royal Beggars.mp3
+563:Holy Hell/06 Architects - Holy Hell.mp3
+564:Humanity's Last Breath/Abyssal Mouth/Abyssal Mouth.mp3
+565:Humanity's Last Breath/Detestor/05. Detestor (Feat. Jessica Currys).mp3
+566:Humanity's Last Breath/Detestor/02. Furvus.mp3
+567:Humanity's Last Breath/Detestor/08. Harm (Instrumental).mp3
+568:Humanity's Last Breath/Detestor/09. Beware (Instrumental).mp3
+569:Humanity's Last Breath/Detestor/10. Detestor (Instrumental) [Feat. Jessica Currys].mp3
+570:Humanity's Last Breath/Detestor/07. Furvus (Instrumental).mp3
+571:Humanity's Last Breath/Detestor/06. Ocean Drinker (Instrumental).mp3
+572:Humanity's Last Breath/Detestor/03. Harm.mp3
+573:Humanity's Last Breath/Detestor/01. Ocean Drinker.mp3
+574:Humanity's Last Breath/Detestor/04. Beware.mp3
+575:Inferi/Revenant/01 Inferi - Within the Dead Horizon.mp3
+576:Inferi/Revenant/07 Inferi - Malevolent Sanction.mp3
+577:Inferi/Revenant/02 Inferi - Condemned Assailant.mp3
+578:Inferi/Revenant/06 Inferi - Thy Menacing Gaze.mp3
+579:Inferi/Revenant/03 Inferi - A Beckoning Thrall.mp3
+580:Inferi/Revenant/05 Inferi - Enraged and Drowning Sullen.mp3
+581:Inferi/Revenant/08 Inferi - Smolder in the Ash.mp3
+582:Inferi/Revenant/04 Inferi - Through the Depths.mp3
+583:Thy Art is Murder/Hate/01 Thy Art Is Murder - Reign Of Darkness.mp3
+584:Thy Art is Murder/Hate/09 Thy Art Is Murder - Defective Breed.mp3
+585:Thy Art is Murder/Hate/05 Thy Art Is Murder - Immolation.mp3
+586:Thy Art is Murder/Hate/07 Thy Art Is Murder - Dead Sun.mp3
+587:Thy Art is Murder/Hate/02 Thy Art Is Murder - The Purest Strain Of Hate.mp3
+588:Thy Art is Murder/Hate/06 Thy Art Is Murder - Infinite Forms.mp3
+589:Thy Art is Murder/Hate/04 Thy Art Is Murder - Shadow Of Eternal Sin.mp3
+590:Thy Art is Murder/Hate/10 Thy Art Is Murder - Doomed From Birth.mp3
+591:Thy Art is Murder/Hate/08 Thy Art Is Murder - Gates Of Misery.mp3
+592:Thy Art is Murder/Hate/03 Thy Art Is Murder - Vile Creation.mp3
+593:Thy Art is Murder/The Depression Sessions/01 Thy Art Is Murder - They Will Know Another.mp3
+594:Thy Art is Murder/The Depression Sessions/04 Thy Art Is Murder - Du Hast.mp3
+595:Thy Art is Murder/Holy War/02 Thy Art Is Murder - Light Bearer.mp3
+596:Thy Art is Murder/Holy War/08 Thy Art Is Murder - Child Of Sorrow.mp3
+597:Thy Art is Murder/Holy War/01 Thy Art Is Murder - Absolute Genocide.mp3
+598:Thy Art is Murder/Holy War/07 Thy Art Is Murder - Violent Reckoning.mp3
+599:Thy Art is Murder/Holy War/05 Thy Art Is Murder - Deliver Us To Evil.mp3
+600:Thy Art is Murder/Holy War/03 Thy Art Is Murder - Coffin Dragger.mp3
+601:Thy Art is Murder/Holy War/04 Thy Art Is Murder - Fur And Claw.mp3
+602:Thy Art is Murder/Holy War/06 Thy Art Is Murder - Emptiness.mp3
+603:Thy Art is Murder/Holy War/09 Thy Art Is Murder - Naked And Cold.mp3
+604:Thy Art is Murder/Holy War/10 Thy Art Is Murder - Vengeance.mp3
+605:Thy Art is Murder/Dear Desolation/01. Slaves Beyond Death.mp3
+606:Thy Art is Murder/Dear Desolation/03. Puppet Master.mp3
+607:Thy Art is Murder/Dear Desolation/05. Death Dealer.mp3
+608:Thy Art is Murder/Dear Desolation/02. The Son Of Misery.mp3
+609:Thy Art is Murder/Dear Desolation/10. The Final Curtain.mp3
+610:Thy Art is Murder/Dear Desolation/09. Into Chaos We Climb.mp3
+611:Thy Art is Murder/Dear Desolation/04. Dear Desolation.mp3
+612:Thy Art is Murder/Dear Desolation/07. The Skin Of The Serpent.mp3
+613:Thy Art is Murder/Dear Desolation/08. Fire In The Sky.mp3
+614:Thy Art is Murder/Dear Desolation/06. Man Is The Enemy.mp3
+615:Belzebubs/Blackened Call (Single) (2018)/01. Blackened Call.mp3
+616:Belzebubs/Blackened Call (Single) (2018)/02. Maleficarum - The Veil of the Moon Queen Pt I.mp3
+617:Unleash The Archers/Time Stands Still/06 Unleash The Archers - Crypt.mp3
+618:Unleash The Archers/Time Stands Still/07 Unleash The Archers - No More Heroes.mp3
+619:Unleash The Archers/Time Stands Still/10 Unleash The Archers - Time Stands Still.mp3
+620:Unleash The Archers/Time Stands Still/09 Unleash The Archers - Going Down Fighting.mp3
+621:Unleash The Archers/Time Stands Still/08 Unleash The Archers - Dreamcrusher.mp3
+622:Unleash The Archers/Time Stands Still/04 Unleash The Archers - Tonight We Ride.mp3
+623:Unleash The Archers/Time Stands Still/11 Unleash The Archers - Tonight We Ride (Video Edit).mp3
+624:Unleash The Archers/Time Stands Still/05 Unleash The Archers - Test Your Metal.mp3
+625:Unleash The Archers/Time Stands Still/03 Unleash The Archers - Hail of the Tide.mp3
+626:Unleash The Archers/Time Stands Still/01 Unleash The Archers - Northern Passage.mp3
+627:Unleash The Archers/Time Stands Still/02 Unleash The Archers - Frozen Steel.mp3
+628:Unleash The Archers/Demons Of The AstroWaste/12 Unleash The Archers - Ripping Through Time.mp3
+629:Unleash The Archers/Demons Of The AstroWaste/11 Unleash The Archers - Astral Annihilation.mp3
+630:Unleash The Archers/Demons Of The AstroWaste/06 Unleash The Archers - Battle In The Shadow (Of The Mountain).mp3
+631:Unleash The Archers/Demons Of The AstroWaste/07 Unleash The Archers - Despair.mp3
+632:Unleash The Archers/Demons Of The AstroWaste/05 Unleash The Archers - Daughters Of Winterstone.mp3
+633:Unleash The Archers/Demons Of The AstroWaste/04 Unleash The Archers - General Of The Dark Army.mp3
+634:Unleash The Archers/Demons Of The AstroWaste/09 Unleash The Archers - City Of Iron.mp3
+635:Unleash The Archers/Demons Of The AstroWaste/02 Unleash The Archers - Dawn Of Ages.mp3
+636:Unleash The Archers/Demons Of The AstroWaste/01 Unleash The Archers - 000001.mp3
+637:Unleash The Archers/Demons Of The AstroWaste/10 Unleash The Archers - The Fall Of The Galactic Guard.mp3
+638:Unleash The Archers/Demons Of The AstroWaste/08 Unleash The Archers - The Outlander.mp3
+639:Unleash The Archers/Demons Of The AstroWaste/03 Unleash The Archers - Realm Of Tomorrow.mp3
+640:Unleash The Archers/Apex/02 Unleash The Archers - Shadow Guide.mp3
+641:Unleash The Archers/Apex/03 Unleash The Archers - The Matriarch.mp3
+642:Unleash The Archers/Apex/07 Unleash The Archers - Ten Thousand Against One.mp3
+643:Unleash The Archers/Apex/06 Unleash The Archers - False Walls.mp3
+644:Unleash The Archers/Apex/09 Unleash The Archers - Call Me Immortal.mp3
+645:Unleash The Archers/Apex/10 Unleash The Archers - Apex.mp3
+646:Unleash The Archers/Apex/01 Unleash The Archers - Awakening.mp3
+647:Unleash The Archers/Apex/08 Unleash The Archers - Earth and Ashes.mp3
+648:Unleash The Archers/Apex/05 Unleash The Archers - The Coward's Way.mp3
+649:Unleash The Archers/Apex/04 Unleash The Archers - Cleanse the Bloodlines.mp3
+650:Tengger Cavalry/北方记忆 卷贰/05 Tengger Cavalry - The Moment.mp3
+651:Tengger Cavalry/北方记忆 卷贰/01 Tengger Cavalry - The Wanderer.mp3
+652:Tengger Cavalry/北方记忆 卷贰/04 Tengger Cavalry - The Nameless.mp3
+653:Tengger Cavalry/北方记忆 卷贰/02 Tengger Cavalry - The Unbeliever.mp3
+654:Tengger Cavalry/北方记忆 卷贰/03 Tengger Cavalry - The Rescuer.mp3
+655:Tengger Cavalry/北方记忆 卷壹/02 Tengger Cavalry - 联结.mp3
+656:Tengger Cavalry/北方记忆 卷壹/04 Tengger Cavalry - 千锤百炼.mp3
+657:Tengger Cavalry/北方记忆 卷壹/01 Tengger Cavalry - 天可汗.mp3
+658:Tengger Cavalry/北方记忆 卷壹/03 Tengger Cavalry - 鲜卑式摇滚.mp3
+659:Tengger Cavalry/北方记忆 卷壹/05 Tengger Cavalry - 祈苍穹.mp3
+660:Dying Fetus/Reign Supreme/04 Dying Fetus - From Womb to Waste.mp3
+661:Dying Fetus/Reign Supreme/03 Dying Fetus - Second Skin.mp3
+662:Dying Fetus/Reign Supreme/09 Dying Fetus - The Blood of Power.mp3
+663:Dying Fetus/Reign Supreme/08 Dying Fetus - Revisionist Past.mp3
+664:Dying Fetus/Reign Supreme/05 Dying Fetus - Dissidence.mp3
+665:Dying Fetus/Reign Supreme/01 Dying Fetus - Invert the Idols.mp3
+666:Dying Fetus/Reign Supreme/Dying Fetus - In the Trenches.mp3
+667:Dying Fetus/Reign Supreme/07 Dying Fetus - Devout Atrocity.mp3
+668:Dying Fetus/Reign Supreme/02 Dying Fetus - Subjected to a Beating.mp3
+669:Fallujah/The Flesh Prevails/04 Fallujah - The Flesh Prevails.mp3
+670:Fallujah/The Flesh Prevails/08 Fallujah - Sapphire.mp3
+671:Fallujah/The Flesh Prevails/07 Fallujah - Allure.mp3
+672:Fallujah/The Flesh Prevails/01 Fallujah - Starlit Path.mp3
+673:Fallujah/The Flesh Prevails/06 Fallujah - Alone with You.mp3
+674:Fallujah/The Flesh Prevails/Fallujah - Levitation.mp3
+675:Fallujah/The Flesh Prevails/03 Fallujah - The Night Reveals.mp3
+676:Fallujah/The Flesh Prevails/02 Fallujah - Carved from Stone.mp3
+677:Fallujah/The Flesh Prevails/09 Fallujah - Chemical Cave.mp3
+678:Fallujah/Dreamless/10 Fallujah - Wind For Wings.mp3
+679:Fallujah/Dreamless/07 Fallujah - The Prodigal Son.mp3
+680:Fallujah/Dreamless/05 Fallujah - Scar Queen.mp3
+681:Fallujah/Dreamless/04 Fallujah - Abandon.mp3
+682:Fallujah/Dreamless/06 Fallujah - Dreamless.mp3
+683:Fallujah/Dreamless/09 Fallujah - Fidelio.mp3
+684:Fallujah/Dreamless/11 Fallujah - Les Silences.mp3
+685:Fallujah/Dreamless/03 Fallujah - The Void Alone.mp3
+686:Fallujah/Dreamless/02 Fallujah - Adrenaline.mp3
+687:Fallujah/Dreamless/01 Fallujah - Face Of Death.mp3
+688:Fallujah/Dreamless/08 Fallujah - Amber Gaze.mp3
+689:Fallujah/Dreamless/12 Fallujah - Lacuna.mp3
+690:Meshuggah/The Violent Sleep of Reason/09 Meshuggah - Our Rage Won't Die.mp3
+691:Meshuggah/The Violent Sleep of Reason/04 Meshuggah - By the Ton.mp3
+692:Meshuggah/The Violent Sleep of Reason/06 Meshuggah - Ivory Tower.mp3
+693:Meshuggah/The Violent Sleep of Reason/01 Meshuggah - Clockworks.mp3
+694:Meshuggah/The Violent Sleep of Reason/08 Meshuggah - Nostrum.mp3
+695:Meshuggah/The Violent Sleep of Reason/05 Meshuggah - Violent Sleep of Reason.mp3
+696:Meshuggah/The Violent Sleep of Reason/03 Meshuggah - Monstrocity.mp3
+697:Meshuggah/The Violent Sleep of Reason/07 Meshuggah - Stifled.mp3
+698:Meshuggah/The Violent Sleep of Reason/10 Meshuggah - Into Decay.mp3
+699:Meshuggah/The Violent Sleep of Reason/02 Meshuggah - Born in Dissonance.mp3
+700:Once Human/Evolution/Eye of Chaos.mp3
+701:Once Human/Evolution/Paragon.mp3
+702:Once Human/Evolution/Flock of Flesh.mp3
+703:Once Human/Evolution/Passenger.mp3
+704:Once Human/Evolution/Drain.mp3
+705:Once Human/Evolution/Killers for the Cure.mp3
+706:Once Human/Evolution/Gravity.mp3
+707:Once Human/Evolution/Dark Matter.mp3
+708:Once Human/Evolution/Mass Murder Frenzy.mp3
+709:Chelsea Grin/Eternal Nightmare/07 Chelsea Grin - Scent of Evil.mp3
+710:Chelsea Grin/Eternal Nightmare/02 Chelsea Grin - The Wolf.mp3
+711:Chelsea Grin/Eternal Nightmare/10 Chelsea Grin - Outliers.mp3
+712:Chelsea Grin/Eternal Nightmare/03 Chelsea Grin - Across the Earth.mp3
+713:Chelsea Grin/Eternal Nightmare/01 Chelsea Grin - Dead Rose.mp3
+714:Chelsea Grin/Eternal Nightmare/06 Chelsea Grin - Limbs.mp3
+715:Chelsea Grin/Eternal Nightmare/05 Chelsea Grin - 930am.mp3
+716:Chelsea Grin/Eternal Nightmare/11 Chelsea Grin - Eternal Nightmare.mp3
+717:Chelsea Grin/Eternal Nightmare/08 Chelsea Grin - Hostage.mp3
+718:Chelsea Grin/Eternal Nightmare/09 Chelsea Grin - Nobody Listened.mp3
+719:Chelsea Grin/Eternal Nightmare/04 Chelsea Grin - See You Soon.mp3
+720:Aversions Crown/Tyrant/07 Aversions Crown - Xenoforms.mp3
+721:Aversions Crown/Tyrant/04 Aversions Crown - Vectors.mp3
+722:Aversions Crown/Tyrant/03 Aversions Crown - Conqueror.mp3
+723:Aversions Crown/Tyrant/10 Aversions Crown - Faith Collapsing.mp3
+724:Aversions Crown/Tyrant/09 Aversions Crown - Controller.mp3
+725:Aversions Crown/Tyrant/02 Aversions Crown - The Glass Sentient.mp3
+726:Aversions Crown/Tyrant/05 Aversions Crown - Earth Steriliser.mp3
+727:Aversions Crown/Tyrant/06 Aversions Crown - Avalanche.mp3
+728:Aversions Crown/Tyrant/08 Aversions Crown - Overseer.mp3
+729:Aversions Crown/Tyrant/01 Aversions Crown - Hollow Planet.mp3
+730:Aversions Crown/Xenocide/11 Aversions Crown - Misery.mp3
+731:Aversions Crown/Xenocide/07 Aversions Crown - The Oracles of Existence.mp3
+732:Aversions Crown/Xenocide/03 Aversions Crown - The Soulless Acolyte.mp3
+733:Aversions Crown/Xenocide/09 Aversions Crown - Stillborn Existence.mp3
+734:Aversions Crown/Xenocide/04 Aversions Crown - Hybridization.mp3
+735:Aversions Crown/Xenocide/02 Aversions Crown - Prismatic Abyss.mp3
+736:Aversions Crown/Xenocide/10 Aversions Crown - Cycles of Haruspex.mp3
+737:Aversions Crown/Xenocide/06 Aversions Crown - Ophiophagy.mp3
+738:Aversions Crown/Xenocide/05 Aversions Crown - Erebus.mp3
+739:Aversions Crown/Xenocide/12 Aversions Crown - Odium.mp3
+740:Aversions Crown/Xenocide/01 Aversions Crown - Void.mp3
+741:Aversions Crown/Xenocide/08 Aversions Crown - Cynical Entity.mp3
+742:Aversions Crown/The Breeding Process/01 Aversions Crown - The Breeding Process.mp3
+743:Aversions Crown/Parasites/01 Aversions Crown - Parasites.mp3
+744:Spite/Spite (Deluxe Edition)/11 Spite - Free for All.mp3
+745:Spite/Spite (Deluxe Edition)/06 Spite - Intruder.mp3
+746:Spite/Spite (Deluxe Edition)/07 Spite - Night Terrors.mp3
+747:Spite/Spite (Deluxe Edition)/04 Spite - Death Sentence.mp3
+748:Spite/Spite (Deluxe Edition)/15 Spite - Misery.mp3
+749:Spite/Spite (Deluxe Edition)/02 Spite - Morning Sting.mp3
+750:Spite/Spite (Deluxe Edition)/13 Spite - Burn.mp3
+751:Spite/Spite (Deluxe Edition)/12 Spite - Suffer.mp3
+752:Spite/Spite (Deluxe Edition)/09 Spite - Digging Pt. 2.mp3
+753:Spite/Spite (Deluxe Edition)/14 Spite - Devil.mp3
+754:Spite/Spite (Deluxe Edition)/08 Spite - Digging Pt. 1.mp3
+755:Spite/Spite (Deluxe Edition)/16 Spite - Red.mp3
+756:Spite/Spite (Deluxe Edition)/17 Spite - Psychopath.mp3
+757:Spite/Spite (Deluxe Edition)/10 Spite - Outsiders.mp3
+758:Spite/Spite (Deluxe Edition)/01 Spite - The Black.mp3
+759:Spite/Spite (Deluxe Edition)/05 Spite - Snap.mp3
+760:Spite/Spite (Deluxe Edition)/03 Spite - Leeches.mp3
+761:Spite/Nothing Is Beautiful/05. AWOL.mp3
+762:Spite/Nothing Is Beautiful/10. Self-Destruct.mp3
+763:Spite/Nothing Is Beautiful/03. Nothing Is Beautiful.mp3
+764:Spite/Nothing Is Beautiful/07. Thy Bidding.mp3
+765:Spite/Nothing Is Beautiful/08. Kingdom of Guts.mp3
+766:Spite/Nothing Is Beautiful/01. IED.mp3
+767:Spite/Nothing Is Beautiful/02. Drown Me.mp3
+768:Spite/Nothing Is Beautiful/09. Despise.mp3
+769:Spite/Nothing Is Beautiful/04. Kill or Be Killed.mp3
+770:Spite/Nothing Is Beautiful/06. The Corner of the Room.mp3
+771:Trever Strnad/Revenant/09 Trever Strnad - Behold the Bearer of Light.mp3
+772:Twelve Foot Ninja/Silent Machine/02 Twelve Foot Ninja - Kingdom.mp3
+773:Twelve Foot Ninja/Silent Machine/09 Twelve Foot Ninja - Rogue.mp3
+774:Twelve Foot Ninja/Silent Machine/08 Twelve Foot Ninja - Silent Machine.mp3
+775:Twelve Foot Ninja/Silent Machine/03 Twelve Foot Ninja - Mother Sky.mp3
+776:Twelve Foot Ninja/Silent Machine/01 Twelve Foot Ninja - Coming For You.mp3
+777:Twelve Foot Ninja/Silent Machine/05 Twelve Foot Ninja - Vanguard.mp3
+778:Twelve Foot Ninja/Silent Machine/07 Twelve Foot Ninja - Liberation.mp3
+779:Twelve Foot Ninja/Silent Machine/04 Twelve Foot Ninja - Shuriken.mp3
+780:Twelve Foot Ninja/Silent Machine/10 Twelve Foot Ninja - Myth Of Progress.mp3
+781:Twelve Foot Ninja/Silent Machine/12 Twelve Foot Ninja - Luna.mp3
+782:Twelve Foot Ninja/Silent Machine/11 Twelve Foot Ninja - Ain't That A Bitch.mp3
+783:Twelve Foot Ninja/Silent Machine/06 Twelve Foot Ninja - Deluge.mp3
+784:Stoort Neer/En Glad Titel På En Sorglig Skiva/07. råttbröderna 1.mp3
+785:Stoort Neer/En Glad Titel På En Sorglig Skiva/03. connys pain.mp3
+786:Stoort Neer/En Glad Titel På En Sorglig Skiva/04. SÖNDER.mp3
+787:Stoort Neer/En Glad Titel På En Sorglig Skiva/05. allt för spriten.mp3
+788:Stoort Neer/En Glad Titel På En Sorglig Skiva/08. råttbröderna 2.mp3
+789:Stoort Neer/En Glad Titel På En Sorglig Skiva/12. ÖRNKÄNSLAN (outro).mp3
+790:Stoort Neer/En Glad Titel På En Sorglig Skiva/11. en plåga med stil.mp3
+791:Stoort Neer/En Glad Titel På En Sorglig Skiva/10. ett enastående urval av pokaler med graveringen -livets sistaplats-.mp3
+792:Stoort Neer/En Glad Titel På En Sorglig Skiva/06. askkoppsfrukost.mp3
+793:Stoort Neer/En Glad Titel På En Sorglig Skiva/09. skönheten & drogerna.mp3
+794:Stoort Neer/En Glad Titel På En Sorglig Skiva/02. gräv ner livet, salta jorden, förtryck längd & breddgrad.mp3
+795:Stoort Neer/En Glad Titel På En Sorglig Skiva/01. skit (intro).mp3
+796:Arch Enemy/Will To Power/01. SET FLAME TO THE NIGHT.mp3
+797:Arch Enemy/Will To Power/05. THE EAGLE FLIES ALON.mp3
+798:Arch Enemy/Will To Power/10. DREAM OF RETRIBUTION.mp3
+799:Arch Enemy/Will To Power/06. REASON TO BELIEVE.mp3
+800:Arch Enemy/Will To Power/07. MURDER SCENE.mp3
+801:Arch Enemy/Will To Power/08. FIRST DAY IN HELL.mp3
+802:Arch Enemy/Will To Power/09. SATURNINE.mp3
+803:Arch Enemy/Will To Power/03. BLOOD IN THE WATER.mp3
+804:Arch Enemy/Will To Power/11. MY SHADOW AND I.mp3
+805:Arch Enemy/Will To Power/02. THE RACE.mp3
+806:Arch Enemy/Will To Power/12. A FIGHT I MUST WIN.mp3
+807:Arch Enemy/Will To Power/04. THE WORLD IS YOURS.mp3
+808:Týr/Valkyrja/12 Týr - Where Eagles Dare IRON MAIDEN cover.mp3
+809:Týr/Valkyrja/09 Týr - Fánar Burtur Brandaljóð.mp3
+810:Týr/Valkyrja/13 Týr - Cemetery Gates PANTERA cover.mp3
+811:Týr/Valkyrja/05 Týr - Nation.mp3
+812:Týr/Valkyrja/07 Týr - Grindavísan.mp3
+813:Týr/Valkyrja/06 Týr - Another Fallen Brother.mp3
+814:Týr/Valkyrja/08 Týr - Into the Sky.mp3
+815:Týr/Valkyrja/02 Týr - Mare of My Night.mp3
+816:Týr/Valkyrja/01 Týr - Blood of Heroes.mp3
+817:Týr/Valkyrja/11 Týr - Valkyrja.mp3
+818:Týr/Valkyrja/04 Týr - The Lay of Our Love.mp3
+819:Týr/Valkyrja/10 Týr - Lady of the Slain.mp3
+820:Týr/Valkyrja/03 Týr - Hel Hath No Fury.mp3
+821:Týr/Ragnarok/09 Týr - Wings of Time.mp3
+822:Týr/Ragnarok/05 Týr - The Burning.mp3
+823:Týr/Ragnarok/08 Týr - Grímur Á Miðalnesi.mp3
+824:Týr/Ragnarok/06 Týr - The Ride To Hel.mp3
+825:Týr/Ragnarok/07 Týr - Torsteins Kvæði.mp3
+826:Týr/Ragnarok/14 Týr - Gjallarhornið.mp3
+827:Týr/Ragnarok/04 Týr - Brothers Bane.mp3
+828:Týr/Ragnarok/11 Týr - The Hunt.mp3
+829:Týr/Ragnarok/02 Týr - The Hammer Of Thor.mp3
+830:Týr/Ragnarok/12 Týr - Victory.mp3
+831:Týr/Ragnarok/01 Týr - The Beginning.mp3
+832:Týr/Ragnarok/16 Týr - The End.mp3
+833:Týr/Ragnarok/03 Týr - Envy.mp3
+834:Týr/Ragnarok/15 Týr - Ragnarok.mp3
+835:Týr/Ragnarok/10 Týr - The Rage Of The Skullgaffer.mp3
+836:Týr/Ragnarok/13 Týr - Lord of Lies.mp3
+837:Fit For An Autopsy/The Depression Sessions/03 Fit For An Autopsy - Flatlining.mp3
+838:Fit For An Autopsy/The Depression Sessions/06 Fit For An Autopsy - The Perfect Drug.mp3
+839:Fit For An Autopsy/The Process of Human Extermination/03 Fit for an Autopsy - The Desecrator.mp3
+840:Fit For An Autopsy/The Process of Human Extermination/07 Fit for an Autopsy - The Locust.mp3
+841:Fit For An Autopsy/The Process of Human Extermination/06 Fit for an Autopsy - The Consumer.mp3
+842:Fit For An Autopsy/The Process of Human Extermination/02 Fit for an Autopsy - The Colonist.mp3
+843:Fit For An Autopsy/The Process of Human Extermination/10 Fit for an Autopsy - The Executioner.mp3
+844:Fit For An Autopsy/The Process of Human Extermination/09 Fit for an Autopsy - The Jackal.mp3
+845:Fit For An Autopsy/The Process of Human Extermination/08 Fit for an Autopsy - The False Prophet.mp3
+846:Fit For An Autopsy/The Process of Human Extermination/04 Fit for an Autopsy - The Juggernaut.mp3
+847:Fit For An Autopsy/The Process of Human Extermination/05 Fit for an Autopsy - The Wolf.mp3
+848:Fit For An Autopsy/The Process of Human Extermination/01 Fit for an Autopsy - The Conquerer.mp3
+849:Fit For An Autopsy/Hellbound/06 Fit for an Autopsy - Dead In The Dirt.mp3
+850:Fit For An Autopsy/Hellbound/05 Fit for an Autopsy - Tremors.mp3
+851:Fit For An Autopsy/Hellbound/02 Fit for an Autopsy - Still We Destroy.mp3
+852:Fit For An Autopsy/Hellbound/04 Fit for an Autopsy - Do You See Him.mp3
+853:Fit For An Autopsy/Hellbound/07 Fit for an Autopsy - There Is Nothing Here Worth Keeping.mp3
+854:Fit For An Autopsy/Hellbound/09 Fit for an Autopsy - Children Of The Corn Syrup.mp3
+855:Fit For An Autopsy/Hellbound/03 Fit for an Autopsy - Thank You Budd Dwyer.mp3
+856:Fit For An Autopsy/Hellbound/10 Fit for an Autopsy - The Travelers.mp3
+857:Fit For An Autopsy/Hellbound/01 Fit for an Autopsy - The Great Gift Of The World.mp3
+858:Fit For An Autopsy/Hellbound/08 Fit for an Autopsy - Mother Of The Year.mp3
+859:Fit For An Autopsy/The Great Collapse/Fit For An Autopsy - The Great Collapse (2017)/07. Too Late.mp3
+860:Fit For An Autopsy/The Great Collapse/Fit For An Autopsy - The Great Collapse (2017)/05. Iron Moon.mp3
+861:Fit For An Autopsy/The Great Collapse/Fit For An Autopsy - The Great Collapse (2017)/03. Black Mammoth.mp3
+862:Fit For An Autopsy/The Great Collapse/Fit For An Autopsy - The Great Collapse (2017)/09. Spiral.mp3
+863:Fit For An Autopsy/The Great Collapse/Fit For An Autopsy - The Great Collapse (2017)/06. When the Bulbs Burn Out.mp3
+864:Fit For An Autopsy/The Great Collapse/Fit For An Autopsy - The Great Collapse (2017)/04. Terraform.mp3
+865:Fit For An Autopsy/The Great Collapse/Fit For An Autopsy - The Great Collapse (2017)/02. Heads Will Hang.mp3
+866:Fit For An Autopsy/The Great Collapse/Fit For An Autopsy - The Great Collapse (2017)/08. Empty Still.mp3
+867:Fit For An Autopsy/The Great Collapse/Fit For An Autopsy - The Great Collapse (2017)/01. Hydra.mp3
+868:The Acacia Strain/The Depression Sessions/05 The Acacia Strain - Black Hole Sun.mp3
+869:The Acacia Strain/The Depression Sessions/02 The Acacia Strain - Sensory Deprivation.mp3
+870:The Acacia Strain/Coma Witch/09 The Acacia Strain - Whale Shark.mp3
+871:The Acacia Strain/Coma Witch/03 The Acacia Strain - Send Help.mp3
+872:The Acacia Strain/Coma Witch/04 The Acacia Strain - Holy Walls of the Vatican.mp3
+873:The Acacia Strain/Coma Witch/10 The Acacia Strain - Delusionalisphere.mp3
+874:The Acacia Strain/Coma Witch/11 The Acacia Strain - Observer.mp3
+875:The Acacia Strain/Coma Witch/02 The Acacia Strain - Cauterizer.mp3
+876:The Acacia Strain/Coma Witch/07 The Acacia Strain - Graveyard Shift.mp3
+877:The Acacia Strain/Coma Witch/05 The Acacia Strain - VVorld Demise.mp3
+878:The Acacia Strain/Coma Witch/08 The Acacia Strain - Bridgepainter.mp3
+879:The Acacia Strain/Coma Witch/01 The Acacia Strain - Human Disaster.mp3
+880:The Acacia Strain/Coma Witch/06 The Acacia Strain - Nailgun.mp3
+881:The Acacia Strain/Death Is The Only Mortal/09 The Acacia Strain - The Chambered Nautilus.mp3
+882:The Acacia Strain/Death Is The Only Mortal/03 The Acacia Strain - Go To Sleep.mp3
+883:The Acacia Strain/Death Is The Only Mortal/10 The Acacia Strain - House of Abandon.mp3
+884:The Acacia Strain/Death Is The Only Mortal/07 The Acacia Strain - Victims of the Cave.mp3
+885:The Acacia Strain/Death Is The Only Mortal/02 The Acacia Strain - Our Lady of Perpetual Sorrow.mp3
+886:The Acacia Strain/Death Is The Only Mortal/05 The Acacia Strain - The Mouth of the River.mp3
+887:The Acacia Strain/Death Is The Only Mortal/04 The Acacia Strain - Brain Death.mp3
+888:The Acacia Strain/Death Is The Only Mortal/06 The Acacia Strain - Dust and the Helix.mp3
+889:The Acacia Strain/Death Is The Only Mortal/01 The Acacia Strain - Doomblade.mp3
+890:The Acacia Strain/Death Is The Only Mortal/08 The Acacia Strain - Time and Death and God.mp3
+891:The Acacia Strain/AboveBelow/02 The Acacia Strain - Below.mp3
+892:The Acacia Strain/AboveBelow/01 The Acacia Strain - Above.mp3
+893:Deicide/Overtures Of Blasphemy/06 Deicide - Excommunicated.mp3
+894:Deicide/Overtures Of Blasphemy/10 Deicide - Consumed By Hatred.mp3
+895:Deicide/Overtures Of Blasphemy/02 Deicide - Crawled From The Shadows.mp3
+896:Deicide/Overtures Of Blasphemy/09 Deicide - Defying The Sacred.mp3
+897:Deicide/Overtures Of Blasphemy/12 Deicide - Destined To Blasphemy.mp3
+898:Deicide/Overtures Of Blasphemy/03 Deicide - Seal The Tomb Below.mp3
+899:Deicide/Overtures Of Blasphemy/01 Deicide - One With Satan.mp3
+900:Deicide/Overtures Of Blasphemy/11 Deicide - Flesh, Power, Dominion.mp3
+901:Deicide/Overtures Of Blasphemy/05 Deicide - All That Is Evil.mp3
+902:Deicide/Overtures Of Blasphemy/04 Deicide - Compliments Of Christ.mp3
+903:Deicide/Overtures Of Blasphemy/08 Deicide - Crucified Soul Of Salvation.mp3
+904:Deicide/Overtures Of Blasphemy/07 Deicide - Anointed In Blood.mp3
+905:Deicide/In the Minds of Evil/01 Deicide - In the Minds of Evil.mp3
+906:Deicide/In the Minds of Evil/08 Deicide - Trample the Cross.mp3
+907:Deicide/In the Minds of Evil/04 Deicide - Beyond Salvation.mp3
+908:Deicide/In the Minds of Evil/02 Deicide - Thou Begone.mp3
+909:Deicide/In the Minds of Evil/05 Deicide - Misery of One.mp3
+910:Deicide/In the Minds of Evil/09 Deicide - Banished by Evil.mp3
+911:Deicide/In the Minds of Evil/07 Deicide - Even the Gods Can Bleed.mp3
+912:Deicide/In the Minds of Evil/03 Deicide - Godkill.mp3
+913:Deicide/In the Minds of Evil/10 Deicide - Kill the Light of Christ.mp3
+914:Deicide/In the Minds of Evil/06 Deicide - Between the Flesh and the Void.mp3
+915:Deicide/Scars Of The Crucifix/05 Deicide - When Heaven Burns.mp3
+916:Deicide/Scars Of The Crucifix/03 Deicide - Conquered By Sodom.mp3
+917:Deicide/Scars Of The Crucifix/02 Deicide - Mad At God.mp3
+918:Deicide/Scars Of The Crucifix/09 Deicide - The Pentecostal.mp3
+919:Deicide/Scars Of The Crucifix/07 Deicide - From Darkness Come.mp3
+920:Deicide/Scars Of The Crucifix/06 Deicide - Enchanted Nightmare.mp3
+921:Deicide/Scars Of The Crucifix/04 Deicide -  Your God.mp3
+922:Deicide/Scars Of The Crucifix/08 Deicide - Go Now Your Lord Is Dead.mp3
+923:Amon Amarth/Where Silent Gods Stand Guard.mp3
+924:Amon Amarth/Shape Shifter.mp3
+925:Amon Amarth/Coming of the Tide.mp3
+926:Amon Amarth/The Pursuit Of Vikings.mp3
+927:Amon Amarth/Arrival Of The Fimble Winter.mp3
+928:Amon Amarth/Risen From The Sea.mp3
+929:Amon Amarth/A Beast Am I.mp3
+930:Amon Amarth/Embrace Of The Endless Ocean.mp3
+931:Amon Amarth/For Victory or Death.mp3
+932:Amon Amarth/Risen From The Sea (2000).mp3
+933:Amon Amarth/The Sound Of Eight Hooves.mp3
+934:Amon Amarth/Releasing Surtur's Fire.mp3
+935:Amon Amarth/An Ancient Sign Of Coming Storm.mp3
+936:Amon Amarth/A Dream That Cannot Be.mp3
+937:Amon Amarth/Shield Wall.mp3
+938:Amon Amarth/Fate Of Norns.mp3
+939:Amon Amarth/Valkyria.mp3
+940:Amon Amarth/One Thousand Burning Arrows.mp3
+941:Amon Amarth/As Long As The Raven Flies.mp3
+942:Amon Amarth/Blood Eagle.mp3
+943:Amon Amarth/Into the Dark.mp3
+944:Amon Amarth/Burning Creation.mp3
+945:Amon Amarth/Aerials (Bonus Track).mp3
+946:Amon Amarth/Slaves of Fear.mp3
+947:Amon Amarth/Vs. The World.mp3
+948:Amon Amarth/No Fear For The Setting Sun.mp3
+949:Amon Amarth/Annihilation Of Hammerfest.mp3
+950:Amon Amarth/A Fury Divine.mp3
+951:Amon Amarth/Father of the Wolf.mp3
+952:Amon Amarth/Varyags Of Miklagaard.mp3
+953:Amon Amarth/Atrocious Humanity.mp3
+954:Amon Amarth/Free Will Sacrifice.mp3
+955:Amon Amarth/Prediction Of Warfare.mp3
+956:Amon Amarth/Under The Northern Star.mp3
+957:Amon Amarth/The Last Stand of Frej.mp3
+958:Amon Amarth/For The Stabwounds In Our Back.mp3
+959:Amon Amarth/The Hero.mp3
+960:Amon Amarth/Wrath of the Norsemen.mp3
+961:Amon Amarth/Live For The Kill.mp3
+962:Amon Amarth/Under Siege.mp3
+963:Amon Amarth/War of the Gods.mp3
+964:Amon Amarth/…And The World Will Cease To Be.mp3
+965:Amon Amarth/Gods Of War Arise.mp3
+966:Amon Amarth/Fafner's Gold.mp3
+967:Amon Amarth/Hermod's Ride To Hel - Lokes Treachery Part 1.mp3
+968:Amon Amarth/Siegreicher Marsch (Victorious March).mp3
+969:Amon Amarth/Raven's Flight.mp3
+970:Amon Amarth/The Way of Vikings.mp3
+971:Amon Amarth/Fall Through Ginnungagap.mp3
+972:Amon Amarth/Army Of Darkness.mp3
+973:Amon Amarth/Where Death Seems To Dwell.mp3
+974:Amon Amarth/Hel.mp3
+975:Amon Amarth/Vengeance Is My Name.mp3
+976:Amon Amarth/Bloodshed.mp3
+977:Amon Amarth/First Kill.mp3
+978:Amon Amarth/Doom Over Dead Man.mp3
+979:Amon Amarth/Ironside.mp3
+980:Amon Amarth/Under The Grey Clouded Winter Sky.mp3
+981:Amon Amarth/The Beheading Of A King.mp3
+982:Amon Amarth/One Against All.mp3
+983:Amon Amarth/Wings of Eagles.mp3
+984:Amon Amarth/Tattered Banners And Bloody Flags.mp3
+985:Amon Amarth/Valhall Awaits Me.mp3
+986:Amon Amarth/Sabbath Bloody Sabbath.mp3
+987:Amon Amarth/At Dawn's First Light.mp3
+988:Amon Amarth/Runes To My Memory.mp3
+989:Amon Amarth/Crack the Sky.mp3
+990:Amon Amarth/Across The Rainbow Bridge.mp3
+991:Amon Amarth/The Arrival Of The Fimble Winter.mp3
+992:Amon Amarth/Valkyries Ride.mp3
+993:Amon Amarth/Warriors of the North.mp3
+994:Amon Amarth/Töck's Taunt - Loke's Treachery Part II.mp3
+995:Amon Amarth/Twilight Of The Thunder God.mp3
+996:Amon Amarth/Sorrow Throughout The Nine Worlds.mp3
+997:Amon Amarth/With Oden On Our Side.mp3
+998:Amon Amarth/Skoll and Hati.mp3
+999:Amon Amarth/Mjolner, Hammer of Thor.mp3
+1000:Amon Amarth/We Shall Destroy.mp3
+1001:Amon Amarth/Deceiver of the Gods.mp3
+1002:Amon Amarth/Death In Fire.mp3
+1003:Amon Amarth/Cry Of The Black Birds.mp3
+1004:Amon Amarth/Once Sealed In Blood.mp3
+1005:Amon Amarth/Destroyer of the Universe.mp3
+1006:Amon Amarth/Where Is Your God.mp3
+1007:Amon Amarth/Live Without Regrets.mp3
+1008:Amon Amarth/Thousand Years Of Oppression.mp3
+1009:Amon Amarth/Thor Arise.mp3
+1010:Amon Amarth/Down The Slopes Of Death.mp3
+1011:Amon Amarth/Burning Creation (Demo Version) - demo.mp3
+1012:Amon Amarth/Guardians Of Asgaard.mp3
+1013:Amon Amarth/The Berserker at Stamford Bridge.mp3
+1014:Amon Amarth/As Loke Falls.mp3
+1015:Amon Amarth/Wanderer.mp3
+1016:Amon Amarth/Raise Your Horns.mp3
+1017:Amon Amarth/The Mighty Doors Of The Speargod's Hall.mp3
+1018:Amon Amarth/When Once Again We Can Set Our Sails.mp3
+1019:Amon Amarth/Without Fear.mp3
+1020:Amon Amarth/Eyes Of Horror.mp3
+1021:Amon Amarth/Arson.mp3
+1022:Amon Amarth/On a Sea of Blood.mp3
+1023:Amon Amarth/Asator.mp3
+1024:Amon Amarth/Back on Northern Shores.mp3
+1025:Amon Amarth/Bastards Of A Lying Breed.mp3
+1026:Sabaton/The Last Stand/Last Dying Breath.mp3
+1027:Sabaton/The Last Stand/Diary of an Unknown Soldier.mp3
+1028:Sabaton/The Last Stand/The Last Stand.mp3
+1029:Sabaton/The Last Stand/Hill 3234.mp3
+1030:Sabaton/The Last Stand/Winged Hussars.mp3
+1031:Sabaton/The Last Stand/Sparta.mp3
+1032:Sabaton/The Last Stand/Shiroyama.mp3
+1033:Sabaton/The Last Stand/Blood of Bannockburn.mp3
+1034:Sabaton/The Last Stand/Rorke's Drift.mp3
+1035:Sabaton/The Last Stand/All Guns Blazing (Bonus).mp3
+1036:Sabaton/The Last Stand/Camouflage (Bonus).mp3
+1037:Sabaton/The Last Stand/The Last Battle.mp3
+1038:Sabaton/The Last Stand/The Lost Battalion.mp3
+1039:Sabaton/Heroes/To Hell And Back.mp3
+1040:Sabaton/Heroes/Inmate 4859.mp3
+1041:Sabaton/Heroes/The Ballad Of Bull.mp3
+1042:Sabaton/Heroes/No Bullets Fly.mp3
+1043:Sabaton/Heroes/Soldier Of 3 Armies.mp3
+1044:Sabaton/Heroes/Smoking Snakes.mp3
+1045:Sabaton/Heroes/Night Witches.mp3
+1046:Sabaton/Heroes/Hearts Of Iron.mp3
+1047:Sabaton/Heroes/Far From The Fame.mp3
+1048:Sabaton/Heroes/Resist And Bite.mp3
+1049:Sabaton/The Great War History Version/02 Sabaton - Seven Pillars of Wisdom History Version.mp3
+1050:Sabaton/The Great War History Version/11 Sabaton - In Flanders Fields History Version.mp3
+1051:Sabaton/The Great War History Version/09 Sabaton - Fields of Verdun History Version.mp3
+1052:Sabaton/The Great War History Version/05 Sabaton - Devil Dogs History Version.mp3
+1053:Sabaton/The Great War History Version/07 Sabaton - Great War History Version.mp3
+1054:Sabaton/The Great War History Version/03 Sabaton - 82nd All the Way History Version.mp3
+1055:Sabaton/The Great War History Version/01 Sabaton - The Future of Warfare History Version.mp3
+1056:Sabaton/The Great War History Version/06 Sabaton - The Red Baron History Version.mp3
+1057:Sabaton/The Great War History Version/04 Sabaton - The Attack of the Dead Men History Version.mp3
+1058:Sabaton/The Great War History Version/10 Sabaton - The End of the War to End All Wars History Version.mp3
+1059:Sabaton/The Great War History Version/08 Sabaton - A Ghost in the Trenches History Version.mp3
+1060:Kreator/Gods of Violence/03 Kreator - Satan Is Real.mp3
+1061:Kreator/Gods of Violence/01 Kreator - Apocalypticon.mp3
+1062:Kreator/Gods of Violence/07 Kreator - Hail to the Hordes.mp3
+1063:Kreator/Gods of Violence/09 Kreator - Fallen Brother.mp3
+1064:Kreator/Gods of Violence/04 Kreator - Totalitarian Terror.mp3
+1065:Kreator/Gods of Violence/02 Kreator - World War Now.mp3
+1066:Kreator/Gods of Violence/06 Kreator - Army Of Storms.mp3
+1067:Kreator/Gods of Violence/10 Kreator - Side By Side.mp3
+1068:Kreator/Gods of Violence/05 Kreator - Gods Of Violence.mp3
+1069:Kreator/Gods of Violence/11 Kreator - Death Becomes My Light.mp3
+1070:Kreator/Gods of Violence/08 Kreator - Lion With Eagle Wings.mp3
+1071:Dragonforce/Killer Elite/21 Dragonforce - Starfire - Live.mp3
+1072:Dragonforce/Killer Elite/05 Dragonforce - Black Fire - Remastered 2009.mp3
+1073:Dragonforce/Killer Elite/07 Dragonforce - Fields Of Despair - Live.mp3
+1074:Dragonforce/Killer Elite/12 Dragonforce - Soldiers Of The Wastelands.mp3
+1075:Dragonforce/Killer Elite/18 Dragonforce - Three Hammers - Live.mp3
+1076:Dragonforce/Killer Elite/13 Dragonforce - Valley Of The Damned - Remastered 2009.mp3
+1077:Dragonforce/Killer Elite/22 Dragonforce - Heart Of A Dragon - Remastered 2009.mp3
+1078:Tech N9ne/N9NA/03 Tech N9ne - N9NA.mp3
+1079:Tech N9ne/N9NA/16 Tech N9ne - H.O.B..mp3
+1080:Tech N9ne/N9NA/06 Tech N9ne - Green Lit.mp3
+1081:Tech N9ne/N9NA/01 Tech N9ne - Le Horde Intro.mp3
+1082:Tech N9ne/N9NA/14 Tech N9ne - She Fell.mp3
+1083:Tech N9ne/N9NA/02 Tech N9ne - Lord of Weird.mp3
+1084:Tech N9ne/N9NA/07 Tech N9ne - Chuki Fever.mp3
+1085:Tech N9ne/N9NA/12 Tech N9ne - Rata.mp3
+1086:Tech N9ne/N9NA/10 Tech N9ne - You Line!.mp3
+1087:Tech N9ne/N9NA/18 Tech N9ne - Active.mp3
+1088:Tech N9ne/N9NA/09 Tech N9ne - Don't Let Me Fall.mp3
+1089:Tech N9ne/N9NA/11 Tech N9ne - EDI's.mp3
+1090:Tech N9ne/N9NA/08 Tech N9ne - F'n Do It.mp3
+1091:Tech N9ne/N9NA/17 Tech N9ne - Ion Memba.mp3
+1092:Tech N9ne/N9NA/05 Tech N9ne - Like I Ain't.mp3
+1093:Tech N9ne/N9NA/04 Tech N9ne - Hit the Ground Running.mp3
+1094:Tech N9ne/N9NA/13 Tech N9ne - F.T.I. 2.0.mp3
+1095:Tech N9ne/N9NA/15 Tech N9ne - Sink.mp3
+1096:Rivers Of Nihil/Where Owls Know My Name/06 Rivers Of Nihil - Terrestria III Wither.mp3
+1097:Rivers Of Nihil/Where Owls Know My Name/04 Rivers Of Nihil - Old Nothing.mp3
+1098:Rivers Of Nihil/Where Owls Know My Name/02 Rivers Of Nihil - The Silent Life.mp3
+1099:Rivers Of Nihil/Where Owls Know My Name/09 Rivers Of Nihil - Where Owls Know My Name.mp3
+1100:Rivers Of Nihil/Where Owls Know My Name/05 Rivers Of Nihil - Subtle Change Including the Forest of Transition and Dissatisfaction Dance.mp3
+1101:Rivers Of Nihil/Where Owls Know My Name/03 Rivers Of Nihil - A Home.mp3
+1102:Rivers Of Nihil/Where Owls Know My Name/08 Rivers Of Nihil - Death is Real.mp3
+1103:Rivers Of Nihil/Where Owls Know My Name/10 Rivers Of Nihil - Capricorn   Agoratopia.mp3
+1104:Rivers Of Nihil/Where Owls Know My Name/01 Rivers Of Nihil - Cancer   Moonspeak.mp3
+1105:Rivers Of Nihil/Where Owls Know My Name/07 Rivers Of Nihil - Hollow.mp3
+1106:Lost Forever    Lost Together/11 Architects - The Distant Blue.mp3
+1107:Lost Forever    Lost Together/06 Architects - Red Hypergiant.mp3
+1108:Lost Forever    Lost Together/07 Architects - C.A.N.C.E.R.mp3
+1109:Lost Forever    Lost Together/04 Architects - The Devil Is Near.mp3
+1110:Lost Forever    Lost Together/03 Architects - Broken Cross.mp3
+1111:Lost Forever    Lost Together/01 Architects - Gravedigger.mp3
+1112:Lost Forever    Lost Together/09 Architects - Castles In The Air.mp3
+1113:Lost Forever    Lost Together/05 Architects - Dead Man Talking.mp3
+1114:Lost Forever    Lost Together/02 Architects - Naysayer.mp3
+1115:Lost Forever    Lost Together/10 Architects - Youth Is Wasted On The Young.mp3
+1116:Lost Forever    Lost Together/08 Architects - Colony Collapse.mp3
+1117:Parkway Drive/Atlas/Dark Days.mp3
+1118:Parkway Drive/Atlas/Blue and the Grey.mp3
+1119:Parkway Drive/Atlas/Old Ghost   New Regrets.mp3
+1120:Parkway Drive/Atlas/Atlas.mp3
+1121:Parkway Drive/Atlas/Sparks.mp3
+1122:Parkway Drive/Atlas/Snake Oil and Holy Water.mp3
+1123:Parkway Drive/Atlas/The River.mp3
+1124:Parkway Drive/Atlas/Sleight of Hand.mp3
+1125:Parkway Drive/Atlas/Dream Run.mp3
+1126:Parkway Drive/Atlas/The Slow Surrender.mp3
+1127:Parkway Drive/Atlas/Wild Eyes.mp3
+1128:Parkway Drive/Atlas/Swing.mp3
+1129:Parkway Drive/Ire/Destroyer.mp3
+1130:Parkway Drive/Ire/Writings on the Wall.mp3
+1131:Parkway Drive/Ire/Into the Dark.mp3
+1132:Parkway Drive/Ire/Vicious.mp3
+1133:Parkway Drive/Ire/Dedicated.mp3
+1134:Parkway Drive/Ire/Devil's Calling.mp3
+1135:Parkway Drive/Ire/Vice Grip.mp3
+1136:Parkway Drive/Ire/Crushed.mp3
+1137:Parkway Drive/Ire/Bottom Feeder.mp3
+1138:Parkway Drive/Ire/The Sound of Violence.mp3
+1139:Parkway Drive/Ire/Fractures.mp3
+1140:Parkway Drive/Ire/Dying To Believe.mp3
+1141:Parkway Drive/Ire/A Deathless Song.mp3
+1142:Parkway Drive/Ire/A Deathless Song (2).mp3
+1143:Rings Of Saturn/Lugal Ki En/Eviscerate.mp3
+1144:Rings Of Saturn/Lugal Ki En/Senseless Massacre.mp3
+1145:Rings Of Saturn/Lugal Ki En/The Heavens Have Fallen.mp3
+1146:Rings Of Saturn/Lugal Ki En/Unsympathetic Intellect.mp3
+1147:Rings Of Saturn/Lugal Ki En/No Pity For A Coward.mp3
+1148:Rings Of Saturn/Lugal Ki En/Godless Times.mp3
+1149:Rings Of Saturn/Lugal Ki En/Infused.mp3
+1150:Rings Of Saturn/Lugal Ki En/Beckon.mp3
+1151:Rings Of Saturn/Lugal Ki En/Natural Selection.mp3
+1152:Rings Of Saturn/Lugal Ki En/Desolate Paradise.mp3
+1153:Rings Of Saturn/Lugal Ki En/Fractal Intake.mp3
+1154:Rings Of Saturn/Lugal Ki En/Lalassu Xul.mp3
+1155:Rings Of Saturn/Ultu Ulla/Unhallowed.mp3
+1156:Rings Of Saturn/Ultu Ulla/Parallel Shift.mp3
+1157:Rings Of Saturn/Ultu Ulla/The Macrocosm.mp3
+1158:Rings Of Saturn/Ultu Ulla/The Relic.mp3
+1159:Rings Of Saturn/Ultu Ulla/Margidda.mp3
+1160:Rings Of Saturn/Ultu Ulla/Prognosis Confirmed.mp3
+1161:Rings Of Saturn/Ultu Ulla/Servant of This Sentience.mp3
+1162:Rings Of Saturn/Ultu Ulla/Harvest.mp3
+1163:Rings Of Saturn/Ultu Ulla/Immemorial Essence.mp3
+1164:Rings Of Saturn/Ultu Ulla/Inadequate.mp3
+1165:Holy Hell/01 Architects - Hereafter.mp3
+1166:Holy Hell/10 Architects - The Seventh Circle.mp3
+1167:Holy Hell/05 Architects - Mortal After All.mp3
+1168:Holy Hell/07 Architects - Damnation.mp3
+1169:Holy Hell/12 Architects - A Wasted Hymn.mp3
+1170:Holy Hell/09 Architects - Dying To Heal.mp3
+1171:Holy Hell/04 Architects - Death Is Not Defeat.mp3
+1172:Holy Hell/08 Architects - Modern Misery.mp3
+1173:Holy Hell/03 Architects - Modern Misery.mp3
+1174:Holy Hell/11 Architects - Doomsday.mp3
+1175:Holy Hell/02 Architects - Royal Beggars.mp3
+1176:Holy Hell/06 Architects - Holy Hell.mp3
+1177:Humanity's Last Breath/Abyssal Mouth/Abyssal Mouth.mp3
+1178:Humanity's Last Breath/Detestor/05. Detestor (Feat. Jessica Currys).mp3
+1179:Humanity's Last Breath/Detestor/02. Furvus.mp3
+1180:Humanity's Last Breath/Detestor/08. Harm (Instrumental).mp3
+1181:Humanity's Last Breath/Detestor/09. Beware (Instrumental).mp3
+1182:Humanity's Last Breath/Detestor/10. Detestor (Instrumental) [Feat. Jessica Currys].mp3
+1183:Humanity's Last Breath/Detestor/07. Furvus (Instrumental).mp3
+1184:Humanity's Last Breath/Detestor/06. Ocean Drinker (Instrumental).mp3
+1185:Humanity's Last Breath/Detestor/03. Harm.mp3
+1186:Humanity's Last Breath/Detestor/01. Ocean Drinker.mp3
+1187:Humanity's Last Breath/Detestor/04. Beware.mp3
+1188:Inferi/Revenant/01 Inferi - Within the Dead Horizon.mp3
+1189:Inferi/Revenant/07 Inferi - Malevolent Sanction.mp3
+1190:Inferi/Revenant/02 Inferi - Condemned Assailant.mp3
+1191:Inferi/Revenant/06 Inferi - Thy Menacing Gaze.mp3
+1192:Inferi/Revenant/03 Inferi - A Beckoning Thrall.mp3
+1193:Inferi/Revenant/05 Inferi - Enraged and Drowning Sullen.mp3
+1194:Inferi/Revenant/08 Inferi - Smolder in the Ash.mp3
+1195:Inferi/Revenant/04 Inferi - Through the Depths.mp3
+1196:Thy Art is Murder/Hate/01 Thy Art Is Murder - Reign Of Darkness.mp3
+1197:Thy Art is Murder/Hate/09 Thy Art Is Murder - Defective Breed.mp3
+1198:Thy Art is Murder/Hate/05 Thy Art Is Murder - Immolation.mp3
+1199:Thy Art is Murder/Hate/07 Thy Art Is Murder - Dead Sun.mp3
+1200:Thy Art is Murder/Hate/02 Thy Art Is Murder - The Purest Strain Of Hate.mp3
+1201:Thy Art is Murder/Hate/06 Thy Art Is Murder - Infinite Forms.mp3
+1202:Thy Art is Murder/Hate/04 Thy Art Is Murder - Shadow Of Eternal Sin.mp3
+1203:Thy Art is Murder/Hate/10 Thy Art Is Murder - Doomed From Birth.mp3
+1204:Thy Art is Murder/Hate/08 Thy Art Is Murder - Gates Of Misery.mp3
+1205:Thy Art is Murder/Hate/03 Thy Art Is Murder - Vile Creation.mp3
+1206:Thy Art is Murder/The Depression Sessions/01 Thy Art Is Murder - They Will Know Another.mp3
+1207:Thy Art is Murder/The Depression Sessions/04 Thy Art Is Murder - Du Hast.mp3
+1208:Thy Art is Murder/Holy War/02 Thy Art Is Murder - Light Bearer.mp3
+1209:Thy Art is Murder/Holy War/08 Thy Art Is Murder - Child Of Sorrow.mp3
+1210:Thy Art is Murder/Holy War/01 Thy Art Is Murder - Absolute Genocide.mp3
+1211:Thy Art is Murder/Holy War/07 Thy Art Is Murder - Violent Reckoning.mp3
+1212:Thy Art is Murder/Holy War/05 Thy Art Is Murder - Deliver Us To Evil.mp3
+1213:Thy Art is Murder/Holy War/03 Thy Art Is Murder - Coffin Dragger.mp3
+1214:Thy Art is Murder/Holy War/04 Thy Art Is Murder - Fur And Claw.mp3
+1215:Thy Art is Murder/Holy War/06 Thy Art Is Murder - Emptiness.mp3
+1216:Thy Art is Murder/Holy War/09 Thy Art Is Murder - Naked And Cold.mp3
+1217:Thy Art is Murder/Holy War/10 Thy Art Is Murder - Vengeance.mp3
+1218:Thy Art is Murder/Dear Desolation/01. Slaves Beyond Death.mp3
+1219:Thy Art is Murder/Dear Desolation/03. Puppet Master.mp3
+1220:Thy Art is Murder/Dear Desolation/05. Death Dealer.mp3
+1221:Thy Art is Murder/Dear Desolation/02. The Son Of Misery.mp3
+1222:Thy Art is Murder/Dear Desolation/10. The Final Curtain.mp3
+1223:Thy Art is Murder/Dear Desolation/09. Into Chaos We Climb.mp3
+1224:Thy Art is Murder/Dear Desolation/04. Dear Desolation.mp3
+1225:Thy Art is Murder/Dear Desolation/07. The Skin Of The Serpent.mp3
+1226:Thy Art is Murder/Dear Desolation/08. Fire In The Sky.mp3
+1227:Thy Art is Murder/Dear Desolation/06. Man Is The Enemy.mp3
+1228:Belzebubs/Blackened Call (Single) (2018)/01. Blackened Call.mp3
+1229:Belzebubs/Blackened Call (Single) (2018)/02. Maleficarum - The Veil of the Moon Queen Pt I.mp3
+1230:Unleash The Archers/Time Stands Still/06 Unleash The Archers - Crypt.mp3
+1231:Unleash The Archers/Time Stands Still/07 Unleash The Archers - No More Heroes.mp3
+1232:Unleash The Archers/Time Stands Still/10 Unleash The Archers - Time Stands Still.mp3
+1233:Unleash The Archers/Time Stands Still/09 Unleash The Archers - Going Down Fighting.mp3
+1234:Unleash The Archers/Time Stands Still/08 Unleash The Archers - Dreamcrusher.mp3
+1235:Unleash The Archers/Time Stands Still/04 Unleash The Archers - Tonight We Ride.mp3
+1236:Unleash The Archers/Time Stands Still/11 Unleash The Archers - Tonight We Ride (Video Edit).mp3
+1237:Unleash The Archers/Time Stands Still/05 Unleash The Archers - Test Your Metal.mp3
+1238:Unleash The Archers/Time Stands Still/03 Unleash The Archers - Hail of the Tide.mp3
+1239:Unleash The Archers/Time Stands Still/01 Unleash The Archers - Northern Passage.mp3
+1240:Unleash The Archers/Time Stands Still/02 Unleash The Archers - Frozen Steel.mp3
+1241:Unleash The Archers/Demons Of The AstroWaste/12 Unleash The Archers - Ripping Through Time.mp3
+1242:Unleash The Archers/Demons Of The AstroWaste/11 Unleash The Archers - Astral Annihilation.mp3
+1243:Unleash The Archers/Demons Of The AstroWaste/06 Unleash The Archers - Battle In The Shadow (Of The Mountain).mp3
+1244:Unleash The Archers/Demons Of The AstroWaste/07 Unleash The Archers - Despair.mp3
+1245:Unleash The Archers/Demons Of The AstroWaste/05 Unleash The Archers - Daughters Of Winterstone.mp3
+1246:Unleash The Archers/Demons Of The AstroWaste/04 Unleash The Archers - General Of The Dark Army.mp3
+1247:Unleash The Archers/Demons Of The AstroWaste/09 Unleash The Archers - City Of Iron.mp3
+1248:Unleash The Archers/Demons Of The AstroWaste/02 Unleash The Archers - Dawn Of Ages.mp3
+1249:Unleash The Archers/Demons Of The AstroWaste/01 Unleash The Archers - 000001.mp3
+1250:Unleash The Archers/Demons Of The AstroWaste/10 Unleash The Archers - The Fall Of The Galactic Guard.mp3
+1251:Unleash The Archers/Demons Of The AstroWaste/08 Unleash The Archers - The Outlander.mp3
+1252:Unleash The Archers/Demons Of The AstroWaste/03 Unleash The Archers - Realm Of Tomorrow.mp3
+1253:Unleash The Archers/Apex/02 Unleash The Archers - Shadow Guide.mp3
+1254:Unleash The Archers/Apex/03 Unleash The Archers - The Matriarch.mp3
+1255:Unleash The Archers/Apex/07 Unleash The Archers - Ten Thousand Against One.mp3
+1256:Unleash The Archers/Apex/06 Unleash The Archers - False Walls.mp3
+1257:Unleash The Archers/Apex/09 Unleash The Archers - Call Me Immortal.mp3
+1258:Unleash The Archers/Apex/10 Unleash The Archers - Apex.mp3
+1259:Unleash The Archers/Apex/01 Unleash The Archers - Awakening.mp3
+1260:Unleash The Archers/Apex/08 Unleash The Archers - Earth and Ashes.mp3
+1261:Unleash The Archers/Apex/05 Unleash The Archers - The Coward's Way.mp3
+1262:Unleash The Archers/Apex/04 Unleash The Archers - Cleanse the Bloodlines.mp3
+1263:Tengger Cavalry/北方记忆 卷贰/05 Tengger Cavalry - The Moment.mp3
+1264:Tengger Cavalry/北方记忆 卷贰/01 Tengger Cavalry - The Wanderer.mp3
+1265:Tengger Cavalry/北方记忆 卷贰/04 Tengger Cavalry - The Nameless.mp3
+1266:Tengger Cavalry/北方记忆 卷贰/02 Tengger Cavalry - The Unbeliever.mp3
+1267:Tengger Cavalry/北方记忆 卷贰/03 Tengger Cavalry - The Rescuer.mp3
+1268:Tengger Cavalry/北方记忆 卷壹/02 Tengger Cavalry - 联结.mp3
+1269:Tengger Cavalry/北方记忆 卷壹/04 Tengger Cavalry - 千锤百炼.mp3
+1270:Tengger Cavalry/北方记忆 卷壹/01 Tengger Cavalry - 天可汗.mp3
+1271:Tengger Cavalry/北方记忆 卷壹/03 Tengger Cavalry - 鲜卑式摇滚.mp3
+1272:Tengger Cavalry/北方记忆 卷壹/05 Tengger Cavalry - 祈苍穹.mp3
+1273:Dying Fetus/Reign Supreme/04 Dying Fetus - From Womb to Waste.mp3
+1274:Dying Fetus/Reign Supreme/03 Dying Fetus - Second Skin.mp3
+1275:Dying Fetus/Reign Supreme/09 Dying Fetus - The Blood of Power.mp3
+1276:Dying Fetus/Reign Supreme/08 Dying Fetus - Revisionist Past.mp3
+1277:Dying Fetus/Reign Supreme/05 Dying Fetus - Dissidence.mp3
+1278:Dying Fetus/Reign Supreme/01 Dying Fetus - Invert the Idols.mp3
+1279:Dying Fetus/Reign Supreme/Dying Fetus - In the Trenches.mp3
+1280:Dying Fetus/Reign Supreme/07 Dying Fetus - Devout Atrocity.mp3
+1281:Dying Fetus/Reign Supreme/02 Dying Fetus - Subjected to a Beating.mp3
+1282:Fallujah/The Flesh Prevails/04 Fallujah - The Flesh Prevails.mp3
+1283:Fallujah/The Flesh Prevails/08 Fallujah - Sapphire.mp3
+1284:Fallujah/The Flesh Prevails/07 Fallujah - Allure.mp3
+1285:Fallujah/The Flesh Prevails/01 Fallujah - Starlit Path.mp3
+1286:Fallujah/The Flesh Prevails/06 Fallujah - Alone with You.mp3
+1287:Fallujah/The Flesh Prevails/Fallujah - Levitation.mp3
+1288:Fallujah/The Flesh Prevails/03 Fallujah - The Night Reveals.mp3
+1289:Fallujah/The Flesh Prevails/02 Fallujah - Carved from Stone.mp3
+1290:Fallujah/The Flesh Prevails/09 Fallujah - Chemical Cave.mp3
+1291:Fallujah/Dreamless/10 Fallujah - Wind For Wings.mp3
+1292:Fallujah/Dreamless/07 Fallujah - The Prodigal Son.mp3
+1293:Fallujah/Dreamless/05 Fallujah - Scar Queen.mp3
+1294:Fallujah/Dreamless/04 Fallujah - Abandon.mp3
+1295:Fallujah/Dreamless/06 Fallujah - Dreamless.mp3
+1296:Fallujah/Dreamless/09 Fallujah - Fidelio.mp3
+1297:Fallujah/Dreamless/11 Fallujah - Les Silences.mp3
+1298:Fallujah/Dreamless/03 Fallujah - The Void Alone.mp3
+1299:Fallujah/Dreamless/02 Fallujah - Adrenaline.mp3
+1300:Fallujah/Dreamless/01 Fallujah - Face Of Death.mp3
+1301:Fallujah/Dreamless/08 Fallujah - Amber Gaze.mp3
+1302:Fallujah/Dreamless/12 Fallujah - Lacuna.mp3
+1303:Meshuggah/The Violent Sleep of Reason/09 Meshuggah - Our Rage Won't Die.mp3
+1304:Meshuggah/The Violent Sleep of Reason/04 Meshuggah - By the Ton.mp3
+1305:Meshuggah/The Violent Sleep of Reason/06 Meshuggah - Ivory Tower.mp3
+1306:Meshuggah/The Violent Sleep of Reason/01 Meshuggah - Clockworks.mp3
+1307:Meshuggah/The Violent Sleep of Reason/08 Meshuggah - Nostrum.mp3
+1308:Meshuggah/The Violent Sleep of Reason/05 Meshuggah - Violent Sleep of Reason.mp3
+1309:Meshuggah/The Violent Sleep of Reason/03 Meshuggah - Monstrocity.mp3
+1310:Meshuggah/The Violent Sleep of Reason/07 Meshuggah - Stifled.mp3
+1311:Meshuggah/The Violent Sleep of Reason/10 Meshuggah - Into Decay.mp3
+1312:Meshuggah/The Violent Sleep of Reason/02 Meshuggah - Born in Dissonance.mp3
+1313:Once Human/Evolution/Eye of Chaos.mp3
+1314:Once Human/Evolution/Paragon.mp3
+1315:Once Human/Evolution/Flock of Flesh.mp3
+1316:Once Human/Evolution/Passenger.mp3
+1317:Once Human/Evolution/Drain.mp3
+1318:Once Human/Evolution/Killers for the Cure.mp3
+1319:Once Human/Evolution/Gravity.mp3
+1320:Once Human/Evolution/Dark Matter.mp3
+1321:Once Human/Evolution/Mass Murder Frenzy.mp3
+playlist_end
