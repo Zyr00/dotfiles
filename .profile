@@ -3,9 +3,13 @@
 # Runs on login
 #
 
+export PATH="$PATH:$HOME/.scripts"
 export EDITOR="vim"
 export READER="zathura"
 export BROWSER="firefox"
+export TERMINAL="st"
+
+export NNN_USE_EDITOR=1
 
 echo "$0" | grep "bash$" >/dev/null && [ -f ~/.bashrc ] && source "$HOME/.bashrc"
 
