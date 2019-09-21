@@ -19,11 +19,11 @@
 # Each block command defaults to the script name to avoid boilerplate.
 command=~/.config/i3blocks/scripts/$BLOCK_NAME
 separator_block_width=15
-markup=none
+markup=pango
 
 full_text=
 align=center
-color=#586e77
+color=#98acb3
 separator=false
 separator_block_width=6
 
@@ -33,7 +33,7 @@ separator_block_width=6
 # The second parameter overrides the mixer selection
 # See the script for details.
 [volume]
-label= 
+label=<span> </span>
 instance=Master
 #instance=PCM
 interval=once
@@ -45,12 +45,12 @@ signal=10
 #
 # The type defaults to "mem" if the instance is not specified.
 [memory]
-label= 
+label=<span> </span>
 separator=false
 interval=30
 
 [memory]
-label= 
+label=<span> </span>
 instance=swap
 separator=false
 interval=30
@@ -63,7 +63,7 @@ interval=30
 # The script may be called with a optional argument to set the alert
 # (defaults to 10 for 10%).
 [disk]
-label= 
+label=<span> </span>
 #instance=/mnt/data
 interval=30
 
@@ -86,7 +86,7 @@ separator=false
 # The script may be called with -w and -c switches to specify thresholds,
 # see the script for details.
 [cpu_usage]
-label= 
+label=<span> </span>
 interval=10
 min_width= 100.00%
 #separator=false
@@ -97,7 +97,7 @@ min_width= 100.00%
 # # The script may be called with -w and -c switches to specify thresholds,
 # # see the script for details.
 [temperature]
-label=  
+label=<span> </span>
 interval=10
 
 
@@ -107,7 +107,7 @@ interval=10
 #
 # The battery instance defaults to 0.
 [battery]
-label= 
+label=<span> </span>
 #instance=1
 interval=30
 
