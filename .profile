@@ -3,7 +3,7 @@
 # Runs on login
 #
 
-export PATH="$PATH:$HOME/.scripts"
+export PATH="$PATH:$HOME/.local/scripts"
 export EDITOR="vim"
 export READER="zathura"
 export BROWSER="firefox"
