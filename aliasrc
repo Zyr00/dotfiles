@@ -1,0 +1,12 @@
+#!/bin/sh
+
+alias ls="ls -hN --color=auto --group-directories-first" \
+      ll='ls -lh' \
+      la='ls -lah' \
+      grep="grep --color=auto" \
+      diff="diff --color=auto" \
+      f="$FILE" \
+      m="$PLAYER" \
+      e="$EMAIl" \
+      v="$EDITOR"
+
