@@ -1,0 +1,4 @@
+#!/bin/sh
+# If already running end and start new instance.
+pkill -f "entr compiler" && exit
+echo "$1" | entr compiler "$1"
