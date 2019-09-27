@@ -1,11 +1,13 @@
 # My dotfiles
 
----
+### Dependencies
+- i3, i3block, i3lock-colors
+- feh
+- compton
+- mpd, mpc, mpv, ncmpcpp
+- dunst
+- redshift
+- zsh
+- nnn
+- acpi, mpstat
 
-This are all my dotfiles for
-
-- i3, i3blocks;
-- Bashrc, profile;
-- Vim;
-- ~Urxvt~ custom st build;
-- Xorg init

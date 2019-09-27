@@ -9,7 +9,7 @@ HISTFILE=~/.cache/zsh/history
 
 # Basic auto/tab complete:
 autoload -U compinit
-zstyle ':completion:*' menu select
+zstyle ':completion:*' matcher-list '' 'm:{a-zA-Z}={A-Za-z}'
 zmodload zsh/complist
 compinit
 _comp_options+=(globdots)   # Include hidden files.
@@ -33,3 +33,11 @@ bindkey '^e' edit-command-line
 [ -f "$HOME/.config/shortcutrc" ] && source "$HOME/.config/shortcutrc"
 [ -f "$HOME/.config/aliasrc" ] && source "$HOME/.config/aliasrc"
 
+n () {
+  NNN_TMPFILE=${XGD_CONFIG_HOME:-$HOME/.config}/nnn/.lastd
+  nnn "$@"
+  if [ -f $NNN_TMPFILE ]; then
+    . $NNN_TMPFILE
+    rm -f $NNN_TMPFILE > /dev/null
+  fi
+}
