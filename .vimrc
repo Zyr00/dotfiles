@@ -177,7 +177,6 @@ Plugin 'prettier/vim-prettier'
 
 " Autocomplete
 Plugin 'Valloric/YouCompleteMe'
-Plugin 'rdnetto/YCM-Generator'
 Plugin 'Raimondi/delimitMate'
 Plugin 'mattn/emmet-vim'
 
