@@ -5,9 +5,7 @@
 " don't make vim compatible with vi
 set nocompatible
 
-" turn on syntax highlighting
 syntax on
-" and show line numbers
 set nu rnu
 
 " make vim try to detect file types and load plugins for them
@@ -18,25 +16,20 @@ filetype indent on
 " reload files changed outside vim
 set autoread
 
-" encoding is utf 8
+" encoding
 set encoding=utf-8
 set fileencoding=utf-8
 
-" enable matchit plugin which ships with vim and greatly enhances '%'
 runtime macros/matchit.vim
 
-" by default, in insert mode backspace won't delete over line breaks, or
-" automatically-inserted indentation, let's change that
+" delete over line breaks
 set backspace=indent,eol,start
 
-" dont't unload buffers when they are abandoned, instead stay in the
-" background
+" dont't unload buffers when they are abandoned, instead stay in the background
 set hidden
 
 " set unix line endings
 set fileformat=unix
-" when reading files try unix line endings then dos, also use unix for new
-" buffers
 set fileformats=unix,dos
 
 " save up to 100 marks, enable capital marks
@@ -90,7 +83,7 @@ nnoremap <esc><esc> :noh<return><esc>
 set wildmode=longest,list,full
 
 " keep the cursor visible within 3 lines when scrolling
-set scrolloff=3
+set scrolloff=4
 
 " indentation
 set expandtab       " use spaces instead of tabs
@@ -132,9 +125,6 @@ vnoremap <leader><leader> <Esc>/<++><Enter>"_c4l
 map <leader><leader> <Esc>/<++><Enter>"_c4l"
 
 " --------------------- LaTeX CONFIGURATION ----------------------
-" Word count:
-autocmd FileType tex map <leader>w :w !detex \| wc -w<CR>
-
 " Code snippets
 autocmd FileType tex inoremap ,fr \begin{frame}<Enter>\frametitle{}<Enter><Enter><++><Enter><Enter>\end{frame}<Enter><Enter><++><Esc>6kf}i
 autocmd FileType tex inoremap ,fi \begin{fitch}<Enter><Enter>\end{fitch}<Enter><Enter><++><Esc>3kA
@@ -169,7 +159,6 @@ autocmd FileType tex inoremap ,nu $\varnothing$
 autocmd FileType tex inoremap ,col \begin{columns}[T]<Enter>\begin{column}{.5\textwidth}<Enter><Enter>\end{column}<Enter>\begin{column}{.5\textwidth}<Enter><++><Enter>\end{column}<Enter>\end{columns}<Esc>5kA
 autocmd FileType tex inoremap ,rn (\ref{})<++><Esc>F}i
 
-
 " ---------------------- PLUGIN CONFIGURATION ----------------------
 " initiate Vundle
 let &runtimepath.=',$HOME/.vim/bundle/Vundle.vim'
@@ -180,18 +169,7 @@ Plugin 'gmarik/Vundle.vim'
 
 " Plugins defenition
 Plugin 'scrooloose/nerdtree'
-Plugin 'Xuyuanp/nerdtree-git-plugin'
-Plugin 'Lokaltog/vim-easymotion'
 Plugin 'itchyny/lightline.vim'
-Plugin 'vim-scripts/L9'
-Plugin 'vim-scripts/FuzzyFinder'
-
-" Plugins for Markdown
-Plugin 'vimwiki/vimwiki'
-Plugin 'suan/vim-instant-markdown', {'rtp': 'after'}
-
-" Plugins for LaTeX
-Plugin 'xuhdev/vim-latex-live-preview'
 
 " Plugins for dev
 Plugin 'sheerun/vim-polyglot'
@@ -199,11 +177,11 @@ Plugin 'prettier/vim-prettier'
 
 " Autocomplete
 Plugin 'Valloric/YouCompleteMe'
+Plugin 'rdnetto/YCM-Generator'
 Plugin 'Raimondi/delimitMate'
 Plugin 'mattn/emmet-vim'
 
 " Theme
-" Plugin 'dracula/vim'
 Plugin 'kristijanhusak/vim-hybrid-material'
 
 call vundle#end()            " required for vundle
@@ -220,24 +198,21 @@ let g:lightline = {
       \ 'colorscheme': 'one',
       \ }
 
-" map FuzzyFinder
-noremap <leader>b :FufBuffer<cr>
-noremap <leader>f :FufFile<cr>
-
 " vim-wiki
-let g:vimwiki_ext2syntax = {'.md': 'markdown', '.markdown': 'markdown', '.mdown': 'markdown'}
+" let g:vimwiki_ext2syntax = {'.md': 'markdown', '.markdown': 'markdown', '.mdown': 'markdown'}
 
-" vim-markdown
-let g:instant_markdown_autostart = 0
-map <leader>md :InstantMarkdownPreview<CR>
-map <leader>mds :InstantMarkdownStop<CR>
-
-" LaTeX
-let g:livepreview_previewer = 'zathura'
-let g:livepreview_cursorhold_recompile = 0
+" YCM
+set completeopt-=preview
+let g:ycm_complete_in_comments=1
+let g:ycm_confirm_extra_conf=0
+let g:ycm_collect_identifiers_from_tags_files=1
+let g:ycm_min_num_of_chars_for_completion=1
+let g:ycm_cache_omnifunc=0
+let g:ycm_seed_identifiers_with_syntax=1
 
 " lightline
 set laststatus=2
+set noshowmode
 
 " vim-javascript in vim-polyglot
 let g:javascript_plugin_flow = 1
