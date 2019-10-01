@@ -46,13 +46,13 @@ signal=10
 [memory]
 label=<span> </span>
 separator=false
-interval=30
+interval=1
 
 [memory]
 label=<span> </span>
 instance=swap
 separator=false
-interval=30
+interval=10
 
 [separator]
 
@@ -75,7 +75,7 @@ interval=30
 [iface]
 instance=wlo1
 color=#94f34e
-interval=10
+interval=1
 separator=false
 
 [separator]
@@ -86,8 +86,8 @@ separator=false
 # see the script for details.
 [cpu_usage]
 label=<span> </span>
-interval=10
 min_width= 100.00%
+interval=1
 #separator=false
 
 # Temperature
@@ -97,10 +97,10 @@ min_width= 100.00%
 # # see the script for details.
 [temperature]
 label=<span> </span>
-interval=10
+interval=1
 
 
-[separatoe]
+[separator]
 
 # Battery indicator
 #
@@ -108,7 +108,7 @@ interval=10
 [battery]
 label=<span> </span>
 #instance=1
-interval=30
+interval=1
 
 [separator]
 
@@ -116,4 +116,4 @@ interval=30
 #
 [time]
 command=date '+%d-%m-%Y %H:%M:%S '
-interval=5
+interval=1
