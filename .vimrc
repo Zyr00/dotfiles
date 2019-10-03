@@ -114,6 +114,8 @@ autocmd BufNewFile,BufRead *.less setlocal ft=less
 " .tex files are set as latex files
 autocmd BufNewFile,BufRead *.tex setlocal ft=tex
 
+" Auto compile on save
+map <leader>a :!setsid autocomp % &<CR>
 " Compile document, be it groff/LaTeX/markdown/etc.
 map <leader>c :w! \| !compiler <c-r>%<CR>
 " Open corresponding .pdf/.html or preview
@@ -176,7 +178,6 @@ Plugin 'sheerun/vim-polyglot'
 Plugin 'prettier/vim-prettier'
 
 " Autocomplete
-Plugin 'Valloric/YouCompleteMe'
 Plugin 'Raimondi/delimitMate'
 Plugin 'mattn/emmet-vim'
 
@@ -199,15 +200,6 @@ let g:lightline = {
 
 " vim-wiki
 " let g:vimwiki_ext2syntax = {'.md': 'markdown', '.markdown': 'markdown', '.mdown': 'markdown'}
-
-" YCM
-set completeopt-=preview
-let g:ycm_complete_in_comments=1
-let g:ycm_confirm_extra_conf=0
-let g:ycm_collect_identifiers_from_tags_files=1
-let g:ycm_min_num_of_chars_for_completion=1
-let g:ycm_cache_omnifunc=0
-let g:ycm_seed_identifiers_with_syntax=1
 
 " lightline
 set laststatus=2
