@@ -9,10 +9,12 @@ PS1="%{$fg[green]%}[%n@%M %{$fg[white]%}%1~%{$fg[green]%}]%{$reset_color%}$ "
 HISTSIZE=10000
 SAVEHIST=10000
 HISTFILE=~/.cache/zsh/history
+LESSHISTSIZE=10000
+LESSHISTFILE=~/.cache/less/history
 
 # Basic auto/tab complete:
 autoload -U compinit
-zstyle ':completion:*' matcher-list '' 'm:{a-zA-Z}={A-Za-z}'
+zstyle ':completion:*' menu select
 zmodload zsh/complist
 compinit
 _comp_options+=(globdots)   # Include hidden files.
