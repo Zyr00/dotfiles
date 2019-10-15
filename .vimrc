@@ -162,7 +162,9 @@ autocmd FileType c inoremap ,std <Esc>gg0i#include<stdio.h><Enter><Enter>
 autocmd FileType c inoremap ,h <Esc>/#include<Enter>No#include<<++>.h><Enter>
 autocmd FileType c inoremap ,m int main () {<Enter>return 0;<Enter>}<Esc>2ko
 autocmd FileType c inoremap ,rf <++> () {<Enter>return <++>;<Enter>}<Esc>3ki
-autocmd FileType c inoremap ,f void <++> () {<Enter><++><Enter>}<Esc>2k
+autocmd FileType c inoremap ,fc void <++> () {<Enter><++><Enter>}<Esc>2k
+autocmd FileType c inoremap ,fr for(<++>;<++>;<++>) {<Enter><++><Enter>}<Esc>2k0
+autocmd FileType c inoremap ,fi for(int i = <++>; i <= <++>; i++) {<Enter><++><Enter>}<Esc>2k0
 
 " ---------------------- PLUGIN CONFIGURATION ----------------------
 " initiate Vundle
