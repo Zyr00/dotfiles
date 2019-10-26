@@ -111,25 +111,10 @@ bindsym $mod+Shift+r restart
 bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'Exit i3?' -B 'Yes, exit i3' 'i3-msg exit'"
 
 # resize window (you can also use the mouse for that)
-mode "resize" {
-        bindsym h resize shrink width 10 px or 10 ppt
-        bindsym j resize grow height 10 px or 10 ppt
-        bindsym k resize shrink height 10 px or 10 ppt
-        bindsym l resize grow width 10 px or 10 ppt
-
-        # same bindings, but for the arrow keys
-        bindsym Left resize shrink width 10 px or 10 ppt
-        bindsym Down resize grow height 10 px or 10 ppt
-        bindsym Up resize shrink height 10 px or 10 ppt
-        bindsym Right resize grow width 10 px or 10 ppt
-
-        # back to normal: Enter or Escape or $mod+r
-        bindsym Return mode "default"
-        bindsym Escape mode "default"
-        bindsym $mod+r mode "default"
-}
-
-bindsym $mod+r mode "resize"
+bindsym $mod+u resize shrink width 10 px or 10 ppt
+bindsym $mod+i resize grow height 10 px or 10 ppt
+bindsym $mod+o resize shrink height 10 px or 10 ppt
+bindsym $mod+p resize grow width 10 px or 10 ppt
 
 # Borders
 default_border none
@@ -171,7 +156,7 @@ bar {
 bindsym $mod+Shift+f exec firefox
 bindsym $mod+Shift+s exec spotify
 bindsym $mod+Shift+d exec discord
-bindsym $mod+Ctrl+l exec i3lockrc ~/.config/lock.*
+bindsym $mod+Ctrl+l exec i3lockrc ~/.config/lock.*; exec systemctl suspend
 bindsym XF86AudioRaiseVolume exec amixer -q sset Master 5%+ unmute; exec pkill  -RTMIN+10 i3blocks
 bindsym XF86AudioLowerVolume  exec amixer -q sset Master 5%- unmute; exec pkill  -RTMIN+10 i3blocks
 bindsym XF86AudioMute exec amixer -q sset Master toggle; exec pkill  -RTMIN+10 i3blocks

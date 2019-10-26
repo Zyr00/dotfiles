@@ -43,6 +43,16 @@ set lazyredraw
 set spelllang=pt,en
 set spell
 
+function! TabOrComplete()
+  if col('.')>1 && strpart( getline('.'), col('.')-2, 3 ) =~ '^\w'
+    return "\<C-N>"
+  else
+    return "\<Tab>"
+  endif
+endfunction
+
+inoremap <Tab> <C-R>=TabOrComplete()<CR>
+
 " ---------------------- CUSTOMIZATION ----------------------
 "  The following are some extra mappings/configs to enhance my personal
 "  VIM experience
@@ -158,11 +168,11 @@ autocmd FileType tex inoremap ,rn (\ref{})<++><Esc>F}i
 
 " --------------------- C CONFIGURATION ----------------------
 " Code snippets
-autocmd FileType c inoremap ,std <Esc>gg0i#include<stdio.h><Enter><Enter>
+autocmd FileType c inoremap ,std <Esc>gg0i#include<stdio.h><Enter>#include<stdlib.h><Enter>
 autocmd FileType c inoremap ,h <Esc>/#include<Enter>No#include<<++>.h><Enter>
 autocmd FileType c inoremap ,m int main () {<Enter>return 0;<Enter>}<Esc>2ko
-autocmd FileType c inoremap ,rf <++> () {<Enter>return <++>;<Enter>}<Esc>3ki
-autocmd FileType c inoremap ,fc void <++> () {<Enter><++><Enter>}<Esc>2k
+autocmd FileType c inoremap ,rf <++> (<++>) {<Enter>return <++>;<Enter>}<Esc>3ki
+autocmd FileType c inoremap ,fc void <++> (<++>) {<Enter><++><Enter>}<Esc>2k
 autocmd FileType c inoremap ,fr for(<++>;<++>;<++>) {<Enter><++><Enter>}<Esc>2k0
 autocmd FileType c inoremap ,fi for(int i = <++>; i <= <++>; i++) {<Enter><++><Enter>}<Esc>2k0
 
@@ -179,6 +189,7 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'itchyny/lightline.vim'
 
 " Plugins for dev
+Plugin 'vim-syntastic/syntastic'
 Plugin 'sheerun/vim-polyglot'
 Plugin 'prettier/vim-prettier'
 
@@ -206,6 +217,15 @@ let g:lightline = {
 " vim-wiki
 " let g:vimwiki_ext2syntax = {'.md': 'markdown', '.markdown': 'markdown', '.mdown': 'markdown'}
 
+" Syntastic
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+
 " lightline
 set laststatus=2
 set noshowmode
@@ -225,7 +245,20 @@ let g:prettier#autoformat = 0
 autocmd BufWritePre *.js,*.jsx,*.mjs,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.graphql,*.md,*.vue,*.yaml,*.html PrettierAsync
 
 " vim emmet
-let g:user_emmet_leader_key=','
+let g:user_emmet_leader_key = ';'
+let g:user_emmet_settings = {
+  \  'php' : {
+  \    'extends' : 'html',
+  \    'filters' : 'c',
+  \  },
+  \  'xml' : {
+  \    'extends' : 'html',
+  \  },
+  \  'haml' : {
+  \    'extends' : 'html',
+  \  },
+  \}
+
 
 " Theme
 set background=dark
