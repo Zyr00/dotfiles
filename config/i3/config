@@ -171,6 +171,6 @@ assign [class="discord"] $ws10
 assign [class="firefox"] $ws1
 
 # Auto execs
-exec_always compton
+exec_always picom
 exec_always dunst
 exec_always --no-startup-id feh --no-fehbg --bg-scale -z ~/.config/wall.*
