@@ -5,7 +5,7 @@ alias ls="ls -hN --color=auto --group-directories-first" \
       la='ls -lah' \
       grep="grep --color=auto" \
       diff="diff --color=auto" \
-      f="$FILE" \
+      f="$FILE -d" \
       m="$PLAYER" \
       e="$EMAIl" \
       v="$EDITOR"

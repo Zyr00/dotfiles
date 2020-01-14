@@ -37,12 +37,3 @@ bindkey '^e' edit-command-line
 # Load aliases and shortcuts if existent.
 [ -f "$HOME/.config/shortcutrc" ] && source "$HOME/.config/shortcutrc"
 [ -f "$HOME/.config/aliasrc" ] && source "$HOME/.config/aliasrc"
-
-n () {
-  NNN_TMPFILE=${XGD_CONFIG_HOME:-$HOME/.config}/nnn/.lastd
-  nnn "$@"
-  if [ -f $NNN_TMPFILE ]; then
-    . $NNN_TMPFILE
-    rm -f $NNN_TMPFILE > /dev/null
-  fi
-}
