@@ -46,13 +46,13 @@ signal=10
 [memory]
 label=<span> </span>
 separator=false
-interval=1
+interval=3
 
 [memory]
 label=<span> </span>
 instance=swap
 separator=false
-interval=10
+interval=30
 
 [separator]
 
@@ -87,18 +87,17 @@ separator=false
 [cpu_usage]
 label=<span> </span>
 min_width= 100.00%
-interval=1
+interval=5
 #separator=false
 
 # Temperature
-# #
-# # Support multiple chips, though lm-sensors.
-# # The script may be called with -w and -c switches to specify thresholds,
-# # see the script for details.
+#
+# Support multiple chips, though lm-sensors.
+# The script may be called with -w and -c switches to specify thresholds,
+# see the script for details.
 [temperature]
 label=<span> </span>
-interval=1
-
+interval=5
 
 [separator]
 
