@@ -1,12 +1,11 @@
 # My dotfiles
 
 ### Dependencies
-- i3, i3block, i3lock-colors
+- i3, i3block, i3lockrc
 - feh
-- compton
+- picom
 - mpd, mpc, mpv, ncmpcpp
 - dunst
-- redshift
 - zsh
 - nnn
 - acpi, mpstat
