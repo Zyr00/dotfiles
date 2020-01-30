@@ -1,7 +1,4 @@
 #!/bin/sh
-#
-# Runs on login
-#
 
 export PATH="$PATH:$HOME/.local/scripts/"
 export EDITOR="vim"
@@ -14,7 +11,7 @@ export PLAYER="ncmpcpp"
 
 export ZDOTDIR="$HOME/.config/zsh"
 export NNN_USE_EDITOR=1
+export NNN_TMPFILE=1
 
-mpd >/dev/null 2>&1 &
-
-[ "$(tty)" = "/dev/tty1" ] && ! pgrep -x i3 >/dev/null && exec startx
+# start dwm in tty1 if not running
+[ "$(tty)" = "/dev/tty1" ] && ! pgrep -x dwm >/dev/null && exec startx
