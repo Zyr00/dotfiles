@@ -38,13 +38,13 @@ setxkbmap pt
 
 while :; do
   sound=$(amixer get Master | awk -F'[][]' 'END{ print $2 }')
-  free_mem=$(free -h | awk '(NR==2){ print $3 }')
-  home=$(df -h / | awk 'END { print $4 }')
+  root=$(df -h / | awk 'END { print $4 }')
+  home=$(df -h /home | awk 'END { print $4 }')
   wifi=$(cat /sys/class/net/wlo1/operstate)
   therm=$(sed 's/000$/ºC/' /sys/class/thermal/thermal_zone0/temp)
-  bat=$(bat)
+  bat=$(battery)
   date=$(date "+%d-%m-%y %H:%M:%S")
-  xsetroot -name " S: $sound | M: $free_mem | / $home | W: $wifi | T: $therm | B: $bat | $date"
+  xsetroot -name " $sound | / $root /home $home | $wifi | $therm | $bat | $date"
   sleep 1
 done &
 
