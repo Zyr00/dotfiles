@@ -11,4 +11,4 @@
 - Music player: mpd, mpc, mpv, ncmpcpp
 - RSS feed: newsboat
 - Notifications: dunst
-- Image viewer feh
+- Image viewer: feh
