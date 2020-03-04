@@ -1,0 +1,16 @@
+#!/bin/sh
+
+userxinitrc=$HOME/.xinitrc
+
+export LD_LIBRARY_PATH=/usr/lib64/nvidia/:/usr/lib32/nvidia:/usr/lib:${LD_LIBRARY_PATH}
+xrandr --setprovideroutputsource modesetting NVIDIA-0
+xrandr --auto
+
+if [ -f "$userxinitrc" ]; then
+    sh ${userxinitrc}
+fi
+
+if [ $# -gt 0 ]
+  then
+ $*
+fi
