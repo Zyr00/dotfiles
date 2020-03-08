@@ -25,10 +25,10 @@ runtime macros/matchit.vim
 " delete over line breaks
 set backspace=indent,eol,start
 
-" dont't unload buffers when they are abandoned, instead stay in the background
+" don't unload buffers when they are abandoned, instead stay in the background
 set hidden
 
-" set unix line endings
+" set u nix line endings
 set fileformat=unix
 set fileformats=unix,dos
 
@@ -41,28 +41,20 @@ set lazyredraw
 
 " spell checking
 set spelllang=pt,en
-set spell
-
-function! TabOrComplete()
-  if col('.')>1 && strpart( getline('.'), col('.')-2, 3 ) =~ '^\w'
-    return "\<C-N>"
-  else
-    return "\<Tab>"
-  endif
-endfunction
-
-inoremap <Tab> <C-R>=TabOrComplete()<CR>
 
 " ---------------------- CUSTOMIZATION ----------------------
 "  The following are some extra mappings/configs to enhance my personal
 "  VIM experience
 
-" set , as mapleader
-let mapleader = ","
+" set \ as mapleader
+let mapleader = "\\"
 
 " map <leader>q and <leader>w to buffer prev/next buffer
 noremap <leader>q :bp<CR>
 noremap <leader>w :bn<CR>
+
+" map <leader>s toggle spell check
+noremap <leader>s :set spell!<CR>
 
 " yank to and paste from the clipboard without prepending "* to commands
 vmap <c-c> :!xclip -f -sel clip
@@ -142,6 +134,7 @@ map <leader><leader> <Esc>/<++><Enter>"_c4l
 
 " --------------------- LaTeX CONFIGURATION ----------------------
 " Code snippets
+autocmd FileType tex inoremap ,p \paragraph{}
 autocmd FileType tex inoremap ,fi \begin{figure}<Enter><Enter>\end{figure}<Enter><Enter><++><Esc>3kA
 autocmd FileType tex inoremap ,eq \begin{equation}<Enter>\centering<Enter>\end{equation}<Enter><Enter><++><Esc>3k$o
 autocmd FileType tex inoremap ,em \emph{}<++><Esc>T{i
@@ -168,9 +161,9 @@ autocmd FileType tex inoremap ,rn (\ref{})<++><Esc>F}i
 
 " --------------------- C CONFIGURATION ----------------------
 " Code snippets
-autocmd FileType c inoremap ,std <Esc>gg0i#include<stdio.h><Enter>#include<stdlib.h><Enter>
-autocmd FileType c inoremap ,hs <Esc>/#include<Enter>No#include<.h><Esc>:noh<return>0f<a
-autocmd FileType c inoremap ,hu <Esc>/#include<Enter>No#include".h"<Esc>:noh<return>0f"a
+autocmd FileType c inoremap ,std <Esc>gg0i#include <stdio.h><Enter>#include <stdlib.h><Enter>
+autocmd FileType c inoremap ,hs <Esc>/#include<Enter>No#include <.h><Esc>:noh<return>0f<a
+autocmd FileType c inoremap ,hu <Esc>/#include<Enter>No#include ".h"<Esc>:noh<return>0f"a
 autocmd FileType c inoremap ,m int main (int argc, char** argv) {<Enter>return 0;<Enter>}<Esc>2ko
 autocmd FileType c inoremap ,fr <++> (<++>) {<Enter>return <++>;<Enter>}<Esc>3ki
 autocmd FileType c inoremap ,fc void <++> (<++>) {<Enter><++><Enter>}<Esc>2k
@@ -192,7 +185,7 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
 
-" Plugins defenition
+" Plugins definition
 Plugin 'scrooloose/nerdtree'
 Plugin 'itchyny/lightline.vim'
 
@@ -207,6 +200,7 @@ Plugin 'mattn/emmet-vim'
 
 " Theme
 Plugin 'kristijanhusak/vim-hybrid-material'
+Plugin 'flazz/vim-colorschemes'
 
 call vundle#end()            " required for vundle
 
@@ -235,16 +229,16 @@ let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 
 " lightline
-set laststatus=2
+set laststatus=1
 set noshowmode
 
 " vim-javascript in vim-polyglot
 let g:javascript_plugin_flow = 1
 
-" vim-jsx in vim-polyglot
+" vim jsx in vim polyglot
 let g:jsx_ext_required = 0
 
-" vim-prettier
+" vim prettier
 let g:prettier#config#print_width = 100
 let g:prettier#config#single_quote = 'true'
 let g:prettier#config#bracket_spacing = 'true'
@@ -267,10 +261,10 @@ let g:user_emmet_settings = {
   \  },
   \}
 
-
 " Theme
+let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
+let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
 set background=dark
-let g:hybrid_transparent_background = 1
 let g:enable_italic_font = 1
 let g:enable_bold_font = 1
-colorscheme hybrid_material
+colorscheme blues
