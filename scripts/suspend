@@ -1,0 +1,3 @@
+#!/bin/sh
+
+i3lockrc /home/tunes/.config/wall.jpg && systemctl suspend

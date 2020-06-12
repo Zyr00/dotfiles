@@ -57,19 +57,11 @@ noremap <leader>w :bn<CR>
 noremap <leader>s :set spell!<CR>
 
 " yank to and paste from the clipboard without prepending "* to commands
-vmap <c-c> :!xclip -f -sel clip
-map <c-v> :r!xclip -o -sel clip
 vmap "+y :!xclip -f -sel clip
 map "+p :r!xclip -o -sel clip
 
-" map c-x and c-v to work as they do in windows, only in insert mode
-vm <c-x> "+x
-vm <c-c> "+y
-cno <c-v> <c-r>+
-exe 'ino <script> <C-V>' paste#paste_cmd['i']
-
 " allow Tab and Shift+Tab to
-" tab  selection in visual mode
+" tab selection in visual mode
 vmap <Tab> >gv
 vmap <S-Tab> <gv
 
@@ -193,13 +185,13 @@ Plugin 'itchyny/lightline.vim'
 Plugin 'vim-syntastic/syntastic'
 Plugin 'sheerun/vim-polyglot'
 Plugin 'prettier/vim-prettier'
+Plugin 'ap/vim-css-color'
 
 " Autocomplete
 Plugin 'Raimondi/delimitMate'
 Plugin 'mattn/emmet-vim'
 
 " Theme
-Plugin 'kristijanhusak/vim-hybrid-material'
 Plugin 'flazz/vim-colorschemes'
 
 call vundle#end()            " required for vundle
@@ -210,11 +202,6 @@ let NERDTreeQuitOnOpen = 1
 let NERDTreeAutoDeleteBuffer = 1
 let NERDTreeMinimalUI = 1
 let NERDTreeDirArrows = 1
-
-" lightline setup
-let g:lightline = {
-      \ 'colorscheme': 'one',
-      \ }
 
 " vim-wiki
 " let g:vimwiki_ext2syntax = {'.md': 'markdown', '.markdown': 'markdown', '.mdown': 'markdown'}
@@ -229,7 +216,7 @@ let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 
 " lightline
-set laststatus=1
+set laststatus=2
 set noshowmode
 
 " vim-javascript in vim-polyglot
@@ -262,9 +249,10 @@ let g:user_emmet_settings = {
   \}
 
 " Theme
-let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
-let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
-set background=dark
 let g:enable_italic_font = 1
 let g:enable_bold_font = 1
+set background=dark
 colorscheme blues
+let g:lightline = {
+  \ 'colorscheme': 'jellybeans',
+  \ }
