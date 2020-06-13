@@ -4,7 +4,8 @@
 
 - Terminal: st
 - Shell: zsh
-- Window Manager: dwm (bar in `.xinitrc`)
+- Window Manager: dwm 
+- Status bar: slstatus
 - File manager: nnn
 - Luncher: dmenu
 - Compositor: picom
