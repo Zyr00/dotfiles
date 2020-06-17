@@ -1,6 +1,7 @@
 # Enable colors and change prompt:
 autoload -U colors && colors
-PS1="%{$fg[green]%}[%n@%M %{$fg[white]%}%1~%{$fg[green]%}]%{$reset_color%}$ "
+# PS1="[%n@%M %1~]$ "
+PS1="%(#~%B~)%{%(#~$fg[red]~$fg[green])%}[%n@%M %{$fg[white]%}%1~%{%(#~$fg[red]~$fg[green])%}]%(#~#~$)%{$reset_color%}%b "
 
 # Enable auto cd
 setopt autocd
@@ -31,6 +32,8 @@ bindkey -v '^?' backward-delete-char
 # Edit line in vim with ctrl-e:
 autoload edit-command-line; zle -N edit-command-line
 bindkey '^e' edit-command-line
+
+bindkey -s '^a' 'fg\n'
 
 # Load aliases and shortcuts if existent.
 [ -f "$HOME/.config/shortcutrc" ] && source "$HOME/.config/shortcutrc"
