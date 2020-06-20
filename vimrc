@@ -1,6 +1,4 @@
-" ---------------------- USABILITY CONFIGURATION ----------------------
-"  Basic and pretty much needed settings to provide a solid base for
-"  source code editting
+" ---------------------- CONFIGURATION ----------------------
 
 " don't make vim compatible with vi
 set nocompatible
@@ -39,13 +37,6 @@ set viminfo='100,f1
 " non-typed comments
 set lazyredraw
 
-" spell checking
-set spelllang=pt,en
-
-" ---------------------- CUSTOMIZATION ----------------------
-"  The following are some extra mappings/configs to enhance my personal
-"  VIM experience
-
 " set \ as mapleader
 let mapleader = "\\"
 
@@ -53,12 +44,11 @@ let mapleader = "\\"
 noremap <leader>q :bp<CR>
 noremap <leader>w :bn<CR>
 
-" map <leader>s toggle spell check
+set spelllang=pt,en
 noremap <leader>s :set spell!<CR>
 
-" yank to and paste from the clipboard without prepending "* to commands
-vmap "+y :!xclip -f -sel clip
-map "+p :r!xclip -o -sel clip
+" copy to clipboard without prepending "* to commands
+vmap <c-c> :!xclip -f -sel clip
 
 " allow Tab and Shift+Tab to
 " tab selection in visual mode
@@ -80,7 +70,7 @@ nnoremap <esc><esc> :noh<return><esc>
 " Auto completion
 set wildmode=longest,list,full
 
-" keep the cursor visible within 3 lines when scrolling
+" keep the cursor visible within 4 lines when scrolling
 set scrolloff=4
 
 " indentation
@@ -93,23 +83,15 @@ set softtabstop=2   " in insert mode, tabs are 2 spaces
 " no lines longer than 100 cols
 set textwidth=100
 
-" use <C-Space> for Vim's keyword autocomplete
-inoremap <Nul> <C-n>
-
 " Disables automatic commenting on newline:
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 " Automatically deletes all trailing whitespace on save.
 autocmd BufWritePre * %s/\s\+$//e
-" Run xrdb whenever Xdefaults or Xresources are updated.
 autocmd BufWritePost *Xresources,*Xdefaults !xrdb %
 
-" .md files are markdown files
 autocmd BufNewFile,BufRead *.md setlocal ft=markdown
-" .twig files use html syntax
 autocmd BufNewFile,BufRead *.twig setlocal ft=html
-" .less files use less syntax
 autocmd BufNewFile,BufRead *.less setlocal ft=less
-" .tex files are set as latex files
 autocmd BufNewFile,BufRead *.tex setlocal ft=tex
 
 " Auto compile on save
@@ -134,8 +116,6 @@ autocmd FileType tex inoremap ,bf \textbf{}<++><Esc>T{i
 autocmd FileType tex inoremap ,it \textit{}<++><Esc>T{i
 autocmd FileType tex inoremap ,ct \textcite{}<++><Esc>T{i
 autocmd FileType tex inoremap ,cp \parencite{}<++><Esc>T{i}}} }`}`}
-autocmd FileType tex inoremap ,glos {\gll<Space><++><Space>\\<Enter><++><Space>\\<Enter>\trans{``<++>''}}<Esc>2k2bcw
-autocmd FileType tex inoremap ,x \begin{xlist}<Enter>\ex<Space><Enter>\end{xlist}<Esc>kA<Space>
 autocmd FileType tex inoremap ,ol \begin{enumerate}<Enter><Enter>\end{enumerate}<Enter><Enter><++><Esc>3kA\item<Space>
 autocmd FileType tex inoremap ,ul \begin{itemize}<Enter><Enter>\end{itemize}<Enter><Enter><++><Esc>3kA\item<Space>
 autocmd FileType tex inoremap ,li \item<Space>
@@ -179,7 +159,6 @@ Plugin 'gmarik/Vundle.vim'
 
 " Plugins definition
 Plugin 'scrooloose/nerdtree'
-Plugin 'itchyny/lightline.vim'
 
 " Plugins for dev
 Plugin 'vim-syntastic/syntastic'
@@ -203,9 +182,6 @@ let NERDTreeAutoDeleteBuffer = 1
 let NERDTreeMinimalUI = 1
 let NERDTreeDirArrows = 1
 
-" vim-wiki
-" let g:vimwiki_ext2syntax = {'.md': 'markdown', '.markdown': 'markdown', '.mdown': 'markdown'}
-
 " Syntastic
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
@@ -214,10 +190,6 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
-
-" lightline
-set laststatus=2
-set noshowmode
 
 " vim-javascript in vim-polyglot
 let g:javascript_plugin_flow = 1
@@ -230,7 +202,7 @@ let g:prettier#config#print_width = 100
 let g:prettier#config#single_quote = 'true'
 let g:prettier#config#bracket_spacing = 'true'
 let g:prettier#config#tab_width = 2
-let g:prettier#autoformat = 0
+let g:prettier#autoformat = 1
 autocmd BufWritePre *.js,*.jsx,*.mjs,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.graphql,*.md,*.vue,*.yaml,*.html PrettierAsync
 
 " vim emmet
@@ -253,6 +225,3 @@ let g:enable_italic_font = 1
 let g:enable_bold_font = 1
 set background=dark
 colorscheme blues
-let g:lightline = {
-  \ 'colorscheme': 'jellybeans',
-  \ }
