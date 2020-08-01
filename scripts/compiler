@@ -13,6 +13,7 @@ base="${file%.*}"
 cd "$dir" || exit
 
 textype() { \
+  [ -d $build_dir ] || mkdir $build_dir
   command="pdflatex"
   ( sed 5q "$file" | grep -i -q 'xelatex' ) && command="xelatex"
   $command --output-directory="$build_dir" "$base" &&

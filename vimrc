@@ -11,8 +11,10 @@ filetype on
 filetype plugin on
 filetype indent on
 
-" reload files changed outside vim
+" better settings
 set autoread
+set cmdheight=2
+set updatetime=300
 
 " encoding
 set encoding=utf-8
@@ -23,7 +25,7 @@ runtime macros/matchit.vim
 " delete over line breaks
 set backspace=indent,eol,start
 
-" don't unload buffers when they are abandoned, instead stay in the background
+" don't unload buffers 4hen they are abandoned, instead stay in the background
 set hidden
 
 " set u nix line endings
@@ -37,8 +39,8 @@ set viminfo='100,f1
 " non-typed comments
 set lazyredraw
 
-" set \ as mapleader
-let mapleader = "\\"
+" set , as mapleader
+let mapleader = ","
 
 " map <leader>q and <leader>w to buffer prev/next buffer
 noremap <leader>q :bp<CR>
@@ -57,7 +59,7 @@ vmap <S-Tab> <gv
 
 " remove the .ext~ files, but not the swapfiles
 set nobackup
-set writebackup
+set nowritebackup
 set noswapfile
 
 " search settings
@@ -78,7 +80,15 @@ set expandtab       " use spaces instead of tabs
 set autoindent      " autoindent based on line above, works most of the time
 set smartindent     " smarter indent for C-like languages
 set shiftwidth=2    " when reading, tabs are 2 spaces
-set softtabstop=2   " in insert mode, tabs are 2 spaces
+set softtabstop=2   " in insert mode, tabs are 2 spaces"
+
+autocmd FileType c,java,cs setlocal noexpandtab cindent autoindent shiftwidth=4 softtabstop=4 tabstop=4
+autocmd FileType python setlocal expandtab shiftwidth=4 softtabstop=4
+
+" folds
+set foldmethod=syntax   " syntax highligting items specify folds
+set foldcolumn=1        " defines 1 col at window left, to indicate folding
+set foldlevelstart=99   " start file with all folds opened
 
 " no lines longer than 100 cols
 set textwidth=100
@@ -91,6 +101,7 @@ autocmd BufWritePost *Xresources,*Xdefaults !xrdb %
 
 autocmd BufNewFile,BufRead *.md setlocal ft=markdown
 autocmd BufNewFile,BufRead *.twig setlocal ft=html
+autocmd BufNewFile,BufRead *.cshtml setlocal ft=html
 autocmd BufNewFile,BufRead *.less setlocal ft=less
 autocmd BufNewFile,BufRead *.tex setlocal ft=tex
 
@@ -108,6 +119,7 @@ map <leader><leader> <Esc>/<++><Enter>"_c4l
 
 " --------------------- LaTeX CONFIGURATION ----------------------
 " Code snippets
+autocmd FileType tex inoremap ,doc \begin{document}<Enter><Enter><++><Enter><Enter>\end{document}<Esc>2kf}i
 autocmd FileType tex inoremap ,p \paragraph{}
 autocmd FileType tex inoremap ,fi \begin{figure}<Enter><Enter>\end{figure}<Enter><Enter><++><Esc>3kA
 autocmd FileType tex inoremap ,eq \begin{equation}<Enter>\centering<Enter>\end{equation}<Enter><Enter><++><Esc>3k$o
@@ -137,17 +149,16 @@ autocmd FileType c inoremap ,std <Esc>gg0i#include <stdio.h><Enter>#include <std
 autocmd FileType c inoremap ,hs <Esc>/#include<Enter>No#include <.h><Esc>:noh<return>0f<a
 autocmd FileType c inoremap ,hu <Esc>/#include<Enter>No#include ".h"<Esc>:noh<return>0f"a
 autocmd FileType c inoremap ,m int main (int argc, char** argv) {<Enter>return 0;<Enter>}<Esc>2ko
-autocmd FileType c inoremap ,fr <++> (<++>) {<Enter>return <++>;<Enter>}<Esc>3ki
-autocmd FileType c inoremap ,fc void <++> (<++>) {<Enter><++><Enter>}<Esc>2k
 autocmd FileType c inoremap ,fr for(<++>;<++>;<++>) {<Enter><++><Enter>}<Esc>2k0
 autocmd FileType c inoremap ,fi for(i = <++>; i < <++>; i++) {<Enter><++><Enter>}<Esc>2k0
-autocmd FileType c inoremap ,pf printf("");<Esc>0f"a
+autocmd FileType c inoremap ,fj for(j = <++>; j < <++>; j++) {<Enter><++><Enter>}<Esc>2k0
 
 " --------------------- JAVA CONFIGURATION ----------------------
 " Code snippets
 autocmd FileType java inoremap ,psvm public static void main(String[] args) {<enter>}<ESC>1ko
 autocmd FileType java inoremap ,sout System.out.println(""); <ESC>0f"a
 autocmd FileType java inoremap ,fi for(int i = <++>; i < <++>; i++) {<enter><++><enter>}<ESC>2k0
+autocmd FileType java inoremap ,fj for(int j = <++>; j < <++>; j++) {<enter><++><enter>}<ESC>2k0
 
 " ---------------------- PLUGIN CONFIGURATION ----------------------
 " initiate Vundle
@@ -171,7 +182,7 @@ Plugin 'Raimondi/delimitMate'
 Plugin 'mattn/emmet-vim'
 
 " Theme
-Plugin 'flazz/vim-colorschemes'
+Plugin 'arcticicestudio/nord-vim'
 
 call vundle#end()            " required for vundle
 
@@ -206,7 +217,7 @@ let g:prettier#autoformat = 1
 autocmd BufWritePre *.js,*.jsx,*.mjs,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.graphql,*.md,*.vue,*.yaml,*.html PrettierAsync
 
 " vim emmet
-let g:user_emmet_leader_key = ';'
+" let g:user_emmet_leader_key = ';'
 let g:user_emmet_settings = {
   \  'php' : {
   \    'extends' : 'html',
@@ -221,7 +232,12 @@ let g:user_emmet_settings = {
   \}
 
 " Theme
+" set Vim-specific sequences for RGB colors
+let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
+let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
+set termguicolors
 let g:enable_italic_font = 1
 let g:enable_bold_font = 1
 set background=dark
-colorscheme blues
+colorscheme nord
+hi Normal guibg=NONE ctermbg=NONE

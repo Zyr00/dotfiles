@@ -9,8 +9,3 @@ xrandr --auto
 if [ -f "$userxinitrc" ]; then
     sh ${userxinitrc}
 fi
-
-if [ $# -gt 0 ]
-  then
- $*
-fi

@@ -1,5 +1,6 @@
 #!/bin/sh
 
+image="/home/tunes/.config/wall.png"
 insidecolor=00000000
 ringcolor=ffffffff
 keyhlcolor=d23c3dff
@@ -18,7 +19,7 @@ locktext='BeGoNe ThOt!'
 lock_timeout=5
 
 i3lock \
-  -t -i "$1" \
+  -t -i $image \
   --timepos='x+110:h-70' \
   --datepos='x+34:h-45' \
   --clock --date-align 1 --datestr "$locktext" \
