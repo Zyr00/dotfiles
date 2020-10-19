@@ -35,8 +35,7 @@ set fileformats=unix,dos
 " save up to 100 marks, enable capital marks
 set viminfo='100,f1
 
-" screen will not be redrawn while running macros, registers or other
-" non-typed comments
+" not redrawn while running macros
 set lazyredraw
 
 " set , as mapleader
@@ -94,7 +93,7 @@ set foldlevelstart=99   " start file with all folds opened
 set textwidth=100
 
 " Disables automatic commenting on newline:
-autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
+" autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 " Automatically deletes all trailing whitespace on save.
 autocmd BufWritePre * %s/\s\+$//e
 autocmd BufWritePost *Xresources,*Xdefaults !xrdb %
@@ -172,6 +171,7 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'scrooloose/nerdtree'
 
 " Plugins for dev
+Plugin 'ycm-core/YouCompleteMe'
 Plugin 'vim-syntastic/syntastic'
 Plugin 'sheerun/vim-polyglot'
 Plugin 'prettier/vim-prettier'
@@ -193,6 +193,11 @@ let NERDTreeAutoDeleteBuffer = 1
 let NERDTreeMinimalUI = 1
 let NERDTreeDirArrows = 1
 
+" YouCompleteMe
+let g:ycm_complete_in_comments=1
+let g:ycm_cache_omnifunc=0
+set completeopt-=preview
+
 " Syntastic
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
@@ -201,6 +206,7 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
+let g:syntastic_java_checkers = []
 
 " vim-javascript in vim-polyglot
 let g:javascript_plugin_flow = 1
