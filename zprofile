@@ -39,4 +39,4 @@ export HISTFILE="${XDG_DATA_HOME:-$HOME/.local/share}/history"
 export LC_COLLATE="C"
 
 # start dwm in tty1 if not running
-[ "$(tty)" = "/dev/tty1" ] && ! pgrep -x dwm >/dev/null && exec startx
+# [ "$(tty)" = "/dev/tty1" ] && ! pgrep -x dwm >/dev/null && exec startx
