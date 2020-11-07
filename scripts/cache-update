@@ -1,0 +1,11 @@
+#!/bin/bash
+
+J=6
+
+GREEN='\033[0;32m'
+NC='\033[0m'
+
+printf "${GREEN}updating metadata cache with ${J} jobs ... ${NC}\n"
+egencache --repo=gentoo --update --jobs=6
+printf "${GREEN}updating eix ... ${NC}\n"
+eix-update

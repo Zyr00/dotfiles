@@ -3,9 +3,10 @@
 alias ls="ls -hN --color=auto --group-directories-first" \
       ll='ls -lh' \
       la='ls -lah' \
+      R='R --quiet' \
       grep="grep --color=auto" \
       diff="diff --color=auto" \
-      f="$FILE -d" \
+      f="$FILE -d -e" \
       m="$PLAYER" \
       e="$EMAIl" \
       v="$EDITOR"
