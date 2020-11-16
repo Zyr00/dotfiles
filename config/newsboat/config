@@ -20,7 +20,10 @@ bind-key U show-urls
 bind-key x pb-delete
 
 color listnormal cyan default
-color listfocus white default
+color listfocus white default bold
 color listnormal_unread blue default
 color listfocus_unread white default bold
-color info black blue bold
+color info black blue
+
+macro o set browser "mpv %u"; open-in-browser ; set browser $BROWSER
+macro O set browser "mpv %u"; open-in-browser-and-mark-read ; set browser $BROWSER
