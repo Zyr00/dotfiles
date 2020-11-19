@@ -107,9 +107,9 @@ autocmd BufNewFile,BufRead *.tex setlocal ft=tex
 " Auto compile on save
 map <leader>a :!setsid autocomp % &<CR>
 " Compile document, be it groff/LaTeX/markdown/etc.
-map <leader>c :w! \| !compiler <c-r>%<CR>
+map <leader>c :w! \| !~/.local/scripts/compiler <c-r>%<CR>
 " Open corresponding .pdf/.html or preview
-map <leader>p :!opout <c-r>%<CR><CR>
+map <leader>p :!~/.local/scripts/opout <c-r>%<CR><CR>
 
 " Navigating with guides
 inoremap <leader><leader> <Esc>/<++><Enter>"_c4l
@@ -173,7 +173,7 @@ Plugin 'scrooloose/nerdtree'
 " Plugins for dev
 Plugin 'ycm-core/YouCompleteMe'
 Plugin 'vim-syntastic/syntastic'
-Plugin 'sheerun/vim-polyglot'
+" Plugin 'sheerun/vim-polyglot'
 Plugin 'prettier/vim-prettier'
 Plugin 'ap/vim-css-color'
 
@@ -182,6 +182,7 @@ Plugin 'Raimondi/delimitMate'
 Plugin 'mattn/emmet-vim'
 
 " Theme
+Plugin 'dracula/vim'
 Plugin 'arcticicestudio/nord-vim'
 
 call vundle#end()            " required for vundle
@@ -245,5 +246,5 @@ set termguicolors
 let g:enable_italic_font = 1
 let g:enable_bold_font = 1
 set background=dark
-colorscheme nord
-hi Normal guibg=NONE ctermbg=NONE
+colorscheme dracula
+" hi Normal guibg=NONE ctermbg=NONE
