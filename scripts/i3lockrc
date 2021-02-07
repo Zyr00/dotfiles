@@ -1,6 +1,6 @@
 #!/bin/sh
 
-image="/home/tunes/.config/wall.png"
+image="$HOME/.config/wall.*"
 insidecolor=00000000
 ringcolor=ffffffff
 keyhlcolor=d23c3dff
