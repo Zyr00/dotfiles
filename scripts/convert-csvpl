@@ -1,5 +1,6 @@
 #!/usr/bin/python
 
+import re
 import csv
 import argparse
 
@@ -9,6 +10,7 @@ def format_col_names(name):
     return name.strip().lower().replace(" ", "").replace(".", "").replace("#", "number")
 
 def format_row(row):
+    row = re.sub('[^A-Za-z0-9 ]+', '', row)
     row = row.lower()
     if " " in row:
         return f'"{row}"'
@@ -18,39 +20,36 @@ def create_file():
     with open(args.file, "r") as csv_f:
         csv_reader = csv.reader(csv_f, delimiter=',')
         line_count = 0
-        col_names = ""
-        size = 0
+        values = []
+        col_names = []
         for row in csv_reader:
             if line_count == 0:
                 col_names = [format_col_names(l) for l in row]
-                size = len(col_names)
+                values = [(format_col_names(l), []) for l in row]
                 line_count += 1
             else:
-                with open(args.output, "a") as fp:
-                    if args.verbose:
-                        print(f'\n{row} -> ')
-                    for i in range(size):
-                        if col_names[i] != col_names[args.column] and row[i]:
-                            line = f'{col_names[i]}({format_row(row[args.column])}, {format_row(row[i])})'
-                            if args.verbose:
-                                print(line)
-                            fp.write(f'{line}\n')
-                    fp.write("\n")
+                for i in range(len(col_names)):
+                    values[i][1].append(format_row(row[i]))
                 line_count += 1
 
-        if args.verbose:
-            print("")
+        with open(args.output, "a") as fp:
+            for i in range(len(values)):
+                fp.write(f'\n')
+                for j in range(len(values[i][1])):
+                    if values[i][1][j]:
+                        line = f'{values[i][0]}({values[args.column][1][j]}, {values[i][1][j]}).'
+                        fp.write(f'{line}\n')
+
         print(f'Main column -> {col_names[args.column]}.')
-        print(f'Column({size}) names are -> [{", ".join(col_names)}].')
+        print(f'There are {len(col_names)} columns')
         print(f'Processed {line_count} lines.')
         print(f'File created with name {args.output}.')
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("-f", "--file", action="store", help="The cvs file to convert to pl", required=True)
-    parser.add_argument("-o", "--output", action="store", default="out.pl", help="Output file if exists will be overiten. Name defaults to out.pl")
-    parser.add_argument("-c", "--column", action="store", default=0, help="Column to use as index defaults to pos 0", type=int)
-    parser.add_argument("-v", "--verbose", action="store_true", help="Verbose output")
+    parser.add_argument("-f", "--file", action="store", help="The cvs file to convert to pl.", required=True)
+    parser.add_argument("-o", "--output", action="store", default="out.pl", help="Output file if exists will be overiten. Name defaults to out.pl.")
+    parser.add_argument("-c", "--column", action="store", default=0, help="Column to use as index defaults to pos 0.", type=int)
     args = parser.parse_args()
 
     with open(args.output, "w") as f:
