@@ -1,0 +1,3 @@
+dev-libs/openssl -bindist
+dev-libs/libpcre2 pcre16
+dev-libs/boost icu

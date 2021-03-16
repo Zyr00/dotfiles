@@ -1,0 +1,4 @@
+app-text/poppler cairo
+app-text/ghostscript-gpl cups
+app-text/xmlto text
+app-text/texlive l10n_pt

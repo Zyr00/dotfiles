@@ -1,0 +1,59 @@
+#!/usr/bin/python
+
+import csv
+import argparse
+
+args = []
+
+def format_col_names(name):
+    return name.strip().lower().replace(" ", "").replace(".", "").replace("#", "number")
+
+def format_row(row):
+    row = row.lower()
+    if " " in row:
+        return f'"{row}"'
+    return row
+
+def create_file():
+    with open(args.file, "r") as csv_f:
+        csv_reader = csv.reader(csv_f, delimiter=',')
+        line_count = 0
+        col_names = ""
+        size = 0
+        for row in csv_reader:
+            if line_count == 0:
+                col_names = [format_col_names(l) for l in row]
+                size = len(col_names)
+                line_count += 1
+            else:
+                with open(args.output, "a") as fp:
+                    if args.verbose:
+                        print(f'\n{row} -> ')
+                    for i in range(size):
+                        if col_names[i] != col_names[args.column] and row[i]:
+                            line = f'{col_names[i]}({format_row(row[args.column])}, {format_row(row[i])})'
+                            if args.verbose:
+                                print(line)
+                            fp.write(f'{line}\n')
+                    fp.write("\n")
+                line_count += 1
+
+        if args.verbose:
+            print("")
+        print(f'Main column -> {col_names[args.column]}.')
+        print(f'Column({size}) names are -> [{", ".join(col_names)}].')
+        print(f'Processed {line_count} lines.')
+        print(f'File created with name {args.output}.')
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument("-f", "--file", action="store", help="The cvs file to convert to pl", required=True)
+    parser.add_argument("-o", "--output", action="store", default="out.pl", help="Output file if exists will be overiten. Name defaults to out.pl")
+    parser.add_argument("-c", "--column", action="store", default=0, help="Column to use as index defaults to pos 0", type=int)
+    parser.add_argument("-v", "--verbose", action="store_true", help="Verbose output")
+    args = parser.parse_args()
+
+    with open(args.output, "w") as f:
+        f.write("")
+
+    create_file()

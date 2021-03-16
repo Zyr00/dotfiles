@@ -1,0 +1,6 @@
+media-libs/harfbuzz icu
+media-libs/gd png
+media-libs/libpng apng
+media-libs/libvpx postproc
+media-libs/mesa vulkan
+media-libs/freetype png

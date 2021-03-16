@@ -1,0 +1,2 @@
+virtual/ruby-ssl ruby_targets_ruby30
+virtual/rubygems ruby_targets_ruby30

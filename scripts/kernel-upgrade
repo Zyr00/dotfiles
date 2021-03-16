@@ -1,0 +1,38 @@
+#!/bin/bash
+
+if [[ $EUID -ne 0 ]]; then
+  echo "Please run as root to upgrade kernel"
+  exit 1
+fi
+
+# Save prev config
+cp /usr/src/linux/.config ~/kernel-`uname -r`-config
+
+# List all kernels
+eselect kernel list
+
+# Read kernel
+read -p "Select Kernel: " kernel
+kernel=${kernel:-1}
+
+# Set kernel
+eselect kernel set $kernel
+
+# cd to kernel folder
+cd /usr/src/linux
+
+# Build commands
+make olddefconfig
+make modules_prepare -j`nproc`
+make -j`nproc`
+make modules_install -j`nproc`
+make install -j`nproc`
+
+# Build new genkernel
+genkernel --luks --lvm --kernel-config=.config --install initramfs
+
+# Build new grub
+grub-mkconfig -o /boot/grub/grub.cfg
+
+# Rebuild modules
+emerge -v @module-rebuild
