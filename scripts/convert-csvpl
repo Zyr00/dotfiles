@@ -34,11 +34,12 @@ def create_file():
 
         with open(args.output, "a") as fp:
             for i in range(len(values)):
-                fp.write(f'\n')
-                for j in range(len(values[i][1])):
-                    if values[i][1][j]:
-                        line = f'{values[i][0]}({values[args.column][1][j]}, {values[i][1][j]}).'
-                        fp.write(f'{line}\n')
+                if values[i][0] != values[args.column][0]:
+                    fp.write(f'\n')
+                    for j in range(len(values[i][1])):
+                        if values[i][1][j]:
+                            line = f'{values[i][0]}({values[args.column][1][j]}, {values[i][1][j]}).'
+                            fp.write(f'{line}\n')
 
         print(f'Main column -> {col_names[args.column]}.')
         print(f'There are {len(col_names)} columns')
