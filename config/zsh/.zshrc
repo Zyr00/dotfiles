@@ -1,7 +1,8 @@
 # Enable colors and change prompt:
 autoload -U colors && colors
-# PS1="[%n@%M %1~]$ "
-PS1="%(#~%B~)%{%(#~$fg[red]~$fg[green])%}[%n@%M %{$fg[white]%}%1~%{%(#~$fg[red]~$fg[green])%}]%(#~#~$)%{$reset_color%}%b "
+PS1="[%n@%M %1~]$ "
+# PS1="%(#~%B~)%{%(#~$fg[red]~$fg[green])%}[%n@%M %{$fg[white]%}%1~%{%(#~$fg[red]~$fg[green])%}]%(#~#~$)%{$reset_color%}%b "
+# PS1="%(#~%B~)%{%(#~$fg[red]~$fg[blue])%}[%n@%M %{$fg[white]%}%1~%{%(#~$fg[red]~$fg[blue])%}]%(#~#~$)%{$reset_color%}%b "
 
 # Enable auto cd
 setopt autocd

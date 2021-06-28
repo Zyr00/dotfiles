@@ -1,11 +1,15 @@
-#!/bin/bash
-
+#!/usr/bin/env bash
 if [[ $EUID -ne 0 ]]; then
   echo "Please run as root to upgrade kernel"
   exit 1
 fi
 
+set -e
+
+MAKEOPTS="-j`nproc`"
+
 # Save prev config
+printf "Saving config has /root/kernel-`uname -r`-config\n\n"
 cp /usr/src/linux/.config ~/kernel-`uname -r`-config
 
 # List all kernels
@@ -21,18 +25,25 @@ eselect kernel set $kernel
 # cd to kernel folder
 cd /usr/src/linux
 
+# Menu config
+make menuconfig $MAKEOPTS
+
 # Build commands
-make olddefconfig
-make modules_prepare -j`nproc`
-make -j`nproc`
-make modules_install -j`nproc`
-make install -j`nproc`
+echo "Building kernel"
+make olddefconfig $MAKEOPTS
+make modules_prepare $MAKEOPTS
+make $MAKEOPTS
+make modules_install $MAKEOPTS
+make install $MAKEOPTS
 
 # Build new genkernel
+printf "Building initramfs\n\n"
 genkernel --luks --lvm --kernel-config=.config --install initramfs
 
 # Build new grub
+printf "Building grub config\n\n"
 grub-mkconfig -o /boot/grub/grub.cfg
 
 # Rebuild modules
+printf "Rebuild modules\n\n"
 emerge -v @module-rebuild

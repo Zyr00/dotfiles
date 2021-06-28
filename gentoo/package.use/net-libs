@@ -1,1 +1,2 @@
 net-libs/webkit-gtk -geolocation
+net-libs/nodejs -lto

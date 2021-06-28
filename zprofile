@@ -1,9 +1,9 @@
 #!/bin/sh
 
-export PATH="$PATH:$HOME/.local/scripts/"
+export PATH="$PATH:$HOME/.local/scripts/:$HOME/.local/bin/"
 export EDITOR="vim"
 export READER="zathura"
-export BROWSER="firefox"
+export BROWSER="firefox-bin"
 export TERMINAL="st"
 export EMAIL="neomutt"
 export FILE="nnn"
@@ -11,6 +11,7 @@ export PLAYER="ncmpcpp"
 
 export NNN_USE_EDITOR=1
 export NNN_TMPFILE=1
+export QEMU_AUDIO_DRV=spice
 
 # ~/ Clean-up:
 export XDG_CONFIG_HOME="$HOME/.config"

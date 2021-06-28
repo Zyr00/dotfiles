@@ -16,11 +16,11 @@ textype() { \
   [ -d $build_dir ] || mkdir $build_dir
   command="pdflatex"
   ( sed 5q "$file" | grep -i -q 'xelatex' ) && command="xelatex"
-  $command --output-directory="$build_dir" "$base" &&
+  $command --output-directory "$build_dir" "$base" &&
   grep -i addbibresource "$file" >/dev/null &&
-  biber --input-directory "$dir" --output-directory="$build_dir" "$base" &&
-  $command --output-directory="$build_dir" "$base" &&
-  $command --output-directory="$build_dir" "$base"
+  biber --output-directory $(basename $build_dir) $(basename $base) &&
+  $command --output-directory "$build_dir" "$base" &&
+  $command --output-directory "$build_dir" "$base"
   }
 
 case "$file" in

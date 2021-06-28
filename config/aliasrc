@@ -1,11 +1,12 @@
 #!/bin/sh
-
+# surf="tabbed -c surf -e" \
 alias ls="ls -hN --color=auto --group-directories-first" \
       ll='ls -lh' \
       la='ls -lah' \
       R='R --quiet' \
       grep="grep --color=auto" \
       diff="diff --color=auto" \
+      virt-viewer="virt-viewer --connect qemu:///system" \
       f="$FILE -d -e" \
       m="$PLAYER" \
       e="$EMAIl" \

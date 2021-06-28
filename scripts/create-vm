@@ -1,0 +1,65 @@
+#!/usr/bin/env bash
+
+set -e
+green=`tput setaf 2`
+red=`tput setaf 1`
+rt=`tput sgr0`
+
+POOL_PATH="/mnt/data/pools/"
+ISO_PATH="/mnt/data/isos/"
+
+function read_val {
+  while :; do
+    read -p "$1" $2
+    if [[ $3 == "n" ]]; then
+      if ! [[ $size =~ ^[0-9]+$ ]]; then
+        printf "${red}$size nedes to be a number${rt}\n"
+      else
+        [[ -z "$2" ]] || break
+      fi
+    else
+      [[ -z "$2" ]] || break
+    fi
+  done
+}
+
+function size_type {
+  while :; do
+    read_val "Type [G M K]: " size_type
+    case $size_type in
+      [G-M-K] | [g-m-k])
+        break
+        ;;
+      *)
+        printf "${red}Wrong Type${rt}\n"
+        size_type=G
+        ;;
+    esac
+  done
+}
+
+read_val "Disk: " disk
+read_val "Size: " size n
+d_size=$size
+
+size_type
+size_type=${size_type^^}
+
+disk="${disk}.qcow2"
+
+read_val "Name VM: " name
+read_val "Memory: " size n
+mem=$size
+read_val "Vcpus: " size n
+cpu=$size
+read_val "Network: " net
+read_val "Iso name: " iso
+
+printf "${red}COMMANDS: ${green}
+ (1) -> doas virsh vol-create-as pool $disk $d_size$size_type --format qcow2
+ (2) -> doas virt-install --name=$name --memory $mem --vcpus $cpu --disk path=$POOL_PATH$disk --cdrom $ISO_PATH$iso --graphics spice --os-type=linux2020 --network $net --boot hd,cdrom -v \n${rt}"
+
+read -p "${red} RUN COMMANDS ABOVE [y|N]: " val
+[ "$val" = "y" ] | [ "$val" = "Y" ] &&
+  doas virsh vol-create-as pool $disk $d_size$size_type --format qcow2 &&
+  doas virt-install --name=$name --memory $mem --vcpus $cpu --disk path=$POOL_PATH$disk --cdrom $ISO_PATH$iso --graphics spice --os-type=linux2020 --network $net --boot hd,cdrom -v

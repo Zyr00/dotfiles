@@ -30,7 +30,7 @@ lyrics_directory = ~/.config/lyrics
 #
 ## Needed for tag editor and file operations to work.
 ##
-mpd_music_dir = "/home/tunes/Music"
+mpd_music_dir = "/mnt/data/music"
 #
 #mpd_crossfade_time = 5
 #
@@ -80,7 +80,7 @@ mpd_music_dir = "/home/tunes/Music"
 #
 ## Available values: spectrum, wave, wave_filled, ellipse.
 ##
-visualizer_type = spectrum
+#visualizer_type = spectrum
 #
 #visualizer_look = ●卐
 #visualizer_look = 卐

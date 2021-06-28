@@ -1,0 +1,8 @@
+[Added Associations]
+application/pdf=org.pwmt.zathura-pdf-poppler.desktop;
+image/png=feh.desktop;firefox.desktop;
+
+[Default Applications]
+x-scheme-handler/postman=Postman.desktop
+x-scheme-handler/discord-455712169795780630=discord-455712169795780630.desktop
+x-scheme-handler/msteams=teams.desktop

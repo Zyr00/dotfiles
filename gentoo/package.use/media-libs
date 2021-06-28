@@ -4,3 +4,6 @@ media-libs/libpng apng
 media-libs/libvpx postproc
 media-libs/mesa vulkan
 media-libs/freetype png
+media-libs/libsdl2 opengl haptic gles2 vulkan
+media-libs/sdl2-image png jpeg webp
+media-libs/gegl cairo
