@@ -1,6 +1,10 @@
 #!/usr/bin/env bash
+red=$(tput setaf 1)
+blue=$(tput setaf 4)
+normal=$(tput sgr0)
+
 if [[ $EUID -ne 0 ]]; then
-  echo "Please run as root to upgrade kernel"
+  echo "Please run as root to upgrade kernel${normal}"
   exit 1
 fi
 
@@ -9,7 +13,7 @@ set -e
 MAKEOPTS="-j`nproc`"
 
 # Save prev config
-printf "Saving config has /root/kernel-`uname -r`-config\n\n"
+printf "${blue}Saving config has /root/kernel-`uname -r`-config${normal}\n\n"
 cp /usr/src/linux/.config ~/kernel-`uname -r`-config
 
 # List all kernels
@@ -29,21 +33,24 @@ cd /usr/src/linux
 make menuconfig $MAKEOPTS
 
 # Build commands
-echo "Building kernel"
+echo "${blue}Building kernel${normal}"
 make olddefconfig $MAKEOPTS
 make modules_prepare $MAKEOPTS
 make $MAKEOPTS
 make modules_install $MAKEOPTS
 make install $MAKEOPTS
 
+echo "${blue}Setting permitions to 755${normal}"
+chmod 755 -R .
+
 # Build new genkernel
-printf "Building initramfs\n\n"
+printf "${blue}Building initramfs${normal}\n\n"
 genkernel --luks --lvm --kernel-config=.config --install initramfs
 
 # Build new grub
-printf "Building grub config\n\n"
+printf "${blue}Building grub config${normal}\n\n"
 grub-mkconfig -o /boot/grub/grub.cfg
 
 # Rebuild modules
-printf "Rebuild modules\n\n"
+printf "${blue}Rebuild modules${normal}\n\n"
 emerge -v @module-rebuild

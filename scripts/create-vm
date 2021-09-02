@@ -5,7 +5,7 @@ green=`tput setaf 2`
 red=`tput setaf 1`
 rt=`tput sgr0`
 
-POOL_PATH="/mnt/data/pools/"
+POOL_PATH="/mnt/data/vms/"
 ISO_PATH="/mnt/data/isos/"
 
 function read_val {
@@ -59,7 +59,7 @@ printf "${red}COMMANDS: ${green}
  (1) -> doas virsh vol-create-as pool $disk $d_size$size_type --format qcow2
  (2) -> doas virt-install --name=$name --memory $mem --vcpus $cpu --disk path=$POOL_PATH$disk --cdrom $ISO_PATH$iso --graphics spice --os-type=linux2020 --network $net --boot hd,cdrom -v \n${rt}"
 
-read -p "${red} RUN COMMANDS ABOVE [y|N]: " val
-[ "$val" = "y" ] | [ "$val" = "Y" ] &&
+read -p "${red} RUN COMMANDS ABOVE [y|N]: ${rt}" val
+[ "$val" = "Y" ] || [ "$val" = "y" ] &&
   doas virsh vol-create-as pool $disk $d_size$size_type --format qcow2 &&
   doas virt-install --name=$name --memory $mem --vcpus $cpu --disk path=$POOL_PATH$disk --cdrom $ISO_PATH$iso --graphics spice --os-type=linux2020 --network $net --boot hd,cdrom -v

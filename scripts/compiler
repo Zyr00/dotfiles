@@ -35,6 +35,7 @@ case "$file" in
   *\.c | *\.cpp) gcc -g -Wall "$file" -o "$base" -lm && "$base" ;;
   *\.py) python "$file" ;;
   *\.go) go run "$file" ;;
+  *\.rs) rustc "$file" && "$base" ;;
   *\.sent) setsid sent "$file" 2>/dev/null & ;;
   *) sed 1q "$file" | grep "^#!/" | sed "s/^#!//" | xargs -r -I % "$file" ;;
 esac

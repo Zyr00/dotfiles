@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+SU="doas"
+
+${SU} emerge --sync;
+${SU} cache-update;
+${SU} emerge -uavDN --with-bdeps=y @world --keep-going

@@ -1,0 +1,41 @@
+#!/usr/bin/env bash
+
+set -e
+
+red=`tput setaf 1`
+green=`tput setaf 2`
+rt=`tput sgr0`
+
+function usage() {
+  echo "mount <target> <mountpoint>"
+}
+
+if [[ -z $1 ]]; then
+  echo "${red}No target ${rt}"
+  exit -1
+fi
+
+if [[ -z $2 ]]; then
+  echo "${red}No mount point ${rt}"
+  exit -1
+fi
+
+dev=$1
+mount=$2
+
+echo "${green}Making directory $mount ${rt}"
+mkdir -p $mount
+
+if [ $(mount | grep -c $mount) != 0 ]; then
+  echo "${green}Already mounted in $mount ${rt}"
+else
+  echo "${green}Mounting device $dev in $mount ${rt}"
+  doas mount $dev $mount
+  doas mount --types proc /proc $mount/proc
+  doas mount --rbind /sys $mount/sys
+  doas mount --make-rslave $mount/sys
+  doas mount --rbind /dev $mount/dev
+  doas mount --make-rslave $mount/dev
+fi
+
+doas chroot $mount /bin/bash
