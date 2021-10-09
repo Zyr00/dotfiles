@@ -12,11 +12,13 @@ function usage() {
 
 if [[ -z $1 ]]; then
   echo "${red}No target ${rt}"
+  usage
   exit -1
 fi
 
 if [[ -z $2 ]]; then
   echo "${red}No mount point ${rt}"
+  usage
   exit -1
 fi
 
