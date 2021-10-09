@@ -6,7 +6,8 @@ installer() {
   current_dir=`pwd`
   scripts="${current_dir}/scripts/";
 
-  echo "Installing xorg files..."
+  echo "Installing files..."
+  $1 install -Dm 644 doas.conf "/etc/doas.conf"
   $1 install -dm 555 "/etc/X11/xorg.conf.d/"
   $1 install -Dm 644 xorg.conf "/etc/X11/xorg.conf"
 
@@ -22,7 +23,6 @@ installer() {
   install -Dm 600 zprofile "$HOME/.zprofile"
 
   echo "Installing scripts..."
-  install -dm 755 "$HOME/.local/scripts/"
   cd $HOME/.local/
   ln -s $scripts scripts
   cd "${current_dir}"

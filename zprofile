@@ -1,6 +1,7 @@
 #!/bin/sh
 
 export PATH="$PATH:$HOME/.local/scripts/:$HOME/.local/bin/"
+export SU="doas"
 export EDITOR="vim"
 export READER="zathura"
 export BROWSER="firefox-bin"
