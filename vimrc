@@ -80,6 +80,7 @@ set shiftwidth=2    " when reading, tabs are 2 spaces
 set softtabstop=2   " in insert mode, tabs are 2 spaces"
 
 autocmd Filetype java setlocal ts=4 sw=4 sts=0 expandtab
+autocmd BufNewFile,BUfRead *.html.heex set syntax=html
 
 " folds
 set foldmethod=syntax   " syntax highligting items specify folds
@@ -138,9 +139,12 @@ Plugin 'gmarik/Vundle.vim'
 
 " Plugins definition
 Plugin 'scrooloose/nerdtree'
+Plugin 'vim-airline/vim-airline'
 
 " Plugins for dev
 Plugin 'ap/vim-css-color'
+Plugin 'elixir-editors/vim-elixir'
+Plugin 'lervag/vimtex'
 
 " Autocomplete
 Plugin 'neoclide/coc.nvim', {'branch': 'release'}
@@ -148,7 +152,7 @@ Plugin 'mattn/emmet-vim'
 
 " Theme
 Plugin 'dracula/vim'
-Plugin 'arcticicestudio/nord-vim'
+Plugin 'drewtempelmeyer/palenight.vim'
 
 call vundle#end()            " required for vundle
 
@@ -171,6 +175,9 @@ let g:user_emmet_settings = {
       \  'haml' : {
       \    'extends' : 'html',
       \  },
+      \  'heex' : {
+      \    'extends' : 'html',
+      \  },
       \}
 
 " Theme
@@ -181,5 +188,7 @@ set termguicolors
 let g:enable_italic_font = 1
 let g:enable_bold_font = 1
 set background=dark
-colorscheme dracula
+colorscheme palenight
+let g:airline_theme = "palenight"
+let g:palenight_terminal_italics=1
 " hi Normal guibg=NONE ctermbg=NONE
