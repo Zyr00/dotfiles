@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+docker rm $(docker ps --all | awk 'NR > 1 { print $1 }')
+docker rmi $(docker images | awk 'NR > 1 { print $3 }')

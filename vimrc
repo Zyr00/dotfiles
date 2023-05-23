@@ -80,6 +80,7 @@ set shiftwidth=2    " when reading, tabs are 2 spaces
 set softtabstop=2   " in insert mode, tabs are 2 spaces"
 
 autocmd Filetype java setlocal ts=4 sw=4 sts=0 expandtab
+autocmd Filetype ts setlocal ts=4 sw=4 sts=0 expandtab
 
 " folds
 set foldmethod=syntax   " syntax highligting items specify folds
@@ -144,11 +145,12 @@ Plugin 'ap/vim-css-color'
 
 " Autocomplete
 Plugin 'neoclide/coc.nvim', {'branch': 'release'}
+Plugin 'lervag/vimtex'
 Plugin 'mattn/emmet-vim'
 
 " Theme
-Plugin 'dracula/vim'
-Plugin 'arcticicestudio/nord-vim'
+Plugin 'vim-airline/vim-airline'
+Plugin 'drewtempelmeyer/palenight.vim'
 
 call vundle#end()            " required for vundle
 
@@ -157,6 +159,24 @@ nnoremap <leader>t :NERDTreeToggle<CR>
 
 " Coc
 inoremap <silent><expr> <c-@> coc#refresh()
+
+" Make <CR> to accept selected completion item or notify coc.nvim to format
+" <C-g>u breaks current undo, please make your own choice
+inoremap <silent><expr> <CR> coc#pum#visible() ? coc#pum#confirm()
+                              \: "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>"
+
+" GoTo code navigation
+nmap <silent> gd <Plug>(coc-definition)
+nmap <silent> gy <Plug>(coc-type-definition)
+nmap <silent> gi <Plug>(coc-implementation)
+nmap <silent> gr <Plug>(coc-references)
+
+" Symbol renaming
+nmap <leader>rn <Plug>(coc-rename)
+
+" Formatting selected code
+xmap <leader>f <Plug>(coc-format-selected)
+nmap <leader>f <Plug>(coc-format-selected)
 
 " vim emmet
 " let g:user_emmet_leader_key = ';'
@@ -173,6 +193,9 @@ let g:user_emmet_settings = {
       \  },
       \}
 
+" vim airline
+let g:airline#extensions#coc#enabled = 1
+
 " Theme
 " set Vim-specific sequences for RGB colors
 let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
@@ -181,5 +204,7 @@ set termguicolors
 let g:enable_italic_font = 1
 let g:enable_bold_font = 1
 set background=dark
-colorscheme dracula
+colorscheme palenight
+let g:airline_theme = "palenight"
+let g:palenight_terminal_italics=1
 " hi Normal guibg=NONE ctermbg=NONE
