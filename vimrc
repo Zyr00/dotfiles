@@ -80,7 +80,11 @@ set shiftwidth=2    " when reading, tabs are 2 spaces
 set softtabstop=2   " in insert mode, tabs are 2 spaces"
 
 autocmd Filetype java setlocal ts=4 sw=4 sts=0 expandtab
+<<<<<<< HEAD
 autocmd Filetype ts setlocal ts=4 sw=4 sts=0 expandtab
+=======
+autocmd BufNewFile,BUfRead *.html.heex set syntax=html
+>>>>>>> 65c10e974265f00cf365a5bd4fa3892b77f37c1b
 
 " folds
 set foldmethod=syntax   " syntax highligting items specify folds
@@ -139,9 +143,12 @@ Plugin 'gmarik/Vundle.vim'
 
 " Plugins definition
 Plugin 'scrooloose/nerdtree'
+Plugin 'vim-airline/vim-airline'
 
 " Plugins for dev
 Plugin 'ap/vim-css-color'
+Plugin 'elixir-editors/vim-elixir'
+Plugin 'lervag/vimtex'
 
 " Autocomplete
 Plugin 'neoclide/coc.nvim', {'branch': 'release'}
@@ -189,6 +196,9 @@ let g:user_emmet_settings = {
       \    'extends' : 'html',
       \  },
       \  'haml' : {
+      \    'extends' : 'html',
+      \  },
+      \  'heex' : {
       \    'extends' : 'html',
       \  },
       \}
