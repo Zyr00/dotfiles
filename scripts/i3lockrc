@@ -1,33 +1,25 @@
 #!/bin/sh
 
-image="$HOME/.config/wall.*"
-insidecolor=00000000
-ringcolor=ffffffff
-keyhlcolor=d23c3dff
-bshlcolor=d23c3dff
-separatorcolor=00000000
-insidevercolor=00000000
-insidewrongcolor=d23c3dff
-ringvercolor=ffffffff
-ringwrongcolor=ffffffff
-verifcolor=ffffffff
-timecolor=ffffffff
-datecolor=ffffffff
-loginbox=00000066
-font="Fira Code"
-locktext='BeGoNe ThOt!'
-lock_timeout=5
+IMAGE="$HOME/.config/lock.*"
+
+BLANK='#00000000'
+CLEAR='#ffffff22'
+DEFAULT='#ff00ffcc'
+TEXT='#ee00eeee'
+WRONG='#880000bb'
+VERIFYING='#bb00eeee'
+FONT="Fira Code"
 
 i3lock \
-  -t -i $image \
-  --timepos='x+110:h-70' \
-  --datepos='x+34:h-45' \
-  --clock --date-align 1 --datestr "$locktext" \
-  --insidecolor=$insidecolor --ringcolor=$ringcolor --line-uses-inside \
-  --keyhlcolor=$keyhlcolor --bshlcolor=$bshlcolor --separatorcolor=$separatorcolor \
-  --insidevercolor=$insidevercolor --insidewrongcolor=$insidewrongcolor \
-  --ringvercolor=$ringvercolor --ringwrongcolor=$ringwrongcolor --indpos='x+280:h-70' \
-  --radius=20 --ring-width=4 --veriftext='' --wrongtext='' \
-  --verifcolor="$verifcolor" --timecolor="$timecolor" --datecolor="$datecolor" \
-  --time-font="$font" --date-font="$font" --layout-font="$font" --verif-font="$font" --wrong-font="$font" \
-  --noinputtext='' --force-clock --pass-media-keys $lockargs
+  -i $IMAGE --scale \
+  --insidever-color=$CLEAR --ringver-color=$VERIFYING \
+  --insidewrong-color=$CLEAR --ringwrong-color=$WRONG \
+  --inside-color=$BLANK --ring-color=$DEFAULT --line-color=$BLANK --separator-color=$DEFAULT \
+  --verif-color=$TEXT --wrong-color=$TEXT --time-color=$TEXT --date-color=$TEXT \
+  --layout-color=$TEXT --keyhl-color=$WRONG --bshl-color=$WRONG \
+  --indicator --radius 22 --ring-width 6 --verif-text="" --wrong-text="" --ind-pos x+210:y+h-80 \
+  --clock --force-clock \
+  --time-str="%H:%M:%S" --time-pos x+10:y+h-80  --time-align 1 \
+  --date-str="%A, %Y:%m:%d" --date-pos tx:ty+15 --date-align 1 \
+  --time-font="$FONT" --date-font="$FONT" --layout-font="$FONT" --verif-font="$FONT" --wrong-font="$FONT" \
+  --no-modkey-text --noinput-text=''

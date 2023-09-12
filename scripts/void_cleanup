@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+sudo xbps-remove -Oo
+sudo vkpurge rm all
